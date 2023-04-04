@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="xLX-o6-rT6" customClass="GameCollectionCell" customModule="Shark" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="160" height="156"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="160" height="156"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ust-mG-Iff" userLabel="CommonView">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="156"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xCO-YW-BfX" userLabel="IconView">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="156"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LUR-H8-CbY">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="156"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="LUR-H8-CbY" secondAttribute="trailing" id="MmI-Cg-LCx"/>
+                                    <constraint firstItem="LUR-H8-CbY" firstAttribute="leading" secondItem="xCO-YW-BfX" secondAttribute="leading" id="VsM-0i-HTE"/>
+                                    <constraint firstAttribute="bottom" secondItem="LUR-H8-CbY" secondAttribute="bottom" id="jfD-sC-Dev"/>
+                                    <constraint firstItem="LUR-H8-CbY" firstAttribute="top" secondItem="xCO-YW-BfX" secondAttribute="top" id="mzc-ql-TnU"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWs-pB-tjb" userLabel="FonView">
+                                <rect key="frame" x="0.0" y="0.0" width="160" height="156"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fonGameCard" translatesAutoresizingMaskIntoConstraints="NO" id="ldS-YE-sIH">
+                                        <rect key="frame" x="0.0" y="0.0" width="160" height="156"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="ldS-YE-sIH" firstAttribute="leading" secondItem="bWs-pB-tjb" secondAttribute="leading" id="2sl-mR-Y8Y"/>
+                                    <constraint firstAttribute="bottom" secondItem="ldS-YE-sIH" secondAttribute="bottom" id="j4u-k8-lzp"/>
+                                    <constraint firstItem="ldS-YE-sIH" firstAttribute="top" secondItem="bWs-pB-tjb" secondAttribute="top" id="qh2-Rj-UCb"/>
+                                    <constraint firstAttribute="trailing" secondItem="ldS-YE-sIH" secondAttribute="trailing" id="r8q-FP-HPW"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bWs-pB-tjb" firstAttribute="top" secondItem="Ust-mG-Iff" secondAttribute="top" id="EJA-5J-vCh"/>
+                            <constraint firstItem="xCO-YW-BfX" firstAttribute="top" secondItem="Ust-mG-Iff" secondAttribute="top" id="I30-5Z-Axy"/>
+                            <constraint firstAttribute="bottom" secondItem="xCO-YW-BfX" secondAttribute="bottom" id="adI-nS-CnX"/>
+                            <constraint firstItem="bWs-pB-tjb" firstAttribute="leading" secondItem="Ust-mG-Iff" secondAttribute="leading" id="beQ-p3-G5p"/>
+                            <constraint firstItem="xCO-YW-BfX" firstAttribute="leading" secondItem="Ust-mG-Iff" secondAttribute="leading" id="d7X-Zn-7sA"/>
+                            <constraint firstAttribute="trailing" secondItem="bWs-pB-tjb" secondAttribute="trailing" id="fiO-Lc-dOo"/>
+                            <constraint firstAttribute="trailing" secondItem="xCO-YW-BfX" secondAttribute="trailing" id="omh-hN-taK"/>
+                            <constraint firstAttribute="bottom" secondItem="bWs-pB-tjb" secondAttribute="bottom" id="zdp-7v-U0T"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9H-Wp-pNZ">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="156"/>
+                        <connections>
+                            <action selector="showButtonWithButton:" destination="xLX-o6-rT6" eventType="touchUpInside" id="aF0-jF-gU1"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="McV-or-VvS"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="f9H-Wp-pNZ" secondAttribute="bottom" id="6Xb-mk-VaD"/>
+                <constraint firstItem="f9H-Wp-pNZ" firstAttribute="top" secondItem="xLX-o6-rT6" secondAttribute="top" id="7R7-bU-NWi"/>
+                <constraint firstAttribute="bottom" secondItem="Ust-mG-Iff" secondAttribute="bottom" id="7pN-sv-f9e"/>
+                <constraint firstItem="Ust-mG-Iff" firstAttribute="top" secondItem="xLX-o6-rT6" secondAttribute="top" id="Jay-t7-2Re"/>
+                <constraint firstItem="f9H-Wp-pNZ" firstAttribute="leading" secondItem="xLX-o6-rT6" secondAttribute="leading" id="OqM-TL-uLi"/>
+                <constraint firstAttribute="trailing" secondItem="f9H-Wp-pNZ" secondAttribute="trailing" id="P7g-8q-n5J"/>
+                <constraint firstItem="Ust-mG-Iff" firstAttribute="leading" secondItem="xLX-o6-rT6" secondAttribute="leading" id="r3d-dl-dM5"/>
+                <constraint firstAttribute="trailing" secondItem="Ust-mG-Iff" secondAttribute="trailing" id="uLo-UB-XOE"/>
+            </constraints>
+            <size key="customSize" width="160" height="156"/>
+            <connections>
+                <outlet property="commonView" destination="Ust-mG-Iff" id="0zt-2h-kME"/>
+                <outlet property="fonView" destination="bWs-pB-tjb" id="VxC-cL-due"/>
+                <outlet property="iconImageView" destination="LUR-H8-CbY" id="Zw5-e2-Cqj"/>
+                <outlet property="iconView" destination="xCO-YW-BfX" id="6YJ-73-udY"/>
+            </connections>
+            <point key="canvasLocation" x="-20.289855072463769" y="81.026785714285708"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fonGameCard" width="512" height="512"/>
+    </resources>
+</document>
