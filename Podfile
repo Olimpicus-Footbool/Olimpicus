@@ -3,7 +3,6 @@
 use_frameworks!
 
 target 'OlimpicFind' do
-  pod 'Mindbox'
 end
 
 target 'MindboxNotificationServiceExtension' do

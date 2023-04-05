@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0CCF45462C3739E7BD4DEC39 /* Pods_MindboxNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842E8AE2336BC8BCE43D182F /* Pods_MindboxNotificationServiceExtension.framework */; };
 		4E2777B4A6335A2BB15F0B14 /* Pods_MindboxNotificationContentExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02328E7DD01D0B6ABBD5D988 /* Pods_MindboxNotificationContentExtension.framework */; };
-		820E017429D702A000511E51 /* BannerAdvertising in Frameworks */ = {isa = PBXBuildFile; productRef = 820E017329D702A000511E51 /* BannerAdvertising */; };
 		8226D96A2945C3CD0056C860 /* Cards.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8226D9692945C3CD0056C860 /* Cards.xcassets */; };
 		823FAA0329360F6800C9FC1A /* MenuScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823FA9FF29360F6800C9FC1A /* MenuScreenViewController.swift */; };
 		823FAA0629360F6800C9FC1A /* MenuScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823FAA0229360F6800C9FC1A /* MenuScreenViewController.xib */; };
@@ -22,7 +21,7 @@
 		825146022939BEB700D79AB4 /* GameFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825146012939BEB700D79AB4 /* GameFeature.swift */; };
 		825146072939CAC000D79AB4 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825146062939CAC000D79AB4 /* AudioPlayerService.swift */; };
 		82544288298A2D68003579FC /* Extension + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82544287298A2D68003579FC /* Extension + String.swift */; };
-		825B2D6229790E210019153F /* SDKMindboxService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825B2D6129790E210019153F /* SDKMindboxService.swift */; };
+		8256D5C129DD3F2B00E0C3E3 /* AdvertisingBanner in Frameworks */ = {isa = PBXBuildFile; productRef = 8256D5C029DD3F2B00E0C3E3 /* AdvertisingBanner */; };
 		82702066293607660015DEF6 /* LoadingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82702065293607660015DEF6 /* LoadingScreenViewController.xib */; };
 		827020692936086D0015DEF6 /* TextResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827020682936086D0015DEF6 /* TextResources.swift */; };
 		8270206B293608880015DEF6 /* Extension + RouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8270206A293608880015DEF6 /* Extension + RouterService.swift */; };
@@ -34,13 +33,8 @@
 		8273BD88293CCDBB0078B8D4 /* gameFon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8273BD83293CCDBB0078B8D4 /* gameFon.mp3 */; };
 		8273BD89293CCDBB0078B8D4 /* loseCard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8273BD84293CCDBB0078B8D4 /* loseCard.mp3 */; };
 		8273BD8A293CCDBB0078B8D4 /* winGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8273BD85293CCDBB0078B8D4 /* winGame.mp3 */; };
-		8276D0AA297E66A4005C4C64 /* UserDefaultsStandard in Frameworks */ = {isa = PBXBuildFile; productRef = 8276D0A9297E66A4005C4C64 /* UserDefaultsStandard */; };
-		8276D0AD297E66B5005C4C64 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8276D0AC297E66B5005C4C64 /* SnapKit */; };
-		8276D0B0297E66C6005C4C64 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 8276D0AF297E66C6005C4C64 /* Resolver */; };
-		8276D0B3297E66D4005C4C64 /* VVMLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 8276D0B2297E66D4005C4C64 /* VVMLibrary */; };
 		828659FF2937376B0095A245 /* WinScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828659FE2937376B0095A245 /* WinScreenViewController.xib */; };
 		82865A0129373D240095A245 /* Description.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82865A0029373D240095A245 /* Description.xcassets */; };
-		828B1B8A299204F200ABF6D8 /* SDKMindboxAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B1B89299204F200ABF6D8 /* SDKMindboxAppDelegate.swift */; };
 		828B3EE22934806600D4D49E /* RouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EE12934806600D4D49E /* RouterService.swift */; };
 		828B3EED293480DA00D4D49E /* ViewControllersBuildersFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EEC293480DA00D4D49E /* ViewControllersBuildersFactory.swift */; };
 		828B3EEF293480EC00D4D49E /* CollectionCellsBuildersFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EEE293480EC00D4D49E /* CollectionCellsBuildersFactory.swift */; };
@@ -55,9 +49,6 @@
 		82A0999E29AC6DE300E3B753 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828B1BA4299206E100ABF6D8 /* UserNotificationsUI.framework */; };
 		82A099A129AC6DE300E3B753 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A099A029AC6DE300E3B753 /* NotificationViewController.swift */; };
 		82A099A829AC6DE400E3B753 /* MindboxNotificationContentExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 82A0999C29AC6DE300E3B753 /* MindboxNotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		82A099AF29AC86FA00E3B753 /* HundlerDidTapPushNotificationservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A099AE29AC86FA00E3B753 /* HundlerDidTapPushNotificationservice.swift */; };
-		82A0A770297ACA6800AFB48B /* UserNotificationServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0A76F297ACA6800AFB48B /* UserNotificationServiceDelegate.swift */; };
-		82A0A772297ACA7A00AFB48B /* UserNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0A771297ACA7A00AFB48B /* UserNotificationService.swift */; };
 		82A2CB3F298FB99E00A7C58E /* Extension + UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A2CB3E298FB99E00A7C58E /* Extension + UIWindow.swift */; };
 		82A34F362934BF1B008533FF /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A34F352934BF1B008533FF /* Game.xcassets */; };
 		82C68DE0293735F10007609B /* DescriptionScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C68DDC293735F10007609B /* DescriptionScreenViewController.xib */; };
@@ -67,6 +58,12 @@
 		82C68DED293736930007609B /* WinScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C68DE9293736930007609B /* WinScreenViewModel.swift */; };
 		82C68DEE293736930007609B /* WinScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C68DEA293736930007609B /* WinScreenViewController.swift */; };
 		82C68DEF293736930007609B /* WinScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C68DEB293736930007609B /* WinScreenBuilder.swift */; };
+		82DAC41829DC72C1000DAFE6 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 82DAC41729DC72C1000DAFE6 /* Resolver */; };
+		82DAC41B29DC72FF000DAFE6 /* MindboxFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 82DAC41A29DC72FF000DAFE6 /* MindboxFramework */; };
+		82DAC41E29DC7336000DAFE6 /* VVMLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 82DAC41D29DC7336000DAFE6 /* VVMLibrary */; };
+		82DAC42129DC741C000DAFE6 /* UserDefaultsStandard in Frameworks */ = {isa = PBXBuildFile; productRef = 82DAC42029DC741C000DAFE6 /* UserDefaultsStandard */; };
+		82DAC42429DC746D000DAFE6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 82DAC42329DC746D000DAFE6 /* SnapKit */; };
+		82DAC42729DC759D000DAFE6 /* AdvertisingRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAC42629DC759D000DAFE6 /* AdvertisingRequestData.swift */; };
 		82E63FF4293B1BB100A8DB80 /* BaseFeatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E63FF3293B1BB100A8DB80 /* BaseFeatureService.swift */; };
 		82E7632E293483E900A65F63 /* RegistrationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7632D293483E900A65F63 /* RegistrationServices.swift */; };
 		82E763312934849D00A65F63 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E763302934849D00A65F63 /* Extension + UIView.swift */; };
@@ -147,7 +144,6 @@
 		825146012939BEB700D79AB4 /* GameFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFeature.swift; sourceTree = "<group>"; };
 		825146062939CAC000D79AB4 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
 		82544287298A2D68003579FC /* Extension + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + String.swift"; sourceTree = "<group>"; };
-		825B2D6129790E210019153F /* SDKMindboxService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKMindboxService.swift; sourceTree = "<group>"; };
 		825B2D66297910DC0019153F /* OlimpicFind.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OlimpicFind.entitlements; sourceTree = "<group>"; };
 		82702065293607660015DEF6 /* LoadingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingScreenViewController.xib; sourceTree = "<group>"; };
 		827020682936086D0015DEF6 /* TextResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextResources.swift; sourceTree = "<group>"; };
@@ -162,7 +158,6 @@
 		8273BD85293CCDBB0078B8D4 /* winGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winGame.mp3; sourceTree = "<group>"; };
 		828659FE2937376B0095A245 /* WinScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinScreenViewController.xib; sourceTree = "<group>"; };
 		82865A0029373D240095A245 /* Description.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Description.xcassets; sourceTree = "<group>"; };
-		828B1B89299204F200ABF6D8 /* SDKMindboxAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDKMindboxAppDelegate.swift; sourceTree = "<group>"; };
 		828B1BA2299206E100ABF6D8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		828B1BA4299206E100ABF6D8 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		828B3EE12934806600D4D49E /* RouterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterService.swift; sourceTree = "<group>"; };
@@ -182,9 +177,6 @@
 		82A099A529AC6DE300E3B753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82A099AC29AC6E2500E3B753 /* MindboxNotificationContentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MindboxNotificationContentExtension.entitlements; sourceTree = "<group>"; };
 		82A099AD29AC6E3100E3B753 /* MindboxNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MindboxNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
-		82A099AE29AC86FA00E3B753 /* HundlerDidTapPushNotificationservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HundlerDidTapPushNotificationservice.swift; sourceTree = "<group>"; };
-		82A0A76F297ACA6800AFB48B /* UserNotificationServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationServiceDelegate.swift; sourceTree = "<group>"; };
-		82A0A771297ACA7A00AFB48B /* UserNotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNotificationService.swift; sourceTree = "<group>"; };
 		82A2CB3E298FB99E00A7C58E /* Extension + UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIWindow.swift"; sourceTree = "<group>"; };
 		82A34F352934BF1B008533FF /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
 		82C68DDC293735F10007609B /* DescriptionScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionScreenViewController.xib; sourceTree = "<group>"; };
@@ -194,6 +186,7 @@
 		82C68DE9293736930007609B /* WinScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScreenViewModel.swift; sourceTree = "<group>"; };
 		82C68DEA293736930007609B /* WinScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScreenViewController.swift; sourceTree = "<group>"; };
 		82C68DEB293736930007609B /* WinScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScreenBuilder.swift; sourceTree = "<group>"; };
+		82DAC42629DC759D000DAFE6 /* AdvertisingRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingRequestData.swift; sourceTree = "<group>"; };
 		82E63FF3293B1BB100A8DB80 /* BaseFeatureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFeatureService.swift; sourceTree = "<group>"; };
 		82E7632D293483E900A65F63 /* RegistrationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationServices.swift; sourceTree = "<group>"; };
 		82E763302934849D00A65F63 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
@@ -252,12 +245,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				82ED246F29D58A1200E2577D /* WebKit.framework in Frameworks */,
-				8276D0B3297E66D4005C4C64 /* VVMLibrary in Frameworks */,
-				820E017429D702A000511E51 /* BannerAdvertising in Frameworks */,
-				8276D0B0297E66C6005C4C64 /* Resolver in Frameworks */,
-				8276D0AA297E66A4005C4C64 /* UserDefaultsStandard in Frameworks */,
-				8276D0AD297E66B5005C4C64 /* SnapKit in Frameworks */,
+				82DAC42429DC746D000DAFE6 /* SnapKit in Frameworks */,
+				82DAC41829DC72C1000DAFE6 /* Resolver in Frameworks */,
+				82DAC42129DC741C000DAFE6 /* UserDefaultsStandard in Frameworks */,
+				82DAC41B29DC72FF000DAFE6 /* MindboxFramework in Frameworks */,
+				82DAC41E29DC7336000DAFE6 /* VVMLibrary in Frameworks */,
 				A610A16D80D23F0460D2801C /* Pods_OlimpicFind.framework in Frameworks */,
+				8256D5C129DD3F2B00E0C3E3 /* AdvertisingBanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,7 +315,6 @@
 		825B2D6029790E110019153F /* SDK */ = {
 			isa = PBXGroup;
 			children = (
-				825B2D6129790E210019153F /* SDKMindboxService.swift */,
 			);
 			path = SDK;
 			sourceTree = "<group>";
@@ -492,10 +485,6 @@
 		82A0A76E297ACA4700AFB48B /* OtherService */ = {
 			isa = PBXGroup;
 			children = (
-				82A0A76F297ACA6800AFB48B /* UserNotificationServiceDelegate.swift */,
-				828B1B89299204F200ABF6D8 /* SDKMindboxAppDelegate.swift */,
-				82A0A771297ACA7A00AFB48B /* UserNotificationService.swift */,
-				82A099AE29AC86FA00E3B753 /* HundlerDidTapPushNotificationservice.swift */,
 			);
 			path = OtherService;
 			sourceTree = "<group>";
@@ -583,6 +572,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		82DAC42529DC758B000DAFE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82DAC42629DC759D000DAFE6 /* AdvertisingRequestData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		82E7632C293483D800A65F63 /* RegistrationServices */ = {
 			isa = PBXGroup;
 			children = (
@@ -607,6 +604,7 @@
 		82E763382934B31700A65F63 /* Setup */ = {
 			isa = PBXGroup;
 			children = (
+				82DAC42529DC758B000DAFE6 /* Model */,
 				824FF368298C01110021A7B1 /* Orientation */,
 				825B2D6029790E110019153F /* SDK */,
 				82E763422934BC1F00A65F63 /* CustomName */,
@@ -686,6 +684,7 @@
 		82FB79E02932298D0040112C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				82FBBBF1297FDEA400469CF7 /* GoogleService-Info.plist */,
 				8226D96B2945CAA50056C860 /* Fonts */,
 				8273BD80293CCDAA0078B8D4 /* Music */,
 				827020672936085A0015DEF6 /* TextResources */,
@@ -699,7 +698,6 @@
 		82FB79E12932299F0040112C /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
-				82FBBBF1297FDEA400469CF7 /* GoogleService-Info.plist */,
 				82FB79D92932294F0040112C /* Info.plist */,
 			);
 			path = InfoPlists;
@@ -915,11 +913,12 @@
 			);
 			name = OlimpicFind;
 			packageProductDependencies = (
-				8276D0A9297E66A4005C4C64 /* UserDefaultsStandard */,
-				8276D0AC297E66B5005C4C64 /* SnapKit */,
-				8276D0AF297E66C6005C4C64 /* Resolver */,
-				8276D0B2297E66D4005C4C64 /* VVMLibrary */,
-				820E017329D702A000511E51 /* BannerAdvertising */,
+				82DAC41729DC72C1000DAFE6 /* Resolver */,
+				82DAC41A29DC72FF000DAFE6 /* MindboxFramework */,
+				82DAC41D29DC7336000DAFE6 /* VVMLibrary */,
+				82DAC42029DC741C000DAFE6 /* UserDefaultsStandard */,
+				82DAC42329DC746D000DAFE6 /* SnapKit */,
+				8256D5C029DD3F2B00E0C3E3 /* AdvertisingBanner */,
 			);
 			productName = OlimpicFind;
 			productReference = 82FB79C82932294E0040112C /* OlimpicFind.app */;
@@ -956,11 +955,12 @@
 			);
 			mainGroup = 82FB79BF2932294E0040112C;
 			packageReferences = (
-				8276D0A8297E66A4005C4C64 /* XCRemoteSwiftPackageReference "UserDefaultsStandard" */,
-				8276D0AB297E66B5005C4C64 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				8276D0AE297E66C6005C4C64 /* XCRemoteSwiftPackageReference "Resolver" */,
-				8276D0B1297E66D4005C4C64 /* XCRemoteSwiftPackageReference "VVMLibrary" */,
-				820E017229D702A000511E51 /* XCRemoteSwiftPackageReference "BannerAdvertising" */,
+				82DAC41629DC72C1000DAFE6 /* XCRemoteSwiftPackageReference "Resolver" */,
+				82DAC41929DC72FF000DAFE6 /* XCRemoteSwiftPackageReference "MindboxFramework" */,
+				82DAC41C29DC7336000DAFE6 /* XCRemoteSwiftPackageReference "VVMLibrary" */,
+				82DAC41F29DC741C000DAFE6 /* XCRemoteSwiftPackageReference "UserDefaultsStandard" */,
+				82DAC42229DC746D000DAFE6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				8256D5BF29DD3F2B00E0C3E3 /* XCRemoteSwiftPackageReference "AdvertisingBanner" */,
 			);
 			productRefGroup = 82FB79C92932294E0040112C /* Products */;
 			projectDirPath = "";
@@ -1129,7 +1129,6 @@
 				82FD1B80293606C400D1449D /* GameCollectionCellViewModel.swift in Sources */,
 				8270206B293608880015DEF6 /* Extension + RouterService.swift in Sources */,
 				82E763372934850600A65F63 /* Extension + UICollectionViewCell.swift in Sources */,
-				828B1B8A299204F200ABF6D8 /* SDKMindboxAppDelegate.swift in Sources */,
 				82C68DE1293735F10007609B /* DescriptionScreenViewModel.swift in Sources */,
 				825146022939BEB700D79AB4 /* GameFeature.swift in Sources */,
 				82C68DED293736930007609B /* WinScreenViewModel.swift in Sources */,
@@ -1146,8 +1145,8 @@
 				82FD1B81293606C400D1449D /* GameCollectionCell.swift in Sources */,
 				823FAA0C2936101700C9FC1A /* GameScreenBuilder.swift in Sources */,
 				82E7632E293483E900A65F63 /* RegistrationServices.swift in Sources */,
-				825B2D6229790E210019153F /* SDKMindboxService.swift in Sources */,
 				82FD1B74293605E400D1449D /* GameCollectionDataSources.swift in Sources */,
+				82DAC42729DC759D000DAFE6 /* AdvertisingRequestData.swift in Sources */,
 				82FD1B71293605E400D1449D /* GameCollectionViewModel.swift in Sources */,
 				828B3EF1293480F600D4D49E /* CollectionViewsBuildersFactory.swift in Sources */,
 				828B3EE22934806600D4D49E /* RouterService.swift in Sources */,
@@ -1161,19 +1160,16 @@
 				82FD1B77293605E400D1449D /* GameCollectionLayout.swift in Sources */,
 				82E7633B2934B32600A65F63 /* DesignKit.swift in Sources */,
 				82A2CB3F298FB99E00A7C58E /* Extension + UIWindow.swift in Sources */,
-				82A0A770297ACA6800AFB48B /* UserNotificationServiceDelegate.swift in Sources */,
 				82E763442934BC2C00A65F63 /* CustomName.swift in Sources */,
 				824FF36A298C01280021A7B1 /* Orientation.swift in Sources */,
 				82C68DE3293735F10007609B /* DescriptionScreenBuilder.swift in Sources */,
 				828B3EFC2934819000D4D49E /* LoadingScreenBuilder.swift in Sources */,
 				823FAA0D2936101700C9FC1A /* GameScreenViewModel.swift in Sources */,
 				828B3EED293480DA00D4D49E /* ViewControllersBuildersFactory.swift in Sources */,
-				82A0A772297ACA7A00AFB48B /* UserNotificationService.swift in Sources */,
 				8270207629360ED10015DEF6 /* MenuScreenViewModel.swift in Sources */,
 				828B3EF32934814400D4D49E /* ViewControllersFactory.swift in Sources */,
 				82E63FF4293B1BB100A8DB80 /* BaseFeatureService.swift in Sources */,
 				8270207529360ED10015DEF6 /* MenuScreenBuilder.swift in Sources */,
-				82A099AF29AC86FA00E3B753 /* HundlerDidTapPushNotificationservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1546,31 +1542,15 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		820E017229D702A000511E51 /* XCRemoteSwiftPackageReference "BannerAdvertising" */ = {
+		8256D5BF29DD3F2B00E0C3E3 /* XCRemoteSwiftPackageReference "AdvertisingBanner" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/it-senior-developer/BannerAdvertising";
-			requirement = {
-				branch = wkWebView;
-				kind = branch;
-			};
-		};
-		8276D0A8297E66A4005C4C64 /* XCRemoteSwiftPackageReference "UserDefaultsStandard" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/it-senior-developer/UserDefaultsStandard";
+			repositoryURL = "https://github.com/Olimpicus-Footbool/AdvertisingBanner";
 			requirement = {
 				branch = master;
 				kind = branch;
 			};
 		};
-		8276D0AB297E66B5005C4C64 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		8276D0AE297E66C6005C4C64 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+		82DAC41629DC72C1000DAFE6 /* XCRemoteSwiftPackageReference "Resolver" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hmlongco/Resolver.git";
 			requirement = {
@@ -1578,7 +1558,15 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		8276D0B1297E66D4005C4C64 /* XCRemoteSwiftPackageReference "VVMLibrary" */ = {
+		82DAC41929DC72FF000DAFE6 /* XCRemoteSwiftPackageReference "MindboxFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MindboxFramework/MindboxFramework";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		82DAC41C29DC7336000DAFE6 /* XCRemoteSwiftPackageReference "VVMLibrary" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/it-senior-developer/VVMLibrary";
 			requirement = {
@@ -1586,33 +1574,54 @@
 				kind = branch;
 			};
 		};
+		82DAC41F29DC741C000DAFE6 /* XCRemoteSwiftPackageReference "UserDefaultsStandard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/it-senior-developer/UserDefaultsStandard";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		82DAC42229DC746D000DAFE6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		820E017329D702A000511E51 /* BannerAdvertising */ = {
+		8256D5C029DD3F2B00E0C3E3 /* AdvertisingBanner */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 820E017229D702A000511E51 /* XCRemoteSwiftPackageReference "BannerAdvertising" */;
-			productName = BannerAdvertising;
+			package = 8256D5BF29DD3F2B00E0C3E3 /* XCRemoteSwiftPackageReference "AdvertisingBanner" */;
+			productName = AdvertisingBanner;
 		};
-		8276D0A9297E66A4005C4C64 /* UserDefaultsStandard */ = {
+		82DAC41729DC72C1000DAFE6 /* Resolver */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8276D0A8297E66A4005C4C64 /* XCRemoteSwiftPackageReference "UserDefaultsStandard" */;
-			productName = UserDefaultsStandard;
-		};
-		8276D0AC297E66B5005C4C64 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8276D0AB297E66B5005C4C64 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		8276D0AF297E66C6005C4C64 /* Resolver */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8276D0AE297E66C6005C4C64 /* XCRemoteSwiftPackageReference "Resolver" */;
+			package = 82DAC41629DC72C1000DAFE6 /* XCRemoteSwiftPackageReference "Resolver" */;
 			productName = Resolver;
 		};
-		8276D0B2297E66D4005C4C64 /* VVMLibrary */ = {
+		82DAC41A29DC72FF000DAFE6 /* MindboxFramework */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 8276D0B1297E66D4005C4C64 /* XCRemoteSwiftPackageReference "VVMLibrary" */;
+			package = 82DAC41929DC72FF000DAFE6 /* XCRemoteSwiftPackageReference "MindboxFramework" */;
+			productName = MindboxFramework;
+		};
+		82DAC41D29DC7336000DAFE6 /* VVMLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82DAC41C29DC7336000DAFE6 /* XCRemoteSwiftPackageReference "VVMLibrary" */;
 			productName = VVMLibrary;
+		};
+		82DAC42029DC741C000DAFE6 /* UserDefaultsStandard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82DAC41F29DC741C000DAFE6 /* XCRemoteSwiftPackageReference "UserDefaultsStandard" */;
+			productName = UserDefaultsStandard;
+		};
+		82DAC42329DC746D000DAFE6 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82DAC42229DC746D000DAFE6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

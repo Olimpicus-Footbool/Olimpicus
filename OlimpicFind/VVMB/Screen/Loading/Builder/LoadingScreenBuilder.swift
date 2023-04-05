@@ -22,6 +22,8 @@ final class LoadingScreenViewControllerBuilder: BuilderProtocol {
             advertisingFeature: Resolver.resolve(),
             routerService: Resolver.resolve(),
             gameFeature: Resolver.resolve(),
+            mindboxService: Resolver.resolve(),
+            handlerDidTapPushNotificationService: Resolver.resolve(),
             viewControllersBuildersFactory: Resolver.resolve()
         )
         viewController.loadViewIfNeeded()

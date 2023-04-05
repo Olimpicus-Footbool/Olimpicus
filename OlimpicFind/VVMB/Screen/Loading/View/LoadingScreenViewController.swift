@@ -11,8 +11,8 @@ final class LoadingScreenViewController: UIViewController, ViewProtocol {
     
     //MARK: - Main ViewProperties
     struct ViewProperties {
-        let viewDidAppear: ClosureEmpty
         var progressValue: Float
+        var didAppear: ClosureEmpty
     }
     var viewProperties: ViewProperties?
     
@@ -27,7 +27,7 @@ final class LoadingScreenViewController: UIViewController, ViewProtocol {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        viewProperties?.viewDidAppear()
+        viewProperties?.didAppear()
     }
     
     func update(with viewProperties: ViewProperties?) {
@@ -41,7 +41,10 @@ final class LoadingScreenViewController: UIViewController, ViewProtocol {
     
     private func setProgress(){
         guard let progressValue = self.viewProperties?.progressValue else { return }
-        self.progressView.progress = progressValue
+        UIView.animate(withDuration: 0.5) {
+            self.progressView.progress = progressValue
+        }
+        
     }
     
     private func setupProgress(){

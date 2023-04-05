@@ -10,12 +10,21 @@
       }
     },
     {
-      "identity" : "advertisingappsflyer",
+      "identity" : "advertisingbanner",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/it-senior-developer/AdvertisingAppsFlyer",
+      "location" : "https://github.com/Olimpicus-Footbool/AdvertisingBanner",
       "state" : {
         "branch" : "master",
-        "revision" : "ade5f9b55393089e8f59deaa78f2f6d1f94384bd"
+        "revision" : "79e9a8e87dbcd1ce1439b54f71a2f7ea7376c3d2"
+      }
+    },
+    {
+      "identity" : "appflyerframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AppsFlyer-org/AppFlyerFramework",
+      "state" : {
+        "branch" : "master",
+        "revision" : "4048ebc8214ab50b829b9caa503bee9bf049cef8"
       }
     },
     {
@@ -23,17 +32,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/AppsFlyerSDK/AppsFlyerFramework.git",
       "state" : {
-        "revision" : "fd2d4e50107280229c77ebfaeb0519ad7e7af83f",
-        "version" : "6.10.0"
+        "revision" : "096dfa446caae0b92d6dd00486a6178a6ffd9ad9",
+        "version" : "6.10.1"
       }
     },
     {
-      "identity" : "banneradvertising",
+      "identity" : "architecture",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/it-senior-developer/BannerAdvertising",
+      "location" : "https://github.com/Architecture-org/Architecture",
       "state" : {
-        "branch" : "wkWebView",
-        "revision" : "1f134578076f8643b47454b316fb6e9a41a976ac"
+        "branch" : "master",
+        "revision" : "06acc287565ab9b766272e8167f188da5b846737"
       }
     },
     {
@@ -50,17 +59,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/firebase-ios-sdk.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "92ac9fcf0fa7bde483da142e894c3681b6abf9d4"
+        "revision" : "76de51f0e2be35ecb6ce05ed1ad0a73669b05a11",
+        "version" : "10.7.0"
       }
     },
     {
-      "identity" : "firebasebackend",
+      "identity" : "firestorefirebase",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/it-senior-developer/FirebaseBackend",
+      "location" : "https://github.com/Firebase-com/FirestoreFirebase",
       "state" : {
         "branch" : "master",
-        "revision" : "3dd0895c4e705be1a6fafc159c892d86ac63e39f"
+        "revision" : "22c1a0d051fc70ce2d2416d362185266c5fa5e45"
       }
     },
     {
@@ -77,8 +86,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleDataTransport.git",
       "state" : {
-        "revision" : "f6b558e3f801f2cac336b04f615ce111fa9ddaa0",
-        "version" : "9.2.1"
+        "revision" : "cc7265b8e3906304e6e81f32c1662a94bbae2357",
+        "version" : "9.2.2"
       }
     },
     {
@@ -86,8 +95,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleUtilities.git",
       "state" : {
-        "revision" : "0543562f85620b5b7c510c6bcbef75b562a5127b",
-        "version" : "7.11.0"
+        "revision" : "871d43135925cde39ef7421d8723ce47edfdcc39",
+        "version" : "7.11.1"
       }
     },
     {
@@ -109,12 +118,30 @@
       }
     },
     {
+      "identity" : "ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mindbox-cloud/ios-sdk",
+      "state" : {
+        "revision" : "003b25c2e4961358ff8a402028b8f1bc30425154",
+        "version" : "2.4.2"
+      }
+    },
+    {
       "identity" : "leveldb",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/leveldb.git",
       "state" : {
         "revision" : "0706abcc6b0bd9cedfbb015ba840e4a780b5159b",
         "version" : "1.22.2"
+      }
+    },
+    {
+      "identity" : "mindboxframework",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MindboxFramework/MindboxFramework",
+      "state" : {
+        "branch" : "master",
+        "revision" : "982bb60f15ad9f2e2208f4c6b4d086e3d7e8131b"
       }
     },
     {

@@ -7,266 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		008B7625D532B5855F22BCBD7C133938 /* SDKVersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2045C1CEFD8A4895AC6D5942C6E8C4E7 /* SDKVersionProvider.swift */; };
-		00D08D41839A5337C2D32BBE4AEDDE8C /* LogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67DD1BA42C1D7880A3BF669BD2EB0A57 /* LogManager.swift */; };
-		012EF7CA1C4ED08E5B46AA909DC534F2 /* CDEvent+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164111464DC8586BFA1CEA4CEFDB21D3 /* CDEvent+CoreDataClass.swift */; };
-		01306AFC6C694468E428CC43B5BE03C2 /* MindboxNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D917974DB8DE4FCEB6F4B130FA5EBBA5 /* MindboxNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0161B435608A6F8F561FC8DF700B4766 /* PersistenceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F0FE87E46F4F7BF8CC9B5ACAFA5D173 /* PersistenceStorage.swift */; };
-		03E21A3ECC8CC70F40BB067A616FCFE3 /* CustomerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42B39F80C4BC772985C1C23EF1E1E14 /* CustomerRequest.swift */; };
-		04956C227C2325BF5D3B796AF521F64E /* ProductListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1388C90F386E722EE9A1EECD3C1B2A4 /* ProductListResponse.swift */; };
-		04AEC96DB7FFA77EE200603096AD9BFB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6696E8ED3EE036DDEAE0AECADC85D171 /* Constants.swift */; };
-		05A9882C748EE13440FE60F42AE839AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		05D61CF03C5CB7CED2AE623D3F108BC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		06464715201F6C9362A03CE29443BFEC /* PromoCodeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A71045D6FDB47809F35975A3214F96 /* PromoCodeResponse.swift */; };
-		06BAEB2062D92B81F14EBB35E83CE36E /* MBDatabaseRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB12A08ABAEF5B871E36A75ACC9335D /* MBDatabaseRepository.swift */; };
-		07FCB5F4EDEF9B849102FB143B0AA166 /* MBUtilitiesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5FC5390765C70F0B12DAD1FC3B093A0 /* MBUtilitiesFetcher.swift */; };
+		008B7625D532B5855F22BCBD7C133938 /* SDKVersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED24152B681DD2F9982ECF47B7FA302 /* SDKVersionProvider.swift */; };
+		01306AFC6C694468E428CC43B5BE03C2 /* MindboxNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1AF6A01AAEDB1CE7F4054DB7F2C23E /* MindboxNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0803224F4BC9992403CB0E6CF65691B3 /* Pods-MindboxNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7327BBC9703554E35737EB8A3D6326BF /* Pods-MindboxNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		097BB109BF23297EC0F84A48E8B14CA6 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91810BA64B018E6F93BDBD75CCC87206 /* HTTPMethod.swift */; };
-		0BD928024BFDC5B4FB4890A9EE01CD0A /* DeliveryOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B6A21A99E15C7BC839E86EB01E9BB7 /* DeliveryOperation.swift */; };
-		0C38EACF188F9380BD749C048FFF09FD /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0706CBB4C1596148301AA4C5113B9931 /* Logger.swift */; };
-		0C9027AD1C994C9E5ABC75D2801EFE16 /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496E7CE64EED8EBBC92FFD413B9A79F1 /* StatusResponse.swift */; };
-		1084E908A49806AB4A3FC1E9F511DCEB /* OrTargeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C624B88E62CF3FDF5995E272CF3B232 /* OrTargeting.swift */; };
-		10A85ED794F0A4811BAE07368E6CF193 /* DiscountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9706C93CABBDF1195A3D00B1E2D861 /* DiscountResponse.swift */; };
-		10F97E073A3DB765571CACC3BB188958 /* CouponResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4A362798B673F2FDEC61799C462EB3B /* CouponResponse.swift */; };
+		097BB109BF23297EC0F84A48E8B14CA6 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC7E5D556B6B4ED21B5EC33EBD2353 /* HTTPMethod.swift */; };
 		1158C54B3AE017F1AC695F6B0230ACDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1256E4EAF0420989B04224DE8C76BBE3 /* ProductCategoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2EFF0FF0E5BF2CA9D1BC4766689CDC2 /* ProductCategoryRequest.swift */; };
-		131B66D3EA78B2D23DB62A26C3CFBE20 /* ManufacturerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947DE4F3B298D7D8F38AB4A225516934 /* ManufacturerResponse.swift */; };
-		13ED47864A7EE8E81783ACAABCC650BB /* BackgroundTaskManagerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9788A0B3E0B8B601523753007054701A /* BackgroundTaskManagerType.swift */; };
-		164D6B712666E78F8DCDBDBF551219D9 /* RecommendationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A30C2F3E64F7BDEF0E87231148FAF36 /* RecommendationRequest.swift */; };
-		17D4DDA51A5C6D3D66979588A865D013 /* TrackVisitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000617291E8E030B3CB85934D31C10BC /* TrackVisitManager.swift */; };
-		180494E4C905CA6E22868BF0FB940D4E /* PoolResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C268521B95891625132688A5FEFEA5 /* PoolResponse.swift */; };
-		19F7A63013E1111CCF6B96C1D5ABF2CB /* HTTPURLResponseStatusCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A796C9E7CB5D661A98C5541291F6D0F0 /* HTTPURLResponseStatusCodeValidator.swift */; };
-		1A558C1E8A0E5F674EE894B253614AE2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E92D0CBB95713D3DE9FA7ABD2E361 /* SwiftyJSON.swift */; };
-		1D2C7742349112D267D7F43CCD7D536D /* BenefitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BEAF7EFE237FB0074EB0D819D5CE2C3 /* BenefitResponse.swift */; };
-		1DF045D7727DF57165DE63F4D1E7E9E6 /* AmountBenefitsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D6D80C71FE388D7FC598A704369457 /* AmountBenefitsResponse.swift */; };
-		1EDD5F220D2DAF5089A1FEFBF6702D21 /* BodyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58FD50BFF374494F47A1460B324A0F7 /* BodyDecoder.swift */; };
-		2059FE3E91B65F11E22064FFA802731C /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B2D68B890F47D5A62DC4514DCB0DDC /* BaseResponse.swift */; };
-		22D894D56A1B6E135C9FB9DC6BC381C3 /* BalanceTypeReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF7DC9A777C3ECA8EEAF4E11CFF8FF7A /* BalanceTypeReponse.swift */; };
-		238E4111B88CA18DD198D9583B0394FD /* InAppMessagesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3581B363859C76ADBDC0A8680932086 /* InAppMessagesDelegate.swift */; };
-		26CD075F156406D8C2BF873B0DCE57C9 /* AmountResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C02F80756AD107746EC48AD64CBAF67 /* AmountResponse.swift */; };
-		26F5C4C84C902929E78FD9DA0870A0EC /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EEE36B48D2B05ACF1275FE12E0B40B /* Event.swift */; };
-		274529A84444F778A2418ADFBB9B6E3D /* DiscountRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDE52021C1DB8E208612349EED91EAD /* DiscountRequest.swift */; };
-		2B0D6FAA9DCF324116B6F45730DA9731 /* UNAuthorizationStatusProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBEE5D1364A728E271BB6EC45200BF8E /* UNAuthorizationStatusProviding.swift */; };
-		2B58533DFBFF823890043DBE6C241CF5 /* NotificationDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D62B919B9606DD81F2C139A1417901 /* NotificationDecoder.swift */; };
-		2C5F2665D8C4B31030835FBA3229E924 /* ViewProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDC95D6B0C85FDD5FF2D658BF7C700C /* ViewProductRequest.swift */; };
-		2D12BCD78429169FCCFB05FF074EA0D3 /* InAppMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE0A432146B55D562A562DBFEBC18E8 /* InAppMessageViewController.swift */; };
-		2D2D8CF357F7693F3766AE81AFE4B4B5 /* AmountTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F32484851A4852067E1306205611D5 /* AmountTypeResponse.swift */; };
-		2DC2793973FF3491C51B1DFD8151B262 /* OrTargetingChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9ADAF501AE237E55AFF8040A586455 /* OrTargetingChecker.swift */; };
-		2E0E2D8AEF18E5595FF6A699B65F2EA9 /* PromotionTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B1AF2E25C508C82B44933C2D9824A2 /* PromotionTypeResponse.swift */; };
-		2EB552C7FCA287BA53869E577EA29889 /* EventWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06643A4A4B8EFE93251B7113E309DCA4 /* EventWrapper.swift */; };
-		3016A282B6FE287D815192C091022E79 /* ProductListItemsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC94A7CEC23062A5DB48532011BD40DE /* ProductListItemsResponse.swift */; };
-		30EBD969CB780E56F4559BB7D6DFFE86 /* BGTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659AED8B32C28EC8356D43EF1D857184 /* BGTaskManager.swift */; };
-		3241F53261587C3E5363FD6CFD049FD4 /* RetailOrderStatisticsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5FC54930D9D0467D11717366D61876 /* RetailOrderStatisticsResponse.swift */; };
-		32584A7C0DEFABAE623D356797B7623F /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657DE54261D210F641F1900E50C01FC5 /* ValidationError.swift */; };
-		3379F704235F54577A21A30C890A97EE /* MBDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1AF56CFEC47CEFB0BC4395CDC0089266 /* MBDatabase.xcdatamodeld */; };
-		3410218A66CA817F514D29C1222FCFF5 /* PossibleDiscountsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5078DB7FEE7A6E584F93D51F279F7B0B /* PossibleDiscountsResponse.swift */; };
-		361657ED8AC70341B283DCF06382AA90 /* DatabaseLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F49C45F2DBD96FE16CEE8CACAFDAB /* DatabaseLoader.swift */; };
-		377F98F70549E24E41D219C8089DFF9D /* CodableDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52307F0878BFED8DC8BCD99405E73A14 /* CodableDictionary.swift */; };
-		38819B692212EF6CEB15A05326A0CCA0 /* CustomerSegmentsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218141F1EA346EE62A2BC13DE70BBE68 /* CustomerSegmentsAPI.swift */; };
-		38DC87DBF2172FFBE27DB151DCA9A775 /* IDS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F85303DB125CA1580597554861F4BBA /* IDS.swift */; };
-		39076DB6F648102C4777E61D00285AAA /* RequestedPromotionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9D4046CDC8E48B718992B9D7BC4040 /* RequestedPromotionRequest.swift */; };
-		3AD6CEAF004CF2D2844C0A224D812FC5 /* InAppResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF6153FA2D537A8A078B2A2AE941ADF /* InAppResponse.swift */; };
-		3B0641965AB33D25680E656B8C7940C8 /* IDFVFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF6600D634CB04837D55E5F8E2780E3 /* IDFVFetcher.swift */; };
-		3B22011B4C854CDC88DD8A4B6DFE10BE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014CDD324C7629B21EE244B9589979ED /* HTTPMethod.swift */; };
-		3B7BD6E1BA7CF16883D9ABBA5843F1B5 /* GeoTargeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EBA4E6547A29D9AB55D39C25522D44 /* GeoTargeting.swift */; };
-		3D0A84AA382D063E14CBDAC1B8B2661F /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBBFA9FD1A5AA7E4ECC212F960D37AE /* URLRequestBuilder.swift */; };
-		3DF417DE04C142B479427EB3E712CBD5 /* ProductGroupRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED456582DD5513510CB8FAE6E5FA527 /* ProductGroupRequest.swift */; };
-		3E9F9F293FB5CC44DDB614A80AD2E491 /* MBPersistentContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F9A57932A29CCBD7C56513B6710F42 /* MBPersistentContainer.swift */; };
-		3ED8AB3D0FB4BEF2614223C39B0CF438 /* DiscountCardRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5DA270C077D96FED9CACBF231FFE98 /* DiscountCardRequest.swift */; };
-		3F52D8F21D56C2F76D749113BE7590E9 /* AndTargetingChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1F411680E5E4447A323787A919AF13 /* AndTargetingChecker.swift */; };
-		3F5EF9781B5863E3FC0347625E9FA994 /* LineRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2151FA8E47F729E282AA291E9FF61C98 /* LineRequest.swift */; };
-		40181669FE7D4D00CCD28F0133D24345 /* PoolRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294D516A1C08C7B16251B10537664D8A /* PoolRequest.swift */; };
-		40D1E8BBE727FEEC94D09E8B22CDD8B3 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57304534361EDDA2B3774E3FAC5E4C44 /* String+Regex.swift */; };
-		416713983F00C4BC7F9BF3E62E178081 /* DiscountAmountTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16D460538DBF19F28BE8A665B15FB0BB /* DiscountAmountTypeResponse.swift */; };
-		416AC0352C14FF60ECD93644F7BF247D /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20D479A0C746A6F4A38006E0FD4253E6 /* URLRequestBuilder.swift */; };
-		4460F2EE389D326DD000B850FA4C5DC3 /* CustomerSegmentationsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C258520A560EF8AE9E23DE3AAAC11B9 /* CustomerSegmentationsResponse.swift */; };
-		44A5A5455AD07D06B217E9234CEC9D27 /* URLValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9163400FD47BCF28DAC3E26318A3DAB /* URLValidator.swift */; };
-		45FE74EA52C2748487A2C59DE1CB5EAE /* MindboxSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901CC51D8C8ACB55299269D23A4CCB97 /* MindboxSceneDelegate.swift */; };
-		47C375C9870BECA2017F72426939A681 /* PlaceholderResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F9504925FC2FB1C3AC6FBB29C69F9 /* PlaceholderResponse.swift */; };
-		486C86B5BF97D75792E08F2B96DE7DD9 /* MindboxNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AC3553BFD82A12A39523C0451743FA /* MindboxNotifications-dummy.m */; };
-		4A124994CBFE8324867F898AD6A92FD1 /* BodyEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820B7798CB2C2AC2096DF98C1B1345C5 /* BodyEncoder.swift */; };
-		4B4C40807A078C9AB40AF273026FD885 /* InAppsCheckRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1AEECD2DC96A54E8535D3DD351091B /* InAppsCheckRequest.swift */; };
-		4F98E49478DDA3D634B52D01253B45A5 /* MBPersistenceStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055195EAC37056AC37F494C78B95995 /* MBPersistenceStorage.swift */; };
-		5062ABC52FD8B5B182749B693369F2D2 /* NotificationsPayloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012106D1F04B9DE40A784AC04507A8B6 /* NotificationsPayloads.swift */; };
-		519DC72715326FD3C9321A3DFC8EB167 /* ItemRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93C56B8F426A78E6CA149B0F7AD85B7 /* ItemRequest.swift */; };
-		53E34A6BC0E5C7336886495EBD5D35E0 /* DispatchSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6B8EEC5CC18AA3F011943639EC5A0 /* DispatchSemaphore.swift */; };
-		546FDAF9F0CE874806DED45C85F3B985 /* TrueTargeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A0324B562BB517AEE2E059C62B6C8FB /* TrueTargeting.swift */; };
-		5556BFCF9F1DA21426F46FF64FC9FCFF /* ClickNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56F2BC72F8C5B53044DED6D0F574CC3 /* ClickNotificationManager.swift */; };
-		55F001E426F376ACCCDBBFBE57CD9DDD /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF87337F1E0AC70D0A0B9E0040788E7 /* SessionManager.swift */; };
-		5613D1CAC5E8728034C42EFF96C96368 /* RecommendationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AED11F241C5C2CE32CC584E62C0CB1 /* RecommendationResponse.swift */; };
-		575F013DF990BF8DF1264E31E9EFD811 /* EventRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A0EA42CD5E148A7BF552E9D5CDA3D5 /* EventRoute.swift */; };
-		577D05B3C9F49F6CE935629E4474BBDC /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8682ED5E77249ACB2C0B640F1FD8C34A /* TimerManager.swift */; };
-		57CB0C66EB42AF1CAD0FE997711A8F69 /* GeoTargetingChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E20833DC47757815D5796B331151672 /* GeoTargetingChecker.swift */; };
-		57D206F5F8C38DBDD9124F4222A9BD49 /* DiscountCardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B81C97DFFEAF10D2B7A79F663E17C9D /* DiscountCardResponse.swift */; };
-		58CBC228B14DBA79597043A3232BD978 /* InAppCoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59408D174E1D564AEC9F29C9C8B4B5E1 /* InAppCoreManager.swift */; };
-		5AFD21A8A6A52F213BEEE45537B025A6 /* LimitBenefitsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AB8CC3917BF11AD0C7262227A31581 /* LimitBenefitsResponse.swift */; };
-		5B8795CD074EAB2EB77108A99F341446 /* UIBackgroundTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0BF977E497832CC26A7833EFB9054F /* UIBackgroundTaskManager.swift */; };
-		5C73E37DE0E316DB0C340865E86D1C2E /* UtilitiesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7C8D77A7B47BAFE5CCC68758EA205A /* UtilitiesFetcher.swift */; };
-		5CB5FD5329DBB2434942585138AB6CDA /* DeviceModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2990DBF2964608C7CB81543C9B874D72 /* DeviceModelHelper.swift */; };
-		5FE961AE3BDA5EFDDE7DF008EFDB9194 /* ErrorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6972468CF360AEEA71F4FB4AF05DB6CA /* ErrorKey.swift */; };
-		60A0F6EB3305506927533882C8BEE0B3 /* DeviceModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDDB4E5A2A6C5C7F5A9D7710F2453E3 /* DeviceModelHelper.swift */; };
-		610CAC895D8DE0601BD06C9290363B98 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F766C96701F678EDB163466FB4BA69 /* ImageFormat.swift */; };
-		62C0807B5F4E9D53ADDBE5C2DC8B4D22 /* UNAuthorizationStatusProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65AC2CD8AEFB181B6461011B2FB7C0F2 /* UNAuthorizationStatusProvider.swift */; };
-		62F3A8DFB7ADDB107C557D34A6485731 /* AreaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3270A9B63E5412A0694577D9360D78 /* AreaRequest.swift */; };
-		63065006BE8E5DD869B64FAF098DABAA /* ProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742DB3D55192712D140F4EC28F0DA2CD /* ProductResponse.swift */; };
-		630BE80B69AF085EE55521B40C099DFE /* LimitTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD49411D3ABB4A9AC4951CCF96FA7BD /* LimitTypeResponse.swift */; };
-		644F1A91B944D6EFCF7294AF90893C8C /* PeriodTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D543BA3E334CED1D6EAF57E04D99ADD8 /* PeriodTypeResponse.swift */; };
-		6610EA33C437F2261B81C5FDE854CD2F /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF0DBEA9DE7590BCA7804B711FCF517E /* Route.swift */; };
-		69AD2FC22B5AD074552AF864649477DF /* DiscountPromoCodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB733C24F137D96C4E9A13F87FE89B3D /* DiscountPromoCodeRequest.swift */; };
-		69E077C78478FFA370D049E605D64AED /* MBNetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F709E02D67A4CC78FBDA8ADA92C5F9 /* MBNetworkFetcher.swift */; };
-		6A7AF3C1D5FF437746632B0141D2C62C /* ProductListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6637683D342087BCA5BF4C6F1BDE3FC7 /* ProductListRequest.swift */; };
-		6F93593FC4835BE0A00BDC49740F8600 /* ItemResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15E2D891B88807B8CDE6ECF82668ADA /* ItemResponse.swift */; };
-		70F41BDBFA6C963737F49CB34A0D3E94 /* TargetingChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42B622623DE00312FB8C3D51EC41B78 /* TargetingChecker.swift */; };
-		70FD5721A53EE4E47017178E7EF9C5BE /* TrackVisit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6B9DCC778BEB576CA6471CE8C650F6 /* TrackVisit.swift */; };
-		74CE6D941A473BDE346193E81E2FF250 /* NSManagedObjectContext+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13061651F73083D80A1D755219AF9B7A /* NSManagedObjectContext+.swift */; };
-		74F020B3EBA265D9C7FA1845D677860C /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37B6E18C4E7D744DFBB92C8B40E9EFD /* Route.swift */; };
-		759B244759BEA647008CFEDED6CB615C /* DiscountTypeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CFA5051EE0D4D6E9C0EE225C9D3D22 /* DiscountTypeRequest.swift */; };
+		1EDD5F220D2DAF5089A1FEFBF6702D21 /* BodyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5BC3D33B63715B8BB95CBB5758993 /* BodyDecoder.swift */; };
+		2B58533DFBFF823890043DBE6C241CF5 /* NotificationDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE192C008470005C1A17DD98B49AF504 /* NotificationDecoder.swift */; };
+		2EB552C7FCA287BA53869E577EA29889 /* EventWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ECB1A4F826E311EBA46307ABA8AC14 /* EventWrapper.swift */; };
+		416AC0352C14FF60ECD93644F7BF247D /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD649F6D1C3E81A9640F0A31F6D71E7 /* URLRequestBuilder.swift */; };
+		486C86B5BF97D75792E08F2B96DE7DD9 /* MindboxNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C730C906B2AF0AF7A0D274F6AF29FB0 /* MindboxNotifications-dummy.m */; };
+		5CB5FD5329DBB2434942585138AB6CDA /* DeviceModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649208604B8CD14D27F5E8044911E2B /* DeviceModelHelper.swift */; };
+		5FE961AE3BDA5EFDDE7DF008EFDB9194 /* ErrorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D314A8870588AD6209B33B588201D0 /* ErrorKey.swift */; };
+		610CAC895D8DE0601BD06C9290363B98 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5134BD906E268CA5AAFA6E3BDFBBEA6 /* ImageFormat.swift */; };
+		6D97F83A7E5861D07F3DC1260447CBD5 /* Pods-OlimpicFind-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA971F9CDFF2B865A835A92896CC8CA /* Pods-OlimpicFind-dummy.m */; };
+		74F020B3EBA265D9C7FA1845D677860C /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3347721010ACB9992F33FBD1234CFF /* Route.swift */; };
 		7680C17E130556FEAC1040D203AC8552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7793F138D556E42B9FC3A7F75FFB4BF3 /* PromotionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CA6A18D1BCE5F0CBB00AE73E3749B6 /* PromotionResponse.swift */; };
 		77BF6EDC93D2100C7CFDABD045C693BD /* Pods-MindboxNotificationContentExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B63FC723BF4DB59551D2B523CE8B3F9E /* Pods-MindboxNotificationContentExtension-dummy.m */; };
-		78F86646B0073629FE03DA26074D090D /* AreaResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62705E480E932D2660B116CE56FD059 /* AreaResponse.swift */; };
-		799683889EEB57EBEECEED7B8F16D133 /* InAppConfigResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64BDA2CA08842B489DDBB135A12DB9A5 /* InAppConfigResponse.swift */; };
-		7A0A04CE4CC2EAC453DA6366EA86D795 /* ProcessingStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20FD22620A2AE4C5BC41D34D6F2C940 /* ProcessingStatusResponse.swift */; };
-		7AAD5B46C0A03C01A60B5968A00D48E2 /* PromoActionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3A061E3D191AAA84731C836AB071B1 /* PromoActionsResponse.swift */; };
-		7AE6996634F02F61F0F113B240BB4D60 /* MobileApplicationInstalled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF591AF2E0A54F25FDD6A77D5704A75 /* MobileApplicationInstalled.swift */; };
-		7BBB84E2661E0116FBC4330B202892D8 /* NetworkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = C506CD60F64BB73771F1629845FBFA71 /* NetworkFetcher.swift */; };
-		7E8A001EB94DDFC1F25A1179B9E02A3A /* DeliveryOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E5B5B6841513AF064F63090E186D1 /* DeliveryOperation.swift */; };
-		7ECA26AC03329B21DF2907DAFB11DBFE /* AndTargeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = C81440BC095225BBA6AE412747F038F1 /* AndTargeting.swift */; };
-		7EFECC0065CC3864644C7A07726E52F0 /* MBConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644F90FC46BC7B8D5BFC9F11F4764C81 /* MBConfiguration.swift */; };
-		82FE7D98B5D451F83182707E218AA056 /* HTTPTypealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB69EBAF84B1A053EB10B1C77725222 /* HTTPTypealiases.swift */; };
-		84F9C391F69E3CEC1A9213D8DAAF3B61 /* GuaranteedDeliveryManager+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD259A1645F20659C0236BDDEB91ECAE /* GuaranteedDeliveryManager+State.swift */; };
-		853E448E5537D5ABF66A6704411E1427 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC290B431B2610E9BEF1934ED943971D /* NetworkService.swift */; };
-		8589F961B6B86CEDD0AC809C631707A3 /* InAppConfigurationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F44AA8DDCDDD03CEBBC524592ADEE2B7 /* InAppConfigurationAPI.swift */; };
-		85DF99AC8871396B18D8A2142DCA7ED8 /* ProtocolError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811DFF3F4392345ADE5F8DED2D6CEFE7 /* ProtocolError.swift */; };
-		881D9289F082633D3E3162034D6922F2 /* CustomEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7914DCFF1511E428C0B9792E0450B /* CustomEvent.swift */; };
-		88353D94B2349333CE9B31382AB36262 /* InAppImageOnlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9A23822FC859FC1B443B9FFF27DA49 /* InAppImageOnlyView.swift */; };
-		883D674C771936F518183385A22EF563 /* Pods-OlimpicFind-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CD7B8C413811893DBA633D5D589B00 /* Pods-OlimpicFind-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88B683D245C7A42BC28E6DB094BAA207 /* PushDelivered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 433487ADE216921D3F4B298DBD0A8206 /* PushDelivered.swift */; };
-		8911998E666CF962363B5F937A84C3C4 /* TrueTargetingChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940E5CE22C7E344498CBD3B0F66263D7 /* TrueTargetingChecker.swift */; };
-		892C5F3630F82CB0651AFB4EABFBFCFE /* TargetingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6D2A69914CFBB2AE52BC1AD0634D9 /* TargetingModel.swift */; };
-		8A5102276599309C753DAF9E2214EB35 /* EventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96194C6882EF4CF23AF8DB8D013A1898 /* EventRepository.swift */; };
-		8BD875BC4BB396EE55D3D83313551648 /* UDIDValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53CDE1D938E8AFCD236DD9D2F84A920 /* UDIDValidator.swift */; };
-		8D5275A47EE63345AF88C14B41E68827 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF358B235F2C5B7917E8703ABF9CE9A /* Logger.swift */; };
-		9008D46F7B0EA9A5D9DC099CFA8D6554 /* PersonalOffersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAD142415A24EAC4F10E7B3EBA31D38 /* PersonalOffersResponse.swift */; };
-		908C07F75FAADA2EC46F44F269146908 /* PromoCodeRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0BB4B1C594602F791CD05F62975E32 /* PromoCodeRequest.swift */; };
-		91F11E0113EE187560B0D973A007B3FC /* MindboxErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1EFD19CE6871499D497ED0F31EE1EF /* MindboxErrors.swift */; };
-		92BB3BB343358CD0A2E5981AC7C4B329 /* InAppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BD370B0AD17FEC9809B103F4A94A34 /* InAppConfig.swift */; };
-		93B27085E82E9D550A5B30E540440354 /* BalanceResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA068DB3E7025AC1042EDBA86569E6A /* BalanceResponse.swift */; };
-		94285C5AE0BB588E8CED7D714124EB03 /* UsedPointOfContactResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A0FC5F3C2D361449E057F4234C46F /* UsedPointOfContactResponse.swift */; };
-		97118EA4090BEB9D9D2F6FBCC76B2714 /* MobileApplicationInfoUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CDB2AF7B45DB64422BE95650DCFD3A /* MobileApplicationInfoUpdated.swift */; };
-		971D743FCEBBDC4147E5691F4362C041 /* IDFAFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD2C52101517ABC222A655636BFFA2D /* IDFAFetcher.swift */; };
-		979836B8FDDB05136D8B91B7841C5EA7 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FAF0CD99ABE9E4333E55C43004C963 /* LogLevel.swift */; };
-		9C91D67C6FBDA10EE2B1247623C1D0B9 /* MindboxNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A7F5C02306772617A6ACD73C698EE9 /* MindboxNotificationService.swift */; };
-		9D4329D0995A515CEBE91E9E78E9CB5B /* CatalogProductListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03EDCB04223707C4D30544E70770838 /* CatalogProductListRequest.swift */; };
-		9F6899BFF13899232A46330DDD438C34 /* OperationBodyRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F9F2C42C71F94DD824A95D03CC1B87 /* OperationBodyRequest.swift */; };
-		A01A2CAA1C0C5CB4A95A30EF9D54717E /* ProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833E3FD593BF08DA109F3B77BC8971A1 /* ProductRequest.swift */; };
-		A33632E71492BBBAFAB2E9DD85885C81 /* InAppSegmentationChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7181BC38A4C4D367E6AB7DA7FF62E23D /* InAppSegmentationChecker.swift */; };
-		A4C3344912DAB9AD6E17179130411F2E /* Mindbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E901CBF229BFAC6F2D0338DCEA558 /* Mindbox.swift */; };
-		A4FAD4BF2D1379371FF1625A0995195B /* DependencyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4F5D24DF2C284FBB70F5744C2A8C7A /* DependencyProvider.swift */; };
-		A6C1C5029C0A0161A07D824041876DD8 /* AmountBenefisTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9637465527D1E081B5D82A39AE45F52A /* AmountBenefisTypeResponse.swift */; };
-		A7685D7FFF73BE50F09E278CAB1B2468 /* CustomerActionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1972E0D04265C178BC6C41349CAACAB5 /* CustomerActionRequest.swift */; };
-		AAFB08F3A76458B2B344E68EE316D2D9 /* SegmentationRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3714B76BCD9072C2A0C0148831C77074 /* SegmentationRequest.swift */; };
-		AC3733609B528E11387983F74B1AFEEF /* InternalTargetingChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F63745A3E91A7B7622C965578E1D3A2 /* InternalTargetingChecker.swift */; };
-		ACC2913D6F65D262C918FCFE2B460EC9 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7395E9A3E58E7CED7126A2822FB58948 /* Status.swift */; };
-		ACE7AA6F257BB50A508A21C661BECE34 /* InAppFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC968318527AC17161EBD15668DD9BE /* InAppFormData.swift */; };
-		AD38034567C005F20AD6F5F3225FF621 /* MindboxError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9D26299E8EB222FAC8B43960421159 /* MindboxError.swift */; };
-		ADBD10E50FE95B8ADB28AFBFD2A905D8 /* OperationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5E98049C81EF84BFF88CB10E24A7EEE /* OperationResponse.swift */; };
-		AE2FB83E78A34119476E48E91D478924 /* OrderRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665B36AEDC63363411F155ED906D7E65 /* OrderRequest.swift */; };
+		7E8A001EB94DDFC1F25A1179B9E02A3A /* DeliveryOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980DA24D22327C64BCE2BC4274EF0015 /* DeliveryOperation.swift */; };
+		7EFECC0065CC3864644C7A07726E52F0 /* MBConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22E637699CC2BB81F8ECA36484F9420 /* MBConfiguration.swift */; };
+		82FE7D98B5D451F83182707E218AA056 /* HTTPTypealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015C2BAFDC45698D66DD4ADD5C912BE /* HTTPTypealiases.swift */; };
+		853E448E5537D5ABF66A6704411E1427 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AEABAE3F7E1E46527B263FE9759232 /* NetworkService.swift */; };
+		88B683D245C7A42BC28E6DB094BAA207 /* PushDelivered.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFFAD70BE3117CA691283446E4E346 /* PushDelivered.swift */; };
+		8D5275A47EE63345AF88C14B41E68827 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11D559D2782325645BB7C63C5CFD4C /* Logger.swift */; };
+		9C91D67C6FBDA10EE2B1247623C1D0B9 /* MindboxNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C726595D8266F0F0C2B6FCF1C543F4 /* MindboxNotificationService.swift */; };
+		A365FA219C8CFA3C7946F4DC73415071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B076CDB246ED647BC9496A36FE411BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B1C773C2CD3158D1C7AF9A76D097B72B /* ErrorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2D200AFB9954BEB3565652EA012BC3 /* ErrorKey.swift */; };
-		B219A1101180560D3931D1C1EB6EEA4D /* InAppGeoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79724BF1507BB4077DE822CF60EC4875 /* InAppGeoResponse.swift */; };
-		B447F5F5B6F5151FDC3E98A7EE4138C4 /* BodyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7C05C855E13E9744C4E62D685921DD /* BodyDecoder.swift */; };
-		B4A6523D20F75C54B08A7080681E662A /* ContentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4C7A9B0B5552769B6333E65E1E1464 /* ContentResponse.swift */; };
-		B57F8E12872BD72E16C4CB57A5ABEB5C /* Mindbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD96CCD460340F9B3BEE0F62500B458E /* Mindbox-dummy.m */; };
-		B76440564FC08507ACB44E2CF7038BCB /* PasteboardUUIDDebugService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A488653E880B7803D8A0B76C6E5A79F /* PasteboardUUIDDebugService.swift */; };
-		B7C204E5C20280AED64232C78CA31FDE /* MindboxAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED84E1B796283BE328736D8F28B283 /* MindboxAppDelegate.swift */; };
-		BAFB52F56A83F734E323A273F7507F3D /* NotificationsPayloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = C902A4ACD913F9F8AFC974DFCD4F9758 /* NotificationsPayloads.swift */; };
-		BD09BFA4CBFB59291402F60C6A099B9A /* MBDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8508CB84E06CA7C8CE3AA5483D8F235C /* MBDate.swift */; };
-		BDDB4DC12C6589308D6C9305DE03C258 /* ProductGroupResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C185DF8EC80E01ED4992CAF51CBA41 /* ProductGroupResponse.swift */; };
-		BE65564110DF842C08A50E585DC483A6 /* PushDeliveredEventRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E7022BAC6CDD524958AD1A940FDEEF7 /* PushDeliveredEventRoute.swift */; };
-		C0A31C2EBCA67029BD8DCF2064B8C84F /* Mindbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ABF864C2FA8399E0EF169256DCE0EA6 /* Mindbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0B397448458DEF1392C4CF2F49E1694 /* CashdeskRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C490B3396B362C35F006AFEF42D3D2D /* CashdeskRequest.swift */; };
-		C18AF39FDCEF9FC370C6772901930E09 /* SubscriptionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6396760178CEAA89BC9859A53AE827 /* SubscriptionResponse.swift */; };
-		C32598A8C054A84A1DAE307F43014E7A /* OperationBodyRequestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4318FA4BF2A58F943781A6D86B9B4ED4 /* OperationBodyRequestType.swift */; };
-		C3B967C75EA57CD3E689F1677336C3FE /* NearestExpirationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA4297557459CC3A2C6EDAD7D8867B /* NearestExpirationResponse.swift */; };
-		C3BEEC2E2AF57B020D108CA6F27DA531 /* LogWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56F3CC1461F0B266E404198C65A79E66 /* LogWriter.swift */; };
-		C637403E9DC244D50AD5EDEC43CBCAB5 /* MBDatabaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B33A8DD992AAB5BC970A6FF54B9FEFF /* MBDatabaseError.swift */; };
-		C68B2573B01C982CADFF1F8C47E5EECC /* Pods-OlimpicFind-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA971F9CDFF2B865A835A92896CC8CA /* Pods-OlimpicFind-dummy.m */; };
+		B53A4416E568CE31F88265A8463F1072 /* Pods-OlimpicFind-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CD7B8C413811893DBA633D5D589B00 /* Pods-OlimpicFind-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAFB52F56A83F734E323A273F7507F3D /* NotificationsPayloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC27D984EE1AB8DEC0A994BC893CD89 /* NotificationsPayloads.swift */; };
+		BE65564110DF842C08A50E585DC483A6 /* PushDeliveredEventRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CAC6989F21CAA62F4658C9335DB033 /* PushDeliveredEventRoute.swift */; };
 		C7AC5B1DB2088EB6BD10B8575F2031E8 /* Pods-MindboxNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B195BC6D9CC69B1393B0D101BD8D75 /* Pods-MindboxNotificationServiceExtension-dummy.m */; };
-		C8103E4CCD1806B2D72C02156D2BF5E8 /* MBConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9A12021CE205B45688A22A560C5FB5 /* MBConfiguration.swift */; };
-		CA5E5597E51DC9A7C2EB54E48694C829 /* SubViewProductRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC44918C59800C015AAB5722DE2241 /* SubViewProductRequest.swift */; };
-		CBCF872C0630301DF86AF6AFCF8A9820 /* OperationResponseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82515DD65980BE049CD77695BB6F915 /* OperationResponseType.swift */; };
-		CCD9A13210B70C6FCB6E935740B7FCA4 /* SegmentTargetingChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBB2CB72715B03C27BE7A1F88D142F8 /* SegmentTargetingChecker.swift */; };
-		CD9D7B7497C7F504044F14D48843F916 /* InAppImagesStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACE76A0952706107AC5813B7490B9C6 /* InAppImagesStorage.swift */; };
 		CDA6178545A9F3538A06270F3A9114AD /* Pods-MindboxNotificationContentExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D8FBE1CFA87F0A2A7FA840DD2D9661 /* Pods-MindboxNotificationContentExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE368379B165127E412883BC721E54BD /* DeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38701A6F5F731CDA8081CAF22DC04570 /* DeliveryService.swift */; };
-		CF16AB785662C39CEF9FA63FDEDF842D /* ContentTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474EFE478CF997C8082AB4BDBA86B47A /* ContentTypeResponse.swift */; };
-		CF33278C333E94C551C188493AFB02FC /* AppliedPromotionTypeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5224270017DE2698AB32A875EAE7CA /* AppliedPromotionTypeResponse.swift */; };
-		D0606A93F28CAC13142B2E4D49F155C7 /* MindboxDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B925C69576299145433C9004702A57 /* MindboxDelegate.swift */; };
-		D13410DFE7B0A2805E0192648D6BE2D0 /* IssuedPointOfContactResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D8897FA42BA7759E50D2A5F1EB68C3 /* IssuedPointOfContactResponse.swift */; };
-		D3F1C0663909CE2BFEF554E449BAD464 /* ProductElementReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBD61BCB42597D26D555478400CE414 /* ProductElementReponse.swift */; };
-		D4ECB38DA5E25EE1467645D17AD39AF0 /* UUIDDebugService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2542E7BF7AE2B1D6FD674D9E7144165 /* UUIDDebugService.swift */; };
-		D55D715E941218AF4B7DA9E39C18A2BF /* ItemProductResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C27E0CC9288A5E99685F5916AB4E1A /* ItemProductResponse.swift */; };
-		D66BD51AD4866C4AB015F65467D1F061 /* CustomFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = E047A9CCBD6CD2AF8A371B16F8CDCDDF /* CustomFields.swift */; };
-		DA40B64E8649751C29FC6CE248CF6ADD /* GuaranteedDeliveryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB71702A845B2528105E92FDD4559C8 /* GuaranteedDeliveryManager.swift */; };
-		DAA0489280FFBCAE6858DC0EB8CE7313 /* CouponRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4EE5755CAD36FC82A75D5DC2C04DED /* CouponRequest.swift */; };
-		DB0FDA33A1A42A7106657F3E96743A9A /* AppliedPromotionResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5154F3913B9014846EB9A4002FD68EBC /* AppliedPromotionResponse.swift */; };
-		DB3F89E18BFF818944F67F4AD5334D42 /* UnknownDecodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6013D5A248F0876845519AE56C755C0A /* UnknownDecodable.swift */; };
-		DC29A573EE959D2EA9785D1A271EC7D7 /* MBEventRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BDF6939F3013B237DA3558982167A /* MBEventRepository.swift */; };
-		DCC641B900E96ABD22AC86D2F24414D2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9753A3B3E263A180E54E11B389020E52 /* Event.swift */; };
-		DD3A1C1AF7EAAAF834DF392C80BD03DB /* CDEvent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F51F31DB56FB41C56B25B818457D19F /* CDEvent+CoreDataProperties.swift */; };
-		DE85209E1D07AF3B2FF3D21DA71E33BC /* SegmentTargeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0A1A9761060C09525987A2B7CD2C03 /* SegmentTargeting.swift */; };
-		E0CC8FB0826C83587768B935CC9861B2 /* HTTPTypealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343772D306346F4F506DAB29434868D2 /* HTTPTypealiases.swift */; };
-		E11C97B6A0F73511F5EE44DA933C92C1 /* ViewProductCategoryRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7727BF9D03854B7DFEE98F298C68A2 /* ViewProductCategoryRequest.swift */; };
-		E27DF34E6427E63BB47A608262EC993F /* EventWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054D8CDACE0C66D7E70ED7C94485349 /* EventWrapper.swift */; };
-		E2E32CB6F4FB36FF1BB7B916EA304B17 /* InAppConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71ACA487263A5B091E7D174334AA979 /* InAppConfigurationManager.swift */; };
-		E309E1739A718940B5DF552CD9CF4163 /* NotificationDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A8D5D85DD31BF24550DCA2BBBAFCA4D /* NotificationDecoder.swift */; };
-		E40854A1397D383A75D9D9BD52206BF2 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2F08E20D4F7F57E031C6DD82D09B9D /* Payload.swift */; };
-		E4E6A3A315D6BB898C70134E5D998ADF /* LimitResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F7E98B638B27130B9D7C5F7ECB46E78 /* LimitResponse.swift */; };
-		E85984316D30192B73A7E7CFCD25617F /* InAppMessagesTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B8B93D929D7361E14E79DB6E3F6AB7 /* InAppMessagesTracker.swift */; };
-		EB389FDB0EE792E78F1AF70B5C0AEA3C /* CustomerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4575887C6B3801D448CFCFDA2A352509 /* CustomerResponse.swift */; };
-		F0C4872D1B161EB8DD60B02293198A68 /* Sex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68DDA9F9252FEB0A460EA75239125E5 /* Sex.swift */; };
-		F12194FAC7F25FCA50C2C8FD48C0EBC3 /* MBUtilitiesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7294B3F3AD03F8F5CE10F4869AF4C1A /* MBUtilitiesFetcher.swift */; };
-		F148785F1CE9C679F1D03DBA4025FDB4 /* InAppPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74EA1FDAA485F1D097B679DC51A5AF7A /* InAppPresentationManager.swift */; };
-		F2C33297CF854E434B010B31BE71622A /* InAppConfigutationMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4553F320FDA7D2698FFC01DEC5D41E94 /* InAppConfigutationMapper.swift */; };
-		F497B6A160CAEC0EFCED10EE4EA89CB0 /* LogCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F1649A39C9119FE9F97B974147A174 /* LogCategory.swift */; };
-		F717728CDBD17A8792DE71CF8F91792A /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8856368DCD8ECC910A0152F768C38496 /* Channel.swift */; };
-		F7F6D75CD83F8951D42B8032856958A1 /* UsedResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D9F3970A789DBCE854A02F3B6D9B9 /* UsedResponse.swift */; };
-		FA4F192B8DB4EA8DF38B9B15ED8CBBDB /* UsageServiceStatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5958DFA52DC1426D1E92E0A3AC93FC12 /* UsageServiceStatusResponse.swift */; };
-		FAEF4A069C080D1FB41C0FDEFC9D0D0D /* BackgroundTaskManagerProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE839CA797D537FA85682C8C7790CAC /* BackgroundTaskManagerProxy.swift */; };
-		FB9D3A98C076817834E3C4A8505CAA45 /* MindBoxAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F8E391B0780D1D0B075728DE59A55AD /* MindBoxAssets.xcassets */; };
-		FBB2746402A74D90AF7D3C5B28408D8F /* CoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0832054326D23338559FB3E7FBFDA5C1 /* CoreController.swift */; };
-		FCC84B76F983FEE96475C6DCDF5C3922 /* BodyEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2AB3BA3EEDE3D279891F587AA86732 /* BodyEncoder.swift */; };
-		FD12B40273462D5741D03CCD7BA0D430 /* InAppConfigurationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60210E908379A3D092F4B85429BDB47D /* InAppConfigurationRepository.swift */; };
-		FDEAA5642215FB1D9601C00DD5718C13 /* SDKVersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B59B5FA33D5F01D644CA36CE3026321 /* SDKVersionProvider.swift */; };
-		FEE894A4936192EBE2D05B2E955EEC40 /* SubscriptionRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D09DCADD1C5E93013DF5EB8640BD3C /* SubscriptionRequest.swift */; };
-		FF6CC7E2F27CB6C3E86C85063FBFCD5F /* TrackClick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72248DCB21E42CA775F872136A1264BC /* TrackClick.swift */; };
-		FFD6D9C7D85CA7243137667172FE9F37 /* DependencyContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68B1892FAA6DEE6CD89C720891A9918F /* DependencyContainer.swift */; };
+		CE368379B165127E412883BC721E54BD /* DeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706D90CF029A43B1EB330F9E527F8631 /* DeliveryService.swift */; };
+		DCC641B900E96ABD22AC86D2F24414D2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA28081CD017AEB2EF3546352F2771 /* Event.swift */; };
+		E40854A1397D383A75D9D9BD52206BF2 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312B310A39EC0AAAFF8990E987E80AE /* Payload.swift */; };
+		F12194FAC7F25FCA50C2C8FD48C0EBC3 /* MBUtilitiesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D626D559C484B30387EEF1146C862AE /* MBUtilitiesFetcher.swift */; };
+		FCC84B76F983FEE96475C6DCDF5C3922 /* BodyEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4869899D3895BB697225EF2C575181 /* BodyEncoder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		048E523792420B8561DE2D8642E8F7CF /* PBXContainerItemProxy */ = {
+		49391FAF5499D1603F12A92D6D1976D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 32D65C82842026F006B3F2C29969F048;
 			remoteInfo = MindboxNotifications;
 		};
-		04E18C3C9B38417B028F63B2457CE4C2 /* PBXContainerItemProxy */ = {
+		86463EBF7C76EF5CC0AC8EC3BF438058 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 32D65C82842026F006B3F2C29969F048;
 			remoteInfo = MindboxNotifications;
 		};
-		50E1DFDFF368991BEF3782D92CF44D2D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F09FD53C0D7355712413F61F1C377646;
-			remoteInfo = Mindbox;
-		};
-		CFF3ED0449AF435D19E76FA8210267D1 /* PBXContainerItemProxy */ = {
+		D8CF6A5A82E567372086AAC629B51251 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -276,272 +70,68 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		000617291E8E030B3CB85934D31C10BC /* TrackVisitManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackVisitManager.swift; path = Mindbox/TrackVisitManager/TrackVisitManager.swift; sourceTree = "<group>"; };
-		012106D1F04B9DE40A784AC04507A8B6 /* NotificationsPayloads.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsPayloads.swift; path = Mindbox/Model/NotificationPayload/NotificationsPayloads.swift; sourceTree = "<group>"; };
-		014CDD324C7629B21EE244B9589979ED /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Mindbox/Network/Types/HTTPMethod.swift; sourceTree = "<group>"; };
-		01ED84E1B796283BE328736D8F28B283 /* MindboxAppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxAppDelegate.swift; path = Mindbox/MindboxAppDelegate.swift; sourceTree = "<group>"; };
 		06558B77762AF0944033CC01C1FB482C /* Pods-OlimpicFind-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OlimpicFind-acknowledgements.plist"; sourceTree = "<group>"; };
-		06643A4A4B8EFE93251B7113E309DCA4 /* EventWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventWrapper.swift; path = MindboxNotifications/Network/Model/EventWrapper.swift; sourceTree = "<group>"; };
-		0706CBB4C1596148301AA4C5113B9931 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Mindbox/Utilities/Logger/Logger.swift; sourceTree = "<group>"; };
-		0832054326D23338559FB3E7FBFDA5C1 /* CoreController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreController.swift; path = Mindbox/CoreController/CoreController.swift; sourceTree = "<group>"; };
-		08C268521B95891625132688A5FEFEA5 /* PoolResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PoolResponse.swift; path = Mindbox/Model/Response/PoolResponse.swift; sourceTree = "<group>"; };
-		09A7914DCFF1511E428C0B9792E0450B /* CustomEvent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomEvent.swift; path = Mindbox/Model/Bodies/CustomEvent.swift; sourceTree = "<group>"; };
-		0A5BDF6939F3013B237DA3558982167A /* MBEventRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBEventRepository.swift; path = Mindbox/NetworkRepository/Event/MBEventRepository.swift; sourceTree = "<group>"; };
-		0AA6B8EEC5CC18AA3F011943639EC5A0 /* DispatchSemaphore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DispatchSemaphore.swift; path = Mindbox/Utilities/DispatchSemaphore.swift; sourceTree = "<group>"; };
-		0ABF864C2FA8399E0EF169256DCE0EA6 /* Mindbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mindbox-umbrella.h"; sourceTree = "<group>"; };
-		0B59B5FA33D5F01D644CA36CE3026321 /* SDKVersionProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKVersionProvider.swift; path = SDKVersionProvider/SDKVersionProvider.swift; sourceTree = "<group>"; };
-		0B6B9DCC778BEB576CA6471CE8C650F6 /* TrackVisit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackVisit.swift; path = Mindbox/Model/Bodies/TrackVisit.swift; sourceTree = "<group>"; };
-		0BF358B235F2C5B7917E8703ABF9CE9A /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = MindboxNotifications/Network/Logger.swift; sourceTree = "<group>"; };
-		0E20833DC47757815D5796B331151672 /* GeoTargetingChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoTargetingChecker.swift; path = Mindbox/InAppMessages/InAppTargetingChecker/TargetingCheckerTypes/GeoTargetingChecker.swift; sourceTree = "<group>"; };
-		10A71045D6FDB47809F35975A3214F96 /* PromoCodeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromoCodeResponse.swift; path = Mindbox/Model/Response/PromoCodeResponse.swift; sourceTree = "<group>"; };
-		10B6A21A99E15C7BC839E86EB01E9BB7 /* DeliveryOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryOperation.swift; path = Mindbox/GuaranteedDeliveryManager/DeliveryOperation.swift; sourceTree = "<group>"; };
 		11A22D3D5E1D5E95FE33DF395EE6915C /* Pods-MindboxNotificationContentExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindboxNotificationContentExtension-Info.plist"; sourceTree = "<group>"; };
-		11B1AF2E25C508C82B44933C2D9824A2 /* PromotionTypeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromotionTypeResponse.swift; path = Mindbox/Model/Response/PromotionTypeResponse.swift; sourceTree = "<group>"; };
-		13061651F73083D80A1D755219AF9B7A /* NSManagedObjectContext+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSManagedObjectContext+.swift"; path = "Mindbox/Database/Extensions/NSManagedObjectContext+.swift"; sourceTree = "<group>"; };
 		1531D7D66528A5B501F2028731C0E46E /* Pods-OlimpicFind.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OlimpicFind.modulemap"; sourceTree = "<group>"; };
-		164111464DC8586BFA1CEA4CEFDB21D3 /* CDEvent+CoreDataClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CDEvent+CoreDataClass.swift"; path = "Mindbox/Database/Entities/CDEvent+CoreDataClass.swift"; sourceTree = "<group>"; };
-		16D460538DBF19F28BE8A665B15FB0BB /* DiscountAmountTypeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountAmountTypeResponse.swift; path = Mindbox/Model/Response/DiscountAmountTypeResponse.swift; sourceTree = "<group>"; };
-		18AED11F241C5C2CE32CC584E62C0CB1 /* RecommendationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecommendationResponse.swift; path = Mindbox/Model/Response/RecommendationResponse.swift; sourceTree = "<group>"; };
 		18C0725B47199503110F4E2A61A76EB7 /* Pods-MindboxNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MindboxNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
 		1963B94FA9E756BD6330567CDA9E54DA /* Pods-OlimpicFind-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OlimpicFind-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1972E0D04265C178BC6C41349CAACAB5 /* CustomerActionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerActionRequest.swift; path = Mindbox/Model/Request/CustomerActionRequest.swift; sourceTree = "<group>"; };
-		1A9A12021CE205B45688A22A560C5FB5 /* MBConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBConfiguration.swift; path = Mindbox/MBConfiguration.swift; sourceTree = "<group>"; };
-		1CF87337F1E0AC70D0A0B9E0040788E7 /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Mindbox/SessionManager/SessionManager.swift; sourceTree = "<group>"; };
-		1E7022BAC6CDD524958AD1A940FDEEF7 /* PushDeliveredEventRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushDeliveredEventRoute.swift; path = MindboxNotifications/Network/PushDeliveredEventRoute.swift; sourceTree = "<group>"; };
-		1F4C7A9B0B5552769B6333E65E1E1464 /* ContentResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentResponse.swift; path = Mindbox/Model/Response/ContentResponse.swift; sourceTree = "<group>"; };
+		1EAC7E5D556B6B4ED21B5EC33EBD2353 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = MindboxNotifications/Network/Types/HTTPMethod.swift; sourceTree = "<group>"; };
 		1F545053F1160F7529E966E85ECD8425 /* Pods-OlimpicFind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OlimpicFind.debug.xcconfig"; sourceTree = "<group>"; };
-		1FE6D2A69914CFBB2AE52BC1AD0634D9 /* TargetingModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetingModel.swift; path = Mindbox/InAppMessages/Configuration/API/TargetingModel.swift; sourceTree = "<group>"; };
-		2045C1CEFD8A4895AC6D5942C6E8C4E7 /* SDKVersionProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKVersionProvider.swift; path = SDKVersionProvider/SDKVersionProvider.swift; sourceTree = "<group>"; };
-		20D479A0C746A6F4A38006E0FD4253E6 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestBuilder.swift; path = MindboxNotifications/Network/Model/URLRequestBuilder.swift; sourceTree = "<group>"; };
 		21361493A7FB3182BEE63F2CD0046015 /* Pods-OlimpicFind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OlimpicFind.release.xcconfig"; sourceTree = "<group>"; };
-		2151FA8E47F729E282AA291E9FF61C98 /* LineRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineRequest.swift; path = Mindbox/Model/Request/LineRequest.swift; sourceTree = "<group>"; };
-		218141F1EA346EE62A2BC13DE70BBE68 /* CustomerSegmentsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerSegmentsAPI.swift; path = Mindbox/InAppMessages/PresentChecker/CustomerSegmentsAPI.swift; sourceTree = "<group>"; };
-		224E92D0CBB95713D3DE9FA7ABD2E361 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Mindbox/Model/Helpers/SwiftyJSON.swift; sourceTree = "<group>"; };
-		24F1649A39C9119FE9F97B974147A174 /* LogCategory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCategory.swift; path = Mindbox/Utilities/Logger/LogCategory.swift; sourceTree = "<group>"; };
-		250F9504925FC2FB1C3AC6FBB29C69F9 /* PlaceholderResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlaceholderResponse.swift; path = Mindbox/Model/Response/PlaceholderResponse.swift; sourceTree = "<group>"; };
-		294D516A1C08C7B16251B10537664D8A /* PoolRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PoolRequest.swift; path = Mindbox/Model/Request/PoolRequest.swift; sourceTree = "<group>"; };
-		295F49C45F2DBD96FE16CEE8CACAFDAB /* DatabaseLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatabaseLoader.swift; path = Mindbox/Database/DatabaseLoader.swift; sourceTree = "<group>"; };
-		2990DBF2964608C7CB81543C9B874D72 /* DeviceModelHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceModelHelper.swift; path = MindboxNotifications/Network/DeviceModelHelper.swift; sourceTree = "<group>"; };
-		2A0324B562BB517AEE2E059C62B6C8FB /* TrueTargeting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrueTargeting.swift; path = Mindbox/InAppMessages/Configuration/API/Targetings/TrueTargeting.swift; sourceTree = "<group>"; };
-		2AB12A08ABAEF5B871E36A75ACC9335D /* MBDatabaseRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDatabaseRepository.swift; path = Mindbox/Database/MBDatabaseRepository.swift; sourceTree = "<group>"; };
-		2B7C05C855E13E9744C4E62D685921DD /* BodyDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyDecoder.swift; path = "Mindbox/Utilities/Body+/BodyDecoder.swift"; sourceTree = "<group>"; };
-		2B81C97DFFEAF10D2B7A79F663E17C9D /* DiscountCardResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountCardResponse.swift; path = Mindbox/Model/Response/DiscountCardResponse.swift; sourceTree = "<group>"; };
-		2C258520A560EF8AE9E23DE3AAAC11B9 /* CustomerSegmentationsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerSegmentationsResponse.swift; path = Mindbox/Model/Response/CustomerSegmentationsResponse.swift; sourceTree = "<group>"; };
-		2F7E98B638B27130B9D7C5F7ECB46E78 /* LimitResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LimitResponse.swift; path = Mindbox/Model/Response/LimitResponse.swift; sourceTree = "<group>"; };
-		2FBBFA9FD1A5AA7E4ECC212F960D37AE /* URLRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestBuilder.swift; path = Mindbox/Network/Helpers/URLRequestBuilder.swift; sourceTree = "<group>"; };
-		32AC3553BFD82A12A39523C0451743FA /* MindboxNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MindboxNotifications-dummy.m"; sourceTree = "<group>"; };
+		29AEABAE3F7E1E46527B263FE9759232 /* NetworkService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = MindboxNotifications/Network/NetworkService.swift; sourceTree = "<group>"; };
 		33CD7B8C413811893DBA633D5D589B00 /* Pods-OlimpicFind-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OlimpicFind-umbrella.h"; sourceTree = "<group>"; };
-		343772D306346F4F506DAB29434868D2 /* HTTPTypealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTypealiases.swift; path = Mindbox/Network/Types/HTTPTypealiases.swift; sourceTree = "<group>"; };
-		3714B76BCD9072C2A0C0148831C77074 /* SegmentationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentationRequest.swift; path = Mindbox/Model/Request/SegmentationRequest.swift; sourceTree = "<group>"; };
-		38701A6F5F731CDA8081CAF22DC04570 /* DeliveryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryService.swift; path = MindboxNotifications/Network/DeliveryService.swift; sourceTree = "<group>"; };
-		38FAF0CD99ABE9E4333E55C43004C963 /* LogLevel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogLevel.swift; path = Mindbox/Utilities/Logger/LogLevel.swift; sourceTree = "<group>"; };
-		3A4F5D24DF2C284FBB70F5744C2A8C7A /* DependencyProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DependencyProvider.swift; path = Mindbox/DI/DependencyProvider.swift; sourceTree = "<group>"; };
-		3A5FC54930D9D0467D11717366D61876 /* RetailOrderStatisticsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetailOrderStatisticsResponse.swift; path = Mindbox/Model/Response/RetailOrderStatisticsResponse.swift; sourceTree = "<group>"; };
-		3A8D5D85DD31BF24550DCA2BBBAFCA4D /* NotificationDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationDecoder.swift; path = Mindbox/Utilities/NotificationDecoder.swift; sourceTree = "<group>"; };
-		3AD2C52101517ABC222A655636BFFA2D /* IDFAFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IDFAFetcher.swift; path = Mindbox/Utilities/IDFetcher/IDFAFetcher.swift; sourceTree = "<group>"; };
+		37B5BC3D33B63715B8BB95CBB5758993 /* BodyDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyDecoder.swift; path = "MindboxNotifications/Network/Model/Body+/BodyDecoder.swift"; sourceTree = "<group>"; };
 		3BC0987DC2A72C92CCD9628670081BA2 /* Pods-OlimpicFind-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OlimpicFind-frameworks.sh"; sourceTree = "<group>"; };
 		3EC34C60DAB8A6BCF9EF10C4D3DF4339 /* Pods-MindboxNotificationContentExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MindboxNotificationContentExtension.modulemap"; sourceTree = "<group>"; };
-		3F85303DB125CA1580597554861F4BBA /* IDS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IDS.swift; path = Mindbox/Model/Common/IDS.swift; sourceTree = "<group>"; };
-		3FB71702A845B2528105E92FDD4559C8 /* GuaranteedDeliveryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GuaranteedDeliveryManager.swift; path = Mindbox/GuaranteedDeliveryManager/GuaranteedDeliveryManager.swift; sourceTree = "<group>"; };
-		41BC44918C59800C015AAB5722DE2241 /* SubViewProductRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubViewProductRequest.swift; path = Mindbox/Model/Request/SubViewProductRequest.swift; sourceTree = "<group>"; };
-		4318FA4BF2A58F943781A6D86B9B4ED4 /* OperationBodyRequestType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationBodyRequestType.swift; path = Mindbox/Model/OperationBodyRequestType.swift; sourceTree = "<group>"; };
-		433487ADE216921D3F4B298DBD0A8206 /* PushDelivered.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushDelivered.swift; path = MindboxNotifications/Network/Model/PushDelivered.swift; sourceTree = "<group>"; };
-		43A7F5C02306772617A6ACD73C698EE9 /* MindboxNotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxNotificationService.swift; path = MindboxNotifications/MindboxNotificationService.swift; sourceTree = "<group>"; };
-		43AB8CC3917BF11AD0C7262227A31581 /* LimitBenefitsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LimitBenefitsResponse.swift; path = Mindbox/Model/Response/LimitBenefitsResponse.swift; sourceTree = "<group>"; };
-		43B8B93D929D7361E14E79DB6E3F6AB7 /* InAppMessagesTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagesTracker.swift; path = Mindbox/InAppMessages/InAppMessagesTracker.swift; sourceTree = "<group>"; };
-		4553F320FDA7D2698FFC01DEC5D41E94 /* InAppConfigutationMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppConfigutationMapper.swift; path = Mindbox/InAppMessages/Configuration/InAppConfigutationMapper.swift; sourceTree = "<group>"; };
-		4575887C6B3801D448CFCFDA2A352509 /* CustomerResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerResponse.swift; path = Mindbox/Model/Response/CustomerResponse.swift; sourceTree = "<group>"; };
-		474EFE478CF997C8082AB4BDBA86B47A /* ContentTypeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContentTypeResponse.swift; path = Mindbox/Model/Response/ContentTypeResponse.swift; sourceTree = "<group>"; };
-		496E7CE64EED8EBBC92FFD413B9A79F1 /* StatusResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusResponse.swift; path = Mindbox/Model/Response/StatusResponse.swift; sourceTree = "<group>"; };
-		4A3A061E3D191AAA84731C836AB071B1 /* PromoActionsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromoActionsResponse.swift; path = Mindbox/Model/Response/PromoActionsResponse.swift; sourceTree = "<group>"; };
-		4AF6600D634CB04837D55E5F8E2780E3 /* IDFVFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IDFVFetcher.swift; path = Mindbox/Utilities/IDFetcher/IDFVFetcher.swift; sourceTree = "<group>"; };
-		4B0BB4B1C594602F791CD05F62975E32 /* PromoCodeRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromoCodeRequest.swift; path = Mindbox/Model/Request/PromoCodeRequest.swift; sourceTree = "<group>"; };
-		4BE839CA797D537FA85682C8C7790CAC /* BackgroundTaskManagerProxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundTaskManagerProxy.swift; path = Mindbox/GuaranteedDeliveryManager/Background/BackgroundTaskManagerProxy.swift; sourceTree = "<group>"; };
-		4C490B3396B362C35F006AFEF42D3D2D /* CashdeskRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CashdeskRequest.swift; path = Mindbox/Model/Request/CashdeskRequest.swift; sourceTree = "<group>"; };
-		4FF6153FA2D537A8A078B2A2AE941ADF /* InAppResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppResponse.swift; path = Mindbox/InAppMessages/Models/InAppResponse.swift; sourceTree = "<group>"; };
-		5054D8CDACE0C66D7E70ED7C94485349 /* EventWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventWrapper.swift; path = Mindbox/NetworkRepository/Event/EventWrapper.swift; sourceTree = "<group>"; };
-		5078DB7FEE7A6E584F93D51F279F7B0B /* PossibleDiscountsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PossibleDiscountsResponse.swift; path = Mindbox/Model/Response/PossibleDiscountsResponse.swift; sourceTree = "<group>"; };
-		50CA6A18D1BCE5F0CBB00AE73E3749B6 /* PromotionResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromotionResponse.swift; path = Mindbox/Model/Response/PromotionResponse.swift; sourceTree = "<group>"; };
-		5154F3913B9014846EB9A4002FD68EBC /* AppliedPromotionResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppliedPromotionResponse.swift; path = Mindbox/Model/Response/AppliedPromotionResponse.swift; sourceTree = "<group>"; };
-		52307F0878BFED8DC8BCD99405E73A14 /* CodableDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableDictionary.swift; path = Mindbox/Model/Common/CodableDictionary.swift; sourceTree = "<group>"; };
-		56F3CC1461F0B266E404198C65A79E66 /* LogWriter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogWriter.swift; path = Mindbox/Utilities/Logger/LogWriter.swift; sourceTree = "<group>"; };
-		57304534361EDDA2B3774E3FAC5E4C44 /* String+Regex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Regex.swift"; path = "Mindbox/Utilities/String+Regex.swift"; sourceTree = "<group>"; };
+		3ED24152B681DD2F9982ECF47B7FA302 /* SDKVersionProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKVersionProvider.swift; path = SDKVersionProvider/SDKVersionProvider.swift; sourceTree = "<group>"; };
+		4D4869899D3895BB697225EF2C575181 /* BodyEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyEncoder.swift; path = "MindboxNotifications/Network/Model/Body+/BodyEncoder.swift"; sourceTree = "<group>"; };
 		58B195BC6D9CC69B1393B0D101BD8D75 /* Pods-MindboxNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MindboxNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
-		59408D174E1D564AEC9F29C9C8B4B5E1 /* InAppCoreManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppCoreManager.swift; path = Mindbox/InAppMessages/InAppCoreManager.swift; sourceTree = "<group>"; };
-		5958DFA52DC1426D1E92E0A3AC93FC12 /* UsageServiceStatusResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsageServiceStatusResponse.swift; path = Mindbox/Model/Response/UsageServiceStatusResponse.swift; sourceTree = "<group>"; };
-		59A0EA42CD5E148A7BF552E9D5CDA3D5 /* EventRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventRoute.swift; path = Mindbox/NetworkRepository/Event/EventRoute.swift; sourceTree = "<group>"; };
-		5A488653E880B7803D8A0B76C6E5A79F /* PasteboardUUIDDebugService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasteboardUUIDDebugService.swift; path = Mindbox/Utilities/UUIDDebugService/PasteboardUUIDDebugService.swift; sourceTree = "<group>"; };
-		5B33A8DD992AAB5BC970A6FF54B9FEFF /* MBDatabaseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDatabaseError.swift; path = Mindbox/Database/MBDatabaseError.swift; sourceTree = "<group>"; };
 		5B92B0A2FFFE4E50580631A287DC2B8C /* MindboxNotifications */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MindboxNotifications; path = MindboxNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5C02F80756AD107746EC48AD64CBAF67 /* AmountResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmountResponse.swift; path = Mindbox/Model/Response/AmountResponse.swift; sourceTree = "<group>"; };
-		5DF591AF2E0A54F25FDD6A77D5704A75 /* MobileApplicationInstalled.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobileApplicationInstalled.swift; path = Mindbox/Model/Bodies/MobileApplicationInstalled.swift; sourceTree = "<group>"; };
-		5EDB9048042531643A679C823411D606 /* Mindbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mindbox.debug.xcconfig; sourceTree = "<group>"; };
-		5F63745A3E91A7B7622C965578E1D3A2 /* InternalTargetingChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalTargetingChecker.swift; path = Mindbox/InAppMessages/InAppTargetingChecker/InternalTargetingChecker.swift; sourceTree = "<group>"; };
-		5F8E391B0780D1D0B075728DE59A55AD /* MindBoxAssets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MindBoxAssets.xcassets; path = Mindbox/Resources/MindBoxAssets.xcassets; sourceTree = "<group>"; };
-		6013D5A248F0876845519AE56C755C0A /* UnknownDecodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnknownDecodable.swift; path = Mindbox/Model/Helpers/UnknownDecodable.swift; sourceTree = "<group>"; };
-		60210E908379A3D092F4B85429BDB47D /* InAppConfigurationRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppConfigurationRepository.swift; path = Mindbox/InAppMessages/Configuration/InAppConfigurationRepository.swift; sourceTree = "<group>"; };
-		644F90FC46BC7B8D5BFC9F11F4764C81 /* MBConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBConfiguration.swift; path = MindboxNotifications/Network/MBConfiguration.swift; sourceTree = "<group>"; };
-		64902A87CC1E87D20EA34AB32C3C8F98 /* Mindbox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mindbox.release.xcconfig; sourceTree = "<group>"; };
-		64BDA2CA08842B489DDBB135A12DB9A5 /* InAppConfigResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppConfigResponse.swift; path = Mindbox/InAppMessages/Configuration/API/InAppConfigResponse.swift; sourceTree = "<group>"; };
-		657DE54261D210F641F1900E50C01FC5 /* ValidationError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValidationError.swift; path = Mindbox/Model/Errors/ValidationError.swift; sourceTree = "<group>"; };
-		659AED8B32C28EC8356D43EF1D857184 /* BGTaskManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BGTaskManager.swift; path = Mindbox/GuaranteedDeliveryManager/Background/BGTaskManager.swift; sourceTree = "<group>"; };
-		65AC2CD8AEFB181B6461011B2FB7C0F2 /* UNAuthorizationStatusProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UNAuthorizationStatusProvider.swift; path = Mindbox/Utilities/UNAuthorizationStatusProviding/UNAuthorizationStatusProvider.swift; sourceTree = "<group>"; };
-		6637683D342087BCA5BF4C6F1BDE3FC7 /* ProductListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductListRequest.swift; path = Mindbox/Model/Request/ProductListRequest.swift; sourceTree = "<group>"; };
-		665B36AEDC63363411F155ED906D7E65 /* OrderRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderRequest.swift; path = Mindbox/Model/Request/OrderRequest.swift; sourceTree = "<group>"; };
-		6696E8ED3EE036DDEAE0AECADC85D171 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Mindbox/Utilities/Constants.swift; sourceTree = "<group>"; };
-		66BB0874E6421069A7F055CB853F3247 /* Mindbox */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mindbox; path = Mindbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		677A0FC5F3C2D361449E057F4234C46F /* UsedPointOfContactResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsedPointOfContactResponse.swift; path = Mindbox/Model/Response/UsedPointOfContactResponse.swift; sourceTree = "<group>"; };
-		67964817A91058731AA2E7D0271E255C /* MindboxNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MindboxNotifications.modulemap; sourceTree = "<group>"; };
-		67DD1BA42C1D7880A3BF669BD2EB0A57 /* LogManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogManager.swift; path = Mindbox/Utilities/Logger/LogManager.swift; sourceTree = "<group>"; };
-		68B1892FAA6DEE6CD89C720891A9918F /* DependencyContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DependencyContainer.swift; path = Mindbox/DI/DependencyContainer.swift; sourceTree = "<group>"; };
-		6972468CF360AEEA71F4FB4AF05DB6CA /* ErrorKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorKey.swift; path = MindboxNotifications/Network/Types/ErrorKey.swift; sourceTree = "<group>"; };
-		6A30C2F3E64F7BDEF0E87231148FAF36 /* RecommendationRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecommendationRequest.swift; path = Mindbox/Model/Request/RecommendationRequest.swift; sourceTree = "<group>"; };
-		6ACA4297557459CC3A2C6EDAD7D8867B /* NearestExpirationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NearestExpirationResponse.swift; path = Mindbox/Model/Response/NearestExpirationResponse.swift; sourceTree = "<group>"; };
-		6C624B88E62CF3FDF5995E272CF3B232 /* OrTargeting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrTargeting.swift; path = Mindbox/InAppMessages/Configuration/API/Targetings/OrTargeting.swift; sourceTree = "<group>"; };
-		6ED456582DD5513510CB8FAE6E5FA527 /* ProductGroupRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductGroupRequest.swift; path = Mindbox/Model/Request/ProductGroupRequest.swift; sourceTree = "<group>"; };
-		70EBA4E6547A29D9AB55D39C25522D44 /* GeoTargeting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeoTargeting.swift; path = Mindbox/InAppMessages/Configuration/API/Targetings/GeoTargeting.swift; sourceTree = "<group>"; };
-		7181BC38A4C4D367E6AB7DA7FF62E23D /* InAppSegmentationChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppSegmentationChecker.swift; path = Mindbox/InAppMessages/PresentChecker/InAppSegmentationChecker.swift; sourceTree = "<group>"; };
-		72248DCB21E42CA775F872136A1264BC /* TrackClick.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrackClick.swift; path = Mindbox/Model/Bodies/TrackClick.swift; sourceTree = "<group>"; };
+		5BC52B73480B4B8E430AAD3C42F977CA /* MindboxNotifications-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MindboxNotifications-Info.plist"; sourceTree = "<group>"; };
+		5C730C906B2AF0AF7A0D274F6AF29FB0 /* MindboxNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MindboxNotifications-dummy.m"; sourceTree = "<group>"; };
+		5EAA28081CD017AEB2EF3546352F2771 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = MindboxNotifications/Network/Model/Event.swift; sourceTree = "<group>"; };
+		6649208604B8CD14D27F5E8044911E2B /* DeviceModelHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceModelHelper.swift; path = MindboxNotifications/Network/DeviceModelHelper.swift; sourceTree = "<group>"; };
+		706D90CF029A43B1EB330F9E527F8631 /* DeliveryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryService.swift; path = MindboxNotifications/Network/DeliveryService.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7327BBC9703554E35737EB8A3D6326BF /* Pods-MindboxNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MindboxNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
-		7395E9A3E58E7CED7126A2822FB58948 /* Status.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Status.swift; path = Mindbox/Model/Status.swift; sourceTree = "<group>"; };
-		742DB3D55192712D140F4EC28F0DA2CD /* ProductResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductResponse.swift; path = Mindbox/Model/Response/ProductResponse.swift; sourceTree = "<group>"; };
-		74EA1FDAA485F1D097B679DC51A5AF7A /* InAppPresentationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppPresentationManager.swift; path = Mindbox/InAppMessages/Presentation/InAppPresentationManager.swift; sourceTree = "<group>"; };
-		75B925C69576299145433C9004702A57 /* MindboxDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxDelegate.swift; path = Mindbox/MindboxDelegate.swift; sourceTree = "<group>"; };
-		79724BF1507BB4077DE822CF60EC4875 /* InAppGeoResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppGeoResponse.swift; path = Mindbox/InAppMessages/Configuration/InAppGeoResponse.swift; sourceTree = "<group>"; };
-		7B9706C93CABBDF1195A3D00B1E2D861 /* DiscountResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountResponse.swift; path = Mindbox/Model/Response/DiscountResponse.swift; sourceTree = "<group>"; };
-		7D2F08E20D4F7F57E031C6DD82D09B9D /* Payload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Payload.swift; path = MindboxNotifications/Network/Model/Payload.swift; sourceTree = "<group>"; };
+		7D626D559C484B30387EEF1146C862AE /* MBUtilitiesFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBUtilitiesFetcher.swift; path = MindboxNotifications/Network/MBUtilitiesFetcher.swift; sourceTree = "<group>"; };
 		7DA07ED1F709190747B0D4135149B3C1 /* Pods-MindboxNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindboxNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		7E7C8D77A7B47BAFE5CCC68758EA205A /* UtilitiesFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UtilitiesFetcher.swift; path = Mindbox/Utilities/UtilitiesFetcher/UtilitiesFetcher.swift; sourceTree = "<group>"; };
-		7F9D4046CDC8E48B718992B9D7BC4040 /* RequestedPromotionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestedPromotionRequest.swift; path = Mindbox/Model/Request/RequestedPromotionRequest.swift; sourceTree = "<group>"; };
-		80D6D80C71FE388D7FC598A704369457 /* AmountBenefitsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmountBenefitsResponse.swift; path = Mindbox/Model/Response/AmountBenefitsResponse.swift; sourceTree = "<group>"; };
-		811DFF3F4392345ADE5F8DED2D6CEFE7 /* ProtocolError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtocolError.swift; path = Mindbox/Model/Errors/ProtocolError.swift; sourceTree = "<group>"; };
-		820B7798CB2C2AC2096DF98C1B1345C5 /* BodyEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyEncoder.swift; path = "Mindbox/Utilities/Body+/BodyEncoder.swift"; sourceTree = "<group>"; };
-		833E3FD593BF08DA109F3B77BC8971A1 /* ProductRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductRequest.swift; path = Mindbox/Model/Request/ProductRequest.swift; sourceTree = "<group>"; };
-		8492618E7EDF52394AA52233BE7B36D7 /* MindboxNotifications-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MindboxNotifications-Info.plist"; sourceTree = "<group>"; };
-		8508CB84E06CA7C8CE3AA5483D8F235C /* MBDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBDate.swift; path = Mindbox/Model/Common/MBDate.swift; sourceTree = "<group>"; };
-		8682ED5E77249ACB2C0B640F1FD8C34A /* TimerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimerManager.swift; path = Mindbox/CoreController/TimerManager.swift; sourceTree = "<group>"; };
-		884E901CBF229BFAC6F2D0338DCEA558 /* Mindbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mindbox.swift; path = Mindbox/Mindbox.swift; sourceTree = "<group>"; };
-		8856368DCD8ECC910A0152F768C38496 /* Channel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Channel.swift; path = Mindbox/Model/Request/Channel.swift; sourceTree = "<group>"; };
-		88F9F2C42C71F94DD824A95D03CC1B87 /* OperationBodyRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationBodyRequest.swift; path = Mindbox/Model/OperationBodyRequest.swift; sourceTree = "<group>"; };
-		8A1EFD19CE6871499D497ED0F31EE1EF /* MindboxErrors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxErrors.swift; path = Mindbox/Utilities/MindboxErrors.swift; sourceTree = "<group>"; };
+		8334E302A6A2E19198B68AF0978685D5 /* MindboxNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MindboxNotifications.release.xcconfig; sourceTree = "<group>"; };
 		8B6558057411C94A29ED44A957B8058C /* Pods-MindboxNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MindboxNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8EB69EBAF84B1A053EB10B1C77725222 /* HTTPTypealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTypealiases.swift; path = MindboxNotifications/Network/Types/HTTPTypealiases.swift; sourceTree = "<group>"; };
-		8F0FE87E46F4F7BF8CC9B5ACAFA5D173 /* PersistenceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersistenceStorage.swift; path = Mindbox/PersistenceStorage/PersistenceStorage.swift; sourceTree = "<group>"; };
-		901CC51D8C8ACB55299269D23A4CCB97 /* MindboxSceneDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxSceneDelegate.swift; path = Mindbox/MindboxSceneDelegate.swift; sourceTree = "<group>"; };
-		91810BA64B018E6F93BDBD75CCC87206 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = MindboxNotifications/Network/Types/HTTPMethod.swift; sourceTree = "<group>"; };
-		93C185DF8EC80E01ED4992CAF51CBA41 /* ProductGroupResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductGroupResponse.swift; path = Mindbox/Model/Response/ProductGroupResponse.swift; sourceTree = "<group>"; };
-		940E5CE22C7E344498CBD3B0F66263D7 /* TrueTargetingChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TrueTargetingChecker.swift; path = Mindbox/InAppMessages/InAppTargetingChecker/TargetingCheckerTypes/TrueTargetingChecker.swift; sourceTree = "<group>"; };
-		947DE4F3B298D7D8F38AB4A225516934 /* ManufacturerResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManufacturerResponse.swift; path = Mindbox/Model/Response/ManufacturerResponse.swift; sourceTree = "<group>"; };
+		914F955000B8F02AF5925681E2D38EFD /* MindboxNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindboxNotifications-prefix.pch"; sourceTree = "<group>"; };
+		94CAC6989F21CAA62F4658C9335DB033 /* PushDeliveredEventRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushDeliveredEventRoute.swift; path = MindboxNotifications/Network/PushDeliveredEventRoute.swift; sourceTree = "<group>"; };
 		94D94257E74BC139BF0327007EBA1356 /* Pods-MindboxNotificationContentExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MindboxNotificationContentExtension"; path = Pods_MindboxNotificationContentExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		96194C6882EF4CF23AF8DB8D013A1898 /* EventRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventRepository.swift; path = Mindbox/NetworkRepository/Event/EventRepository.swift; sourceTree = "<group>"; };
-		9637465527D1E081B5D82A39AE45F52A /* AmountBenefisTypeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmountBenefisTypeResponse.swift; path = Mindbox/Model/Response/AmountBenefisTypeResponse.swift; sourceTree = "<group>"; };
-		9753A3B3E263A180E54E11B389020E52 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = MindboxNotifications/Network/Model/Event.swift; sourceTree = "<group>"; };
-		9788A0B3E0B8B601523753007054701A /* BackgroundTaskManagerType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackgroundTaskManagerType.swift; path = Mindbox/GuaranteedDeliveryManager/Background/BackgroundTaskManagerType.swift; sourceTree = "<group>"; };
-		9BEAF7EFE237FB0074EB0D819D5CE2C3 /* BenefitResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BenefitResponse.swift; path = Mindbox/Model/Response/BenefitResponse.swift; sourceTree = "<group>"; };
-		9CAF399B42364055E30C877060C7F0AD /* Mindbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mindbox.modulemap; sourceTree = "<group>"; };
-		9CE66B3A888807940FDEA7CC09817471 /* MindboxNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MindboxNotifications.debug.xcconfig; sourceTree = "<group>"; };
-		9D2D200AFB9954BEB3565652EA012BC3 /* ErrorKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorKey.swift; path = Mindbox/Network/Types/ErrorKey.swift; sourceTree = "<group>"; };
+		980DA24D22327C64BCE2BC4274EF0015 /* DeliveryOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryOperation.swift; path = MindboxNotifications/Network/Model/DeliveryOperation.swift; sourceTree = "<group>"; };
+		9AC27D984EE1AB8DEC0A994BC893CD89 /* NotificationsPayloads.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsPayloads.swift; path = MindboxNotifications/Network/Model/NotificationsPayloads.swift; sourceTree = "<group>"; };
+		9C1AF6A01AAEDB1CE7F4054DB7F2C23E /* MindboxNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindboxNotifications-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DE8D98DA63E1A75C0BB29DE432BD60E /* Pods-MindboxNotificationContentExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindboxNotificationContentExtension.release.xcconfig"; sourceTree = "<group>"; };
-		9F51F31DB56FB41C56B25B818457D19F /* CDEvent+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CDEvent+CoreDataProperties.swift"; path = "Mindbox/Database/Entities/CDEvent+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		9F7727BF9D03854B7DFEE98F298C68A2 /* ViewProductCategoryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProductCategoryRequest.swift; path = Mindbox/Model/Request/ViewProductCategoryRequest.swift; sourceTree = "<group>"; };
-		9FAD142415A24EAC4F10E7B3EBA31D38 /* PersonalOffersResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PersonalOffersResponse.swift; path = Mindbox/Model/Response/PersonalOffersResponse.swift; sourceTree = "<group>"; };
-		A03EDCB04223707C4D30544E70770838 /* CatalogProductListRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CatalogProductListRequest.swift; path = Mindbox/Model/Request/CatalogProductListRequest.swift; sourceTree = "<group>"; };
-		A055195EAC37056AC37F494C78B95995 /* MBPersistenceStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBPersistenceStorage.swift; path = Mindbox/PersistenceStorage/MBPersistenceStorage.swift; sourceTree = "<group>"; };
-		A0C27E0CC9288A5E99685F5916AB4E1A /* ItemProductResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemProductResponse.swift; path = Mindbox/Model/Response/ItemProductResponse.swift; sourceTree = "<group>"; };
-		A68DDA9F9252FEB0A460EA75239125E5 /* Sex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sex.swift; path = Mindbox/Model/Common/Sex.swift; sourceTree = "<group>"; };
+		A015C2BAFDC45698D66DD4ADD5C912BE /* HTTPTypealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTypealiases.swift; path = MindboxNotifications/Network/Types/HTTPTypealiases.swift; sourceTree = "<group>"; };
 		A6F69285174E761D70C29130DDA8352D /* Pods-MindboxNotificationContentExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MindboxNotificationContentExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A71ACA487263A5B091E7D174334AA979 /* InAppConfigurationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppConfigurationManager.swift; path = Mindbox/InAppMessages/Configuration/InAppConfigurationManager.swift; sourceTree = "<group>"; };
-		A796C9E7CB5D661A98C5541291F6D0F0 /* HTTPURLResponseStatusCodeValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPURLResponseStatusCodeValidator.swift; path = Mindbox/Network/Validators/HTTPURLResponseStatusCodeValidator.swift; sourceTree = "<group>"; };
 		A81677AECF56F1D2906B1F0D44A83985 /* Pods-OlimpicFind-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OlimpicFind-Info.plist"; sourceTree = "<group>"; };
-		AC4EE5755CAD36FC82A75D5DC2C04DED /* CouponRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CouponRequest.swift; path = Mindbox/Model/Request/CouponRequest.swift; sourceTree = "<group>"; };
+		A9D314A8870588AD6209B33B588201D0 /* ErrorKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorKey.swift; path = MindboxNotifications/Network/Types/ErrorKey.swift; sourceTree = "<group>"; };
 		ACC5762AAE2F65297B48EC21FA527EAB /* Pods-MindboxNotificationServiceExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MindboxNotificationServiceExtension"; path = Pods_MindboxNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD1AEECD2DC96A54E8535D3DD351091B /* InAppsCheckRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppsCheckRequest.swift; path = Mindbox/InAppMessages/Models/InAppsCheckRequest.swift; sourceTree = "<group>"; };
-		AF9ADAF501AE237E55AFF8040A586455 /* OrTargetingChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrTargetingChecker.swift; path = Mindbox/InAppMessages/InAppTargetingChecker/TargetingCheckerTypes/OrTargetingChecker.swift; sourceTree = "<group>"; };
 		B0AF7FEE19A8C58109011A9168C0777B /* Pods-MindboxNotificationContentExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindboxNotificationContentExtension.debug.xcconfig"; sourceTree = "<group>"; };
-		B1F766C96701F678EDB163466FB4BA69 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = MindboxNotifications/Network/Model/ImageFormat.swift; sourceTree = "<group>"; };
-		B2F709E02D67A4CC78FBDA8ADA92C5F9 /* MBNetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBNetworkFetcher.swift; path = Mindbox/Network/MBNetworkFetcher.swift; sourceTree = "<group>"; };
-		B37B6E18C4E7D744DFBB92C8B40E9EFD /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = MindboxNotifications/Network/Route.swift; sourceTree = "<group>"; };
-		B3BACFF10ECA5081127E639B9326E484 /* MBDatabase.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = MBDatabase.xcdatamodel; sourceTree = "<group>"; };
 		B5F1C26DBD9A2BDB3E681721495444D6 /* Pods-MindboxNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindboxNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
-		B62705E480E932D2660B116CE56FD059 /* AreaResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AreaResponse.swift; path = Mindbox/Model/Response/AreaResponse.swift; sourceTree = "<group>"; };
 		B63FC723BF4DB59551D2B523CE8B3F9E /* Pods-MindboxNotificationContentExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MindboxNotificationContentExtension-dummy.m"; sourceTree = "<group>"; };
-		B7294B3F3AD03F8F5CE10F4869AF4C1A /* MBUtilitiesFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBUtilitiesFetcher.swift; path = MindboxNotifications/Network/MBUtilitiesFetcher.swift; sourceTree = "<group>"; };
+		BA30CB3252D2FB88F53C8DAE7DB4CA29 /* MindboxNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MindboxNotifications.debug.xcconfig; sourceTree = "<group>"; };
 		BBA971F9CDFF2B865A835A92896CC8CA /* Pods-OlimpicFind-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OlimpicFind-dummy.m"; sourceTree = "<group>"; };
-		BC290B431B2610E9BEF1934ED943971D /* NetworkService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = MindboxNotifications/Network/NetworkService.swift; sourceTree = "<group>"; };
-		BD96CCD460340F9B3BEE0F62500B458E /* Mindbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mindbox-dummy.m"; sourceTree = "<group>"; };
-		BDBD61BCB42597D26D555478400CE414 /* ProductElementReponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductElementReponse.swift; path = Mindbox/Model/Response/ProductElementReponse.swift; sourceTree = "<group>"; };
-		BE0A1A9761060C09525987A2B7CD2C03 /* SegmentTargeting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentTargeting.swift; path = Mindbox/InAppMessages/Configuration/API/Targetings/SegmentTargeting.swift; sourceTree = "<group>"; };
-		BF1F411680E5E4447A323787A919AF13 /* AndTargetingChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AndTargetingChecker.swift; path = Mindbox/InAppMessages/InAppTargetingChecker/TargetingCheckerTypes/AndTargetingChecker.swift; sourceTree = "<group>"; };
-		BFDC95D6B0C85FDD5FF2D658BF7C700C /* ViewProductRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewProductRequest.swift; path = Mindbox/Model/Request/ViewProductRequest.swift; sourceTree = "<group>"; };
-		C0F32484851A4852067E1306205611D5 /* AmountTypeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AmountTypeResponse.swift; path = Mindbox/Model/Response/AmountTypeResponse.swift; sourceTree = "<group>"; };
-		C15E2D891B88807B8CDE6ECF82668ADA /* ItemResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemResponse.swift; path = Mindbox/Model/Response/ItemResponse.swift; sourceTree = "<group>"; };
-		C2542E7BF7AE2B1D6FD674D9E7144165 /* UUIDDebugService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UUIDDebugService.swift; path = Mindbox/Utilities/UUIDDebugService/UUIDDebugService.swift; sourceTree = "<group>"; };
-		C2EFF0FF0E5BF2CA9D1BC4766689CDC2 /* ProductCategoryRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductCategoryRequest.swift; path = Mindbox/Model/Request/ProductCategoryRequest.swift; sourceTree = "<group>"; };
-		C3D8897FA42BA7759E50D2A5F1EB68C3 /* IssuedPointOfContactResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IssuedPointOfContactResponse.swift; path = Mindbox/Model/Response/IssuedPointOfContactResponse.swift; sourceTree = "<group>"; };
-		C42B39F80C4BC772985C1C23EF1E1E14 /* CustomerRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomerRequest.swift; path = Mindbox/Model/Request/CustomerRequest.swift; sourceTree = "<group>"; };
-		C4CFA5051EE0D4D6E9C0EE225C9D3D22 /* DiscountTypeRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountTypeRequest.swift; path = Mindbox/Model/Request/DiscountTypeRequest.swift; sourceTree = "<group>"; };
-		C506CD60F64BB73771F1629845FBFA71 /* NetworkFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkFetcher.swift; path = Mindbox/Network/Abstract/NetworkFetcher.swift; sourceTree = "<group>"; };
-		C5E98049C81EF84BFF88CB10E24A7EEE /* OperationResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationResponse.swift; path = Mindbox/Model/OperationResponse.swift; sourceTree = "<group>"; };
-		C6199170F4577B2FECD5158F57219C27 /* Mindbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mindbox-prefix.pch"; sourceTree = "<group>"; };
-		C6D62B919B9606DD81F2C139A1417901 /* NotificationDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationDecoder.swift; path = MindboxNotifications/Network/Model/NotificationDecoder.swift; sourceTree = "<group>"; };
-		C7CDB2AF7B45DB64422BE95650DCFD3A /* MobileApplicationInfoUpdated.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MobileApplicationInfoUpdated.swift; path = Mindbox/Model/Bodies/MobileApplicationInfoUpdated.swift; sourceTree = "<group>"; };
-		C81440BC095225BBA6AE412747F038F1 /* AndTargeting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AndTargeting.swift; path = Mindbox/InAppMessages/Configuration/API/Targetings/AndTargeting.swift; sourceTree = "<group>"; };
-		C85D9F3970A789DBCE854A02F3B6D9B9 /* UsedResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UsedResponse.swift; path = Mindbox/Model/Response/UsedResponse.swift; sourceTree = "<group>"; };
-		C902A4ACD913F9F8AFC974DFCD4F9758 /* NotificationsPayloads.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsPayloads.swift; path = MindboxNotifications/Network/Model/NotificationsPayloads.swift; sourceTree = "<group>"; };
-		C9163400FD47BCF28DAC3E26318A3DAB /* URLValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLValidator.swift; path = Mindbox/Validators/URLValidator.swift; sourceTree = "<group>"; };
-		CACE76A0952706107AC5813B7490B9C6 /* InAppImagesStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppImagesStorage.swift; path = Mindbox/InAppMessages/Images/InAppImagesStorage.swift; sourceTree = "<group>"; };
-		CC0BF977E497832CC26A7833EFB9054F /* UIBackgroundTaskManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIBackgroundTaskManager.swift; path = Mindbox/GuaranteedDeliveryManager/Background/UIBackgroundTaskManager.swift; sourceTree = "<group>"; };
-		D036492C2E5DB2F7FA6DCF7039E0AB5B /* Mindbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mindbox-Info.plist"; sourceTree = "<group>"; };
-		D0EEE36B48D2B05ACF1275FE12E0B40B /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = Mindbox/Model/Event.swift; sourceTree = "<group>"; };
-		D1388C90F386E722EE9A1EECD3C1B2A4 /* ProductListResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductListResponse.swift; path = Mindbox/Model/Response/ProductListResponse.swift; sourceTree = "<group>"; };
-		D20FD22620A2AE4C5BC41D34D6F2C940 /* ProcessingStatusResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProcessingStatusResponse.swift; path = Mindbox/Model/Response/ProcessingStatusResponse.swift; sourceTree = "<group>"; };
-		D42B622623DE00312FB8C3D51EC41B78 /* TargetingChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetingChecker.swift; path = Mindbox/InAppMessages/InAppTargetingChecker/TargetingChecker.swift; sourceTree = "<group>"; };
-		D53CDE1D938E8AFCD236DD9D2F84A920 /* UDIDValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDIDValidator.swift; path = Mindbox/Validators/UDIDValidator.swift; sourceTree = "<group>"; };
-		D543BA3E334CED1D6EAF57E04D99ADD8 /* PeriodTypeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PeriodTypeResponse.swift; path = Mindbox/Model/Response/PeriodTypeResponse.swift; sourceTree = "<group>"; };
-		D5FC5390765C70F0B12DAD1FC3B093A0 /* MBUtilitiesFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBUtilitiesFetcher.swift; path = Mindbox/Utilities/UtilitiesFetcher/MBUtilitiesFetcher.swift; sourceTree = "<group>"; };
-		D82515DD65980BE049CD77695BB6F915 /* OperationResponseType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OperationResponseType.swift; path = Mindbox/Model/OperationResponseType.swift; sourceTree = "<group>"; };
-		D917974DB8DE4FCEB6F4B130FA5EBBA5 /* MindboxNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindboxNotifications-umbrella.h"; sourceTree = "<group>"; };
-		D93C56B8F426A78E6CA149B0F7AD85B7 /* ItemRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ItemRequest.swift; path = Mindbox/Model/Request/ItemRequest.swift; sourceTree = "<group>"; };
-		DBEE5D1364A728E271BB6EC45200BF8E /* UNAuthorizationStatusProviding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UNAuthorizationStatusProviding.swift; path = Mindbox/Utilities/UNAuthorizationStatusProviding/UNAuthorizationStatusProviding.swift; sourceTree = "<group>"; };
-		DBF2F9B3D5CD896F1ACBAB79A07E499F /* MindboxNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MindboxNotifications.release.xcconfig; sourceTree = "<group>"; };
-		DD259A1645F20659C0236BDDEB91ECAE /* GuaranteedDeliveryManager+State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "GuaranteedDeliveryManager+State.swift"; path = "Mindbox/GuaranteedDeliveryManager/GuaranteedDeliveryManager+State.swift"; sourceTree = "<group>"; };
-		DFA068DB3E7025AC1042EDBA86569E6A /* BalanceResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BalanceResponse.swift; path = Mindbox/Model/Response/BalanceResponse.swift; sourceTree = "<group>"; };
-		DFDE52021C1DB8E208612349EED91EAD /* DiscountRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountRequest.swift; path = Mindbox/Model/Request/DiscountRequest.swift; sourceTree = "<group>"; };
-		E03107A28695B19674E9BD6E65BB8113 /* MindboxNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindboxNotifications-prefix.pch"; sourceTree = "<group>"; };
-		E047A9CCBD6CD2AF8A371B16F8CDCDDF /* CustomFields.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFields.swift; path = Mindbox/Model/Common/CustomFields.swift; sourceTree = "<group>"; };
+		D5134BD906E268CA5AAFA6E3BDFBBEA6 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = MindboxNotifications/Network/Model/ImageFormat.swift; sourceTree = "<group>"; };
+		DF11D559D2782325645BB7C63C5CFD4C /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = MindboxNotifications/Network/Logger.swift; sourceTree = "<group>"; };
 		E11465FB7E4B986D128135A9AC38EB72 /* Pods-OlimpicFind */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OlimpicFind"; path = Pods_OlimpicFind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E312B310A39EC0AAAFF8990E987E80AE /* Payload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Payload.swift; path = MindboxNotifications/Network/Model/Payload.swift; sourceTree = "<group>"; };
 		E3D8FBE1CFA87F0A2A7FA840DD2D9661 /* Pods-MindboxNotificationContentExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MindboxNotificationContentExtension-umbrella.h"; sourceTree = "<group>"; };
-		E4BD370B0AD17FEC9809B103F4A94A34 /* InAppConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppConfig.swift; path = Mindbox/InAppMessages/Configuration/InAppConfig.swift; sourceTree = "<group>"; };
-		E56F2BC72F8C5B53044DED6D0F574CC3 /* ClickNotificationManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClickNotificationManager.swift; path = Mindbox/ClickNotificationManager/ClickNotificationManager.swift; sourceTree = "<group>"; };
-		E58FD50BFF374494F47A1460B324A0F7 /* BodyDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyDecoder.swift; path = "MindboxNotifications/Network/Model/Body+/BodyDecoder.swift"; sourceTree = "<group>"; };
-		E5D09DCADD1C5E93013DF5EB8640BD3C /* SubscriptionRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionRequest.swift; path = Mindbox/Model/Request/SubscriptionRequest.swift; sourceTree = "<group>"; };
 		E7F5F700D5705F111D3FAD8DF9AA7EF2 /* Pods-MindboxNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindboxNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
-		EA3270A9B63E5412A0694577D9360D78 /* AreaRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AreaRequest.swift; path = Mindbox/Model/Request/AreaRequest.swift; sourceTree = "<group>"; };
-		EB5224270017DE2698AB32A875EAE7CA /* AppliedPromotionTypeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppliedPromotionTypeResponse.swift; path = Mindbox/Model/Response/AppliedPromotionTypeResponse.swift; sourceTree = "<group>"; };
-		EB733C24F137D96C4E9A13F87FE89B3D /* DiscountPromoCodeRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountPromoCodeRequest.swift; path = Mindbox/Model/Request/DiscountPromoCodeRequest.swift; sourceTree = "<group>"; };
-		EB9A23822FC859FC1B443B9FFF27DA49 /* InAppImageOnlyView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppImageOnlyView.swift; path = Mindbox/InAppMessages/Presentation/Views/InAppImageOnlyView.swift; sourceTree = "<group>"; };
-		EDD49411D3ABB4A9AC4951CCF96FA7BD /* LimitTypeResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LimitTypeResponse.swift; path = Mindbox/Model/Response/LimitTypeResponse.swift; sourceTree = "<group>"; };
-		EE2AB3BA3EEDE3D279891F587AA86732 /* BodyEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyEncoder.swift; path = "MindboxNotifications/Network/Model/Body+/BodyEncoder.swift"; sourceTree = "<group>"; };
-		EF7DC9A777C3ECA8EEAF4E11CFF8FF7A /* BalanceTypeReponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BalanceTypeReponse.swift; path = Mindbox/Model/Response/BalanceTypeReponse.swift; sourceTree = "<group>"; };
-		EFE0A432146B55D562A562DBFEBC18E8 /* InAppMessageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessageViewController.swift; path = Mindbox/InAppMessages/Presentation/InAppMessageViewController.swift; sourceTree = "<group>"; };
-		F3581B363859C76ADBDC0A8680932086 /* InAppMessagesDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppMessagesDelegate.swift; path = Mindbox/InAppMessages/InAppMessagesDelegate.swift; sourceTree = "<group>"; };
-		F44AA8DDCDDD03CEBBC524592ADEE2B7 /* InAppConfigurationAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppConfigurationAPI.swift; path = Mindbox/InAppMessages/Configuration/API/InAppConfigurationAPI.swift; sourceTree = "<group>"; };
-		F4A362798B673F2FDEC61799C462EB3B /* CouponResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CouponResponse.swift; path = Mindbox/Model/Response/CouponResponse.swift; sourceTree = "<group>"; };
-		F5B2D68B890F47D5A62DC4514DCB0DDC /* BaseResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseResponse.swift; path = Mindbox/Model/BaseResponse.swift; sourceTree = "<group>"; };
-		F69E5B5B6841513AF064F63090E186D1 /* DeliveryOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryOperation.swift; path = MindboxNotifications/Network/Model/DeliveryOperation.swift; sourceTree = "<group>"; };
-		F6F9A57932A29CCBD7C56513B6710F42 /* MBPersistentContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBPersistentContainer.swift; path = Mindbox/Database/MBPersistentContainer.swift; sourceTree = "<group>"; };
+		E9ECB1A4F826E311EBA46307ABA8AC14 /* EventWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventWrapper.swift; path = MindboxNotifications/Network/Model/EventWrapper.swift; sourceTree = "<group>"; };
+		EAD649F6D1C3E81A9640F0A31F6D71E7 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestBuilder.swift; path = MindboxNotifications/Network/Model/URLRequestBuilder.swift; sourceTree = "<group>"; };
+		EE192C008470005C1A17DD98B49AF504 /* NotificationDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationDecoder.swift; path = MindboxNotifications/Network/Model/NotificationDecoder.swift; sourceTree = "<group>"; };
+		F1DFFAD70BE3117CA691283446E4E346 /* PushDelivered.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushDelivered.swift; path = MindboxNotifications/Network/Model/PushDelivered.swift; sourceTree = "<group>"; };
+		F22E637699CC2BB81F8ECA36484F9420 /* MBConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBConfiguration.swift; path = MindboxNotifications/Network/MBConfiguration.swift; sourceTree = "<group>"; };
 		F881B00855FFCC675F858A75E6CA2CF2 /* Pods-MindboxNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindboxNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
-		FC94A7CEC23062A5DB48532011BD40DE /* ProductListItemsResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProductListItemsResponse.swift; path = Mindbox/Model/Response/ProductListItemsResponse.swift; sourceTree = "<group>"; };
-		FCC968318527AC17161EBD15668DD9BE /* InAppFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InAppFormData.swift; path = Mindbox/InAppMessages/Models/InAppFormData.swift; sourceTree = "<group>"; };
-		FE9D26299E8EB222FAC8B43960421159 /* MindboxError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxError.swift; path = Mindbox/Model/MindboxError.swift; sourceTree = "<group>"; };
-		FEBB2CB72715B03C27BE7A1F88D142F8 /* SegmentTargetingChecker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentTargetingChecker.swift; path = Mindbox/InAppMessages/InAppTargetingChecker/TargetingCheckerTypes/SegmentTargetingChecker.swift; sourceTree = "<group>"; };
-		FEDDB4E5A2A6C5C7F5A9D7710F2453E3 /* DeviceModelHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceModelHelper.swift; path = Mindbox/Network/Helpers/DeviceModelHelper.swift; sourceTree = "<group>"; };
+		F8C726595D8266F0F0C2B6FCF1C543F4 /* MindboxNotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxNotificationService.swift; path = MindboxNotifications/MindboxNotificationService.swift; sourceTree = "<group>"; };
+		F918099F274C0993523C7EA31C7B9F49 /* MindboxNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MindboxNotifications.modulemap; sourceTree = "<group>"; };
 		FEF52ABEB9E7C1AD1752EC47BB303B6C /* Pods-MindboxNotificationContentExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindboxNotificationContentExtension-acknowledgements.plist"; sourceTree = "<group>"; };
-		FF0DBEA9DE7590BCA7804B711FCF517E /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = Mindbox/Network/Abstract/Route.swift; sourceTree = "<group>"; };
-		FF5DA270C077D96FED9CACBF231FFE98 /* DiscountCardRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiscountCardRequest.swift; path = Mindbox/Model/Request/DiscountCardRequest.swift; sourceTree = "<group>"; };
-		FF6396760178CEAA89BC9859A53AE827 /* SubscriptionResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionResponse.swift; path = Mindbox/Model/Response/SubscriptionResponse.swift; sourceTree = "<group>"; };
+		FF3347721010ACB9992F33FBD1234CFF /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = MindboxNotifications/Network/Route.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -553,19 +143,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C04BEF0433EF1FE885CE6FD827C102BE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05D61CF03C5CB7CED2AE623D3F108BC8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C1E8D34E1A3DC03BDFF1C3F551088815 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7680C17E130556FEAC1040D203AC8552 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D29BA10DED1522F815A6BB7E2CD571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365FA219C8CFA3C7946F4DC73415071 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,26 +167,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EE9262E804333E37A6145059C6C2BD22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				05A9882C748EE13440FE60F42AE839AA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F136C290FC53EB9F42B06C64CEFF595 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				1AF56CFEC47CEFB0BC4395CDC0089266 /* MBDatabase.xcdatamodeld */,
-				5F8E391B0780D1D0B075728DE59A55AD /* MindBoxAssets.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		45F429EFC8F250A8BA6963F8B9B89836 /* Pods-MindboxNotificationServiceExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -621,6 +194,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		583735C4B64A932C26BF43E8C4934E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B92B0A2FFFE4E50580631A287DC2B8C /* MindboxNotifications */,
+				94D94257E74BC139BF0327007EBA1356 /* Pods-MindboxNotificationContentExtension */,
+				ACC5762AAE2F65297B48EC21FA527EAB /* Pods-MindboxNotificationServiceExtension */,
+				E11465FB7E4B986D128135A9AC38EB72 /* Pods-OlimpicFind */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		654D2C26E0E2B0B66753A9DA93DEA38A /* Pods-MindboxNotificationContentExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -637,6 +221,54 @@
 			path = "Target Support Files/Pods-MindboxNotificationContentExtension";
 			sourceTree = "<group>";
 		};
+		8787BDD492D054E06C88EAF336B05756 /* MindboxNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				37B5BC3D33B63715B8BB95CBB5758993 /* BodyDecoder.swift */,
+				4D4869899D3895BB697225EF2C575181 /* BodyEncoder.swift */,
+				980DA24D22327C64BCE2BC4274EF0015 /* DeliveryOperation.swift */,
+				706D90CF029A43B1EB330F9E527F8631 /* DeliveryService.swift */,
+				6649208604B8CD14D27F5E8044911E2B /* DeviceModelHelper.swift */,
+				A9D314A8870588AD6209B33B588201D0 /* ErrorKey.swift */,
+				5EAA28081CD017AEB2EF3546352F2771 /* Event.swift */,
+				E9ECB1A4F826E311EBA46307ABA8AC14 /* EventWrapper.swift */,
+				1EAC7E5D556B6B4ED21B5EC33EBD2353 /* HTTPMethod.swift */,
+				A015C2BAFDC45698D66DD4ADD5C912BE /* HTTPTypealiases.swift */,
+				D5134BD906E268CA5AAFA6E3BDFBBEA6 /* ImageFormat.swift */,
+				DF11D559D2782325645BB7C63C5CFD4C /* Logger.swift */,
+				F22E637699CC2BB81F8ECA36484F9420 /* MBConfiguration.swift */,
+				7D626D559C484B30387EEF1146C862AE /* MBUtilitiesFetcher.swift */,
+				F8C726595D8266F0F0C2B6FCF1C543F4 /* MindboxNotificationService.swift */,
+				29AEABAE3F7E1E46527B263FE9759232 /* NetworkService.swift */,
+				EE192C008470005C1A17DD98B49AF504 /* NotificationDecoder.swift */,
+				9AC27D984EE1AB8DEC0A994BC893CD89 /* NotificationsPayloads.swift */,
+				E312B310A39EC0AAAFF8990E987E80AE /* Payload.swift */,
+				F1DFFAD70BE3117CA691283446E4E346 /* PushDelivered.swift */,
+				94CAC6989F21CAA62F4658C9335DB033 /* PushDeliveredEventRoute.swift */,
+				FF3347721010ACB9992F33FBD1234CFF /* Route.swift */,
+				3ED24152B681DD2F9982ECF47B7FA302 /* SDKVersionProvider.swift */,
+				EAD649F6D1C3E81A9640F0A31F6D71E7 /* URLRequestBuilder.swift */,
+				8F35E2FB062AE7B2FCE817459B7CE028 /* Support Files */,
+			);
+			name = MindboxNotifications;
+			path = MindboxNotifications;
+			sourceTree = "<group>";
+		};
+		8F35E2FB062AE7B2FCE817459B7CE028 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F918099F274C0993523C7EA31C7B9F49 /* MindboxNotifications.modulemap */,
+				5C730C906B2AF0AF7A0D274F6AF29FB0 /* MindboxNotifications-dummy.m */,
+				5BC52B73480B4B8E430AAD3C42F977CA /* MindboxNotifications-Info.plist */,
+				914F955000B8F02AF5925681E2D38EFD /* MindboxNotifications-prefix.pch */,
+				9C1AF6A01AAEDB1CE7F4054DB7F2C23E /* MindboxNotifications-umbrella.h */,
+				BA30CB3252D2FB88F53C8DAE7DB4CA29 /* MindboxNotifications.debug.xcconfig */,
+				8334E302A6A2E19198B68AF0978685D5 /* MindboxNotifications.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MindboxNotifications";
+			sourceTree = "<group>";
+		};
 		9F5520EC23C7291CAEFCA9CF62D97D72 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -647,208 +279,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0B4DC79025769DB178F4260ECBC01D4 /* Mindbox */ = {
+		AC0BD9239C568B52BA6831660FE2A1F2 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9637465527D1E081B5D82A39AE45F52A /* AmountBenefisTypeResponse.swift */,
-				80D6D80C71FE388D7FC598A704369457 /* AmountBenefitsResponse.swift */,
-				5C02F80756AD107746EC48AD64CBAF67 /* AmountResponse.swift */,
-				C0F32484851A4852067E1306205611D5 /* AmountTypeResponse.swift */,
-				C81440BC095225BBA6AE412747F038F1 /* AndTargeting.swift */,
-				BF1F411680E5E4447A323787A919AF13 /* AndTargetingChecker.swift */,
-				5154F3913B9014846EB9A4002FD68EBC /* AppliedPromotionResponse.swift */,
-				EB5224270017DE2698AB32A875EAE7CA /* AppliedPromotionTypeResponse.swift */,
-				EA3270A9B63E5412A0694577D9360D78 /* AreaRequest.swift */,
-				B62705E480E932D2660B116CE56FD059 /* AreaResponse.swift */,
-				4BE839CA797D537FA85682C8C7790CAC /* BackgroundTaskManagerProxy.swift */,
-				9788A0B3E0B8B601523753007054701A /* BackgroundTaskManagerType.swift */,
-				DFA068DB3E7025AC1042EDBA86569E6A /* BalanceResponse.swift */,
-				EF7DC9A777C3ECA8EEAF4E11CFF8FF7A /* BalanceTypeReponse.swift */,
-				F5B2D68B890F47D5A62DC4514DCB0DDC /* BaseResponse.swift */,
-				9BEAF7EFE237FB0074EB0D819D5CE2C3 /* BenefitResponse.swift */,
-				659AED8B32C28EC8356D43EF1D857184 /* BGTaskManager.swift */,
-				2B7C05C855E13E9744C4E62D685921DD /* BodyDecoder.swift */,
-				820B7798CB2C2AC2096DF98C1B1345C5 /* BodyEncoder.swift */,
-				4C490B3396B362C35F006AFEF42D3D2D /* CashdeskRequest.swift */,
-				A03EDCB04223707C4D30544E70770838 /* CatalogProductListRequest.swift */,
-				164111464DC8586BFA1CEA4CEFDB21D3 /* CDEvent+CoreDataClass.swift */,
-				9F51F31DB56FB41C56B25B818457D19F /* CDEvent+CoreDataProperties.swift */,
-				8856368DCD8ECC910A0152F768C38496 /* Channel.swift */,
-				E56F2BC72F8C5B53044DED6D0F574CC3 /* ClickNotificationManager.swift */,
-				52307F0878BFED8DC8BCD99405E73A14 /* CodableDictionary.swift */,
-				6696E8ED3EE036DDEAE0AECADC85D171 /* Constants.swift */,
-				1F4C7A9B0B5552769B6333E65E1E1464 /* ContentResponse.swift */,
-				474EFE478CF997C8082AB4BDBA86B47A /* ContentTypeResponse.swift */,
-				0832054326D23338559FB3E7FBFDA5C1 /* CoreController.swift */,
-				AC4EE5755CAD36FC82A75D5DC2C04DED /* CouponRequest.swift */,
-				F4A362798B673F2FDEC61799C462EB3B /* CouponResponse.swift */,
-				1972E0D04265C178BC6C41349CAACAB5 /* CustomerActionRequest.swift */,
-				C42B39F80C4BC772985C1C23EF1E1E14 /* CustomerRequest.swift */,
-				4575887C6B3801D448CFCFDA2A352509 /* CustomerResponse.swift */,
-				2C258520A560EF8AE9E23DE3AAAC11B9 /* CustomerSegmentationsResponse.swift */,
-				218141F1EA346EE62A2BC13DE70BBE68 /* CustomerSegmentsAPI.swift */,
-				09A7914DCFF1511E428C0B9792E0450B /* CustomEvent.swift */,
-				E047A9CCBD6CD2AF8A371B16F8CDCDDF /* CustomFields.swift */,
-				295F49C45F2DBD96FE16CEE8CACAFDAB /* DatabaseLoader.swift */,
-				10B6A21A99E15C7BC839E86EB01E9BB7 /* DeliveryOperation.swift */,
-				68B1892FAA6DEE6CD89C720891A9918F /* DependencyContainer.swift */,
-				3A4F5D24DF2C284FBB70F5744C2A8C7A /* DependencyProvider.swift */,
-				FEDDB4E5A2A6C5C7F5A9D7710F2453E3 /* DeviceModelHelper.swift */,
-				16D460538DBF19F28BE8A665B15FB0BB /* DiscountAmountTypeResponse.swift */,
-				FF5DA270C077D96FED9CACBF231FFE98 /* DiscountCardRequest.swift */,
-				2B81C97DFFEAF10D2B7A79F663E17C9D /* DiscountCardResponse.swift */,
-				EB733C24F137D96C4E9A13F87FE89B3D /* DiscountPromoCodeRequest.swift */,
-				DFDE52021C1DB8E208612349EED91EAD /* DiscountRequest.swift */,
-				7B9706C93CABBDF1195A3D00B1E2D861 /* DiscountResponse.swift */,
-				C4CFA5051EE0D4D6E9C0EE225C9D3D22 /* DiscountTypeRequest.swift */,
-				0AA6B8EEC5CC18AA3F011943639EC5A0 /* DispatchSemaphore.swift */,
-				9D2D200AFB9954BEB3565652EA012BC3 /* ErrorKey.swift */,
-				D0EEE36B48D2B05ACF1275FE12E0B40B /* Event.swift */,
-				96194C6882EF4CF23AF8DB8D013A1898 /* EventRepository.swift */,
-				59A0EA42CD5E148A7BF552E9D5CDA3D5 /* EventRoute.swift */,
-				5054D8CDACE0C66D7E70ED7C94485349 /* EventWrapper.swift */,
-				70EBA4E6547A29D9AB55D39C25522D44 /* GeoTargeting.swift */,
-				0E20833DC47757815D5796B331151672 /* GeoTargetingChecker.swift */,
-				3FB71702A845B2528105E92FDD4559C8 /* GuaranteedDeliveryManager.swift */,
-				DD259A1645F20659C0236BDDEB91ECAE /* GuaranteedDeliveryManager+State.swift */,
-				014CDD324C7629B21EE244B9589979ED /* HTTPMethod.swift */,
-				343772D306346F4F506DAB29434868D2 /* HTTPTypealiases.swift */,
-				A796C9E7CB5D661A98C5541291F6D0F0 /* HTTPURLResponseStatusCodeValidator.swift */,
-				3AD2C52101517ABC222A655636BFFA2D /* IDFAFetcher.swift */,
-				4AF6600D634CB04837D55E5F8E2780E3 /* IDFVFetcher.swift */,
-				3F85303DB125CA1580597554861F4BBA /* IDS.swift */,
-				E4BD370B0AD17FEC9809B103F4A94A34 /* InAppConfig.swift */,
-				64BDA2CA08842B489DDBB135A12DB9A5 /* InAppConfigResponse.swift */,
-				F44AA8DDCDDD03CEBBC524592ADEE2B7 /* InAppConfigurationAPI.swift */,
-				A71ACA487263A5B091E7D174334AA979 /* InAppConfigurationManager.swift */,
-				60210E908379A3D092F4B85429BDB47D /* InAppConfigurationRepository.swift */,
-				4553F320FDA7D2698FFC01DEC5D41E94 /* InAppConfigutationMapper.swift */,
-				59408D174E1D564AEC9F29C9C8B4B5E1 /* InAppCoreManager.swift */,
-				FCC968318527AC17161EBD15668DD9BE /* InAppFormData.swift */,
-				79724BF1507BB4077DE822CF60EC4875 /* InAppGeoResponse.swift */,
-				EB9A23822FC859FC1B443B9FFF27DA49 /* InAppImageOnlyView.swift */,
-				CACE76A0952706107AC5813B7490B9C6 /* InAppImagesStorage.swift */,
-				F3581B363859C76ADBDC0A8680932086 /* InAppMessagesDelegate.swift */,
-				43B8B93D929D7361E14E79DB6E3F6AB7 /* InAppMessagesTracker.swift */,
-				EFE0A432146B55D562A562DBFEBC18E8 /* InAppMessageViewController.swift */,
-				74EA1FDAA485F1D097B679DC51A5AF7A /* InAppPresentationManager.swift */,
-				4FF6153FA2D537A8A078B2A2AE941ADF /* InAppResponse.swift */,
-				AD1AEECD2DC96A54E8535D3DD351091B /* InAppsCheckRequest.swift */,
-				7181BC38A4C4D367E6AB7DA7FF62E23D /* InAppSegmentationChecker.swift */,
-				5F63745A3E91A7B7622C965578E1D3A2 /* InternalTargetingChecker.swift */,
-				C3D8897FA42BA7759E50D2A5F1EB68C3 /* IssuedPointOfContactResponse.swift */,
-				A0C27E0CC9288A5E99685F5916AB4E1A /* ItemProductResponse.swift */,
-				D93C56B8F426A78E6CA149B0F7AD85B7 /* ItemRequest.swift */,
-				C15E2D891B88807B8CDE6ECF82668ADA /* ItemResponse.swift */,
-				43AB8CC3917BF11AD0C7262227A31581 /* LimitBenefitsResponse.swift */,
-				2F7E98B638B27130B9D7C5F7ECB46E78 /* LimitResponse.swift */,
-				EDD49411D3ABB4A9AC4951CCF96FA7BD /* LimitTypeResponse.swift */,
-				2151FA8E47F729E282AA291E9FF61C98 /* LineRequest.swift */,
-				24F1649A39C9119FE9F97B974147A174 /* LogCategory.swift */,
-				0706CBB4C1596148301AA4C5113B9931 /* Logger.swift */,
-				38FAF0CD99ABE9E4333E55C43004C963 /* LogLevel.swift */,
-				67DD1BA42C1D7880A3BF669BD2EB0A57 /* LogManager.swift */,
-				56F3CC1461F0B266E404198C65A79E66 /* LogWriter.swift */,
-				947DE4F3B298D7D8F38AB4A225516934 /* ManufacturerResponse.swift */,
-				1A9A12021CE205B45688A22A560C5FB5 /* MBConfiguration.swift */,
-				5B33A8DD992AAB5BC970A6FF54B9FEFF /* MBDatabaseError.swift */,
-				2AB12A08ABAEF5B871E36A75ACC9335D /* MBDatabaseRepository.swift */,
-				8508CB84E06CA7C8CE3AA5483D8F235C /* MBDate.swift */,
-				0A5BDF6939F3013B237DA3558982167A /* MBEventRepository.swift */,
-				B2F709E02D67A4CC78FBDA8ADA92C5F9 /* MBNetworkFetcher.swift */,
-				A055195EAC37056AC37F494C78B95995 /* MBPersistenceStorage.swift */,
-				F6F9A57932A29CCBD7C56513B6710F42 /* MBPersistentContainer.swift */,
-				D5FC5390765C70F0B12DAD1FC3B093A0 /* MBUtilitiesFetcher.swift */,
-				884E901CBF229BFAC6F2D0338DCEA558 /* Mindbox.swift */,
-				01ED84E1B796283BE328736D8F28B283 /* MindboxAppDelegate.swift */,
-				75B925C69576299145433C9004702A57 /* MindboxDelegate.swift */,
-				FE9D26299E8EB222FAC8B43960421159 /* MindboxError.swift */,
-				8A1EFD19CE6871499D497ED0F31EE1EF /* MindboxErrors.swift */,
-				901CC51D8C8ACB55299269D23A4CCB97 /* MindboxSceneDelegate.swift */,
-				C7CDB2AF7B45DB64422BE95650DCFD3A /* MobileApplicationInfoUpdated.swift */,
-				5DF591AF2E0A54F25FDD6A77D5704A75 /* MobileApplicationInstalled.swift */,
-				6ACA4297557459CC3A2C6EDAD7D8867B /* NearestExpirationResponse.swift */,
-				C506CD60F64BB73771F1629845FBFA71 /* NetworkFetcher.swift */,
-				3A8D5D85DD31BF24550DCA2BBBAFCA4D /* NotificationDecoder.swift */,
-				012106D1F04B9DE40A784AC04507A8B6 /* NotificationsPayloads.swift */,
-				13061651F73083D80A1D755219AF9B7A /* NSManagedObjectContext+.swift */,
-				88F9F2C42C71F94DD824A95D03CC1B87 /* OperationBodyRequest.swift */,
-				4318FA4BF2A58F943781A6D86B9B4ED4 /* OperationBodyRequestType.swift */,
-				C5E98049C81EF84BFF88CB10E24A7EEE /* OperationResponse.swift */,
-				D82515DD65980BE049CD77695BB6F915 /* OperationResponseType.swift */,
-				665B36AEDC63363411F155ED906D7E65 /* OrderRequest.swift */,
-				6C624B88E62CF3FDF5995E272CF3B232 /* OrTargeting.swift */,
-				AF9ADAF501AE237E55AFF8040A586455 /* OrTargetingChecker.swift */,
-				5A488653E880B7803D8A0B76C6E5A79F /* PasteboardUUIDDebugService.swift */,
-				D543BA3E334CED1D6EAF57E04D99ADD8 /* PeriodTypeResponse.swift */,
-				8F0FE87E46F4F7BF8CC9B5ACAFA5D173 /* PersistenceStorage.swift */,
-				9FAD142415A24EAC4F10E7B3EBA31D38 /* PersonalOffersResponse.swift */,
-				250F9504925FC2FB1C3AC6FBB29C69F9 /* PlaceholderResponse.swift */,
-				294D516A1C08C7B16251B10537664D8A /* PoolRequest.swift */,
-				08C268521B95891625132688A5FEFEA5 /* PoolResponse.swift */,
-				5078DB7FEE7A6E584F93D51F279F7B0B /* PossibleDiscountsResponse.swift */,
-				D20FD22620A2AE4C5BC41D34D6F2C940 /* ProcessingStatusResponse.swift */,
-				C2EFF0FF0E5BF2CA9D1BC4766689CDC2 /* ProductCategoryRequest.swift */,
-				BDBD61BCB42597D26D555478400CE414 /* ProductElementReponse.swift */,
-				6ED456582DD5513510CB8FAE6E5FA527 /* ProductGroupRequest.swift */,
-				93C185DF8EC80E01ED4992CAF51CBA41 /* ProductGroupResponse.swift */,
-				FC94A7CEC23062A5DB48532011BD40DE /* ProductListItemsResponse.swift */,
-				6637683D342087BCA5BF4C6F1BDE3FC7 /* ProductListRequest.swift */,
-				D1388C90F386E722EE9A1EECD3C1B2A4 /* ProductListResponse.swift */,
-				833E3FD593BF08DA109F3B77BC8971A1 /* ProductRequest.swift */,
-				742DB3D55192712D140F4EC28F0DA2CD /* ProductResponse.swift */,
-				4A3A061E3D191AAA84731C836AB071B1 /* PromoActionsResponse.swift */,
-				4B0BB4B1C594602F791CD05F62975E32 /* PromoCodeRequest.swift */,
-				10A71045D6FDB47809F35975A3214F96 /* PromoCodeResponse.swift */,
-				50CA6A18D1BCE5F0CBB00AE73E3749B6 /* PromotionResponse.swift */,
-				11B1AF2E25C508C82B44933C2D9824A2 /* PromotionTypeResponse.swift */,
-				811DFF3F4392345ADE5F8DED2D6CEFE7 /* ProtocolError.swift */,
-				6A30C2F3E64F7BDEF0E87231148FAF36 /* RecommendationRequest.swift */,
-				18AED11F241C5C2CE32CC584E62C0CB1 /* RecommendationResponse.swift */,
-				7F9D4046CDC8E48B718992B9D7BC4040 /* RequestedPromotionRequest.swift */,
-				3A5FC54930D9D0467D11717366D61876 /* RetailOrderStatisticsResponse.swift */,
-				FF0DBEA9DE7590BCA7804B711FCF517E /* Route.swift */,
-				0B59B5FA33D5F01D644CA36CE3026321 /* SDKVersionProvider.swift */,
-				3714B76BCD9072C2A0C0148831C77074 /* SegmentationRequest.swift */,
-				BE0A1A9761060C09525987A2B7CD2C03 /* SegmentTargeting.swift */,
-				FEBB2CB72715B03C27BE7A1F88D142F8 /* SegmentTargetingChecker.swift */,
-				1CF87337F1E0AC70D0A0B9E0040788E7 /* SessionManager.swift */,
-				A68DDA9F9252FEB0A460EA75239125E5 /* Sex.swift */,
-				7395E9A3E58E7CED7126A2822FB58948 /* Status.swift */,
-				496E7CE64EED8EBBC92FFD413B9A79F1 /* StatusResponse.swift */,
-				57304534361EDDA2B3774E3FAC5E4C44 /* String+Regex.swift */,
-				E5D09DCADD1C5E93013DF5EB8640BD3C /* SubscriptionRequest.swift */,
-				FF6396760178CEAA89BC9859A53AE827 /* SubscriptionResponse.swift */,
-				41BC44918C59800C015AAB5722DE2241 /* SubViewProductRequest.swift */,
-				224E92D0CBB95713D3DE9FA7ABD2E361 /* SwiftyJSON.swift */,
-				D42B622623DE00312FB8C3D51EC41B78 /* TargetingChecker.swift */,
-				1FE6D2A69914CFBB2AE52BC1AD0634D9 /* TargetingModel.swift */,
-				8682ED5E77249ACB2C0B640F1FD8C34A /* TimerManager.swift */,
-				72248DCB21E42CA775F872136A1264BC /* TrackClick.swift */,
-				0B6B9DCC778BEB576CA6471CE8C650F6 /* TrackVisit.swift */,
-				000617291E8E030B3CB85934D31C10BC /* TrackVisitManager.swift */,
-				2A0324B562BB517AEE2E059C62B6C8FB /* TrueTargeting.swift */,
-				940E5CE22C7E344498CBD3B0F66263D7 /* TrueTargetingChecker.swift */,
-				D53CDE1D938E8AFCD236DD9D2F84A920 /* UDIDValidator.swift */,
-				CC0BF977E497832CC26A7833EFB9054F /* UIBackgroundTaskManager.swift */,
-				65AC2CD8AEFB181B6461011B2FB7C0F2 /* UNAuthorizationStatusProvider.swift */,
-				DBEE5D1364A728E271BB6EC45200BF8E /* UNAuthorizationStatusProviding.swift */,
-				6013D5A248F0876845519AE56C755C0A /* UnknownDecodable.swift */,
-				2FBBFA9FD1A5AA7E4ECC212F960D37AE /* URLRequestBuilder.swift */,
-				C9163400FD47BCF28DAC3E26318A3DAB /* URLValidator.swift */,
-				5958DFA52DC1426D1E92E0A3AC93FC12 /* UsageServiceStatusResponse.swift */,
-				677A0FC5F3C2D361449E057F4234C46F /* UsedPointOfContactResponse.swift */,
-				C85D9F3970A789DBCE854A02F3B6D9B9 /* UsedResponse.swift */,
-				7E7C8D77A7B47BAFE5CCC68758EA205A /* UtilitiesFetcher.swift */,
-				C2542E7BF7AE2B1D6FD674D9E7144165 /* UUIDDebugService.swift */,
-				657DE54261D210F641F1900E50C01FC5 /* ValidationError.swift */,
-				9F7727BF9D03854B7DFEE98F298C68A2 /* ViewProductCategoryRequest.swift */,
-				BFDC95D6B0C85FDD5FF2D658BF7C700C /* ViewProductRequest.swift */,
-				1F136C290FC53EB9F42B06C64CEFF595 /* Resources */,
-				D822E05542140864C43F5D28DCF849DA /* Support Files */,
+				8787BDD492D054E06C88EAF336B05756 /* MindboxNotifications */,
 			);
-			name = Mindbox;
-			path = Mindbox;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CAB644F2D4E5C2567290721AB19034C5 /* Pods-OlimpicFind */ = {
@@ -873,52 +309,10 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				D048D22A52F49DA4A025CD1B88A8F0D9 /* Pods */,
-				F18070185778D437FEFE0EB0B0349759 /* Products */,
+				AC0BD9239C568B52BA6831660FE2A1F2 /* Pods */,
+				583735C4B64A932C26BF43E8C4934E00 /* Products */,
 				9F5520EC23C7291CAEFCA9CF62D97D72 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D048D22A52F49DA4A025CD1B88A8F0D9 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C0B4DC79025769DB178F4260ECBC01D4 /* Mindbox */,
-				D180340A8909E88D55623C61452732F7 /* MindboxNotifications */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D180340A8909E88D55623C61452732F7 /* MindboxNotifications */ = {
-			isa = PBXGroup;
-			children = (
-				E58FD50BFF374494F47A1460B324A0F7 /* BodyDecoder.swift */,
-				EE2AB3BA3EEDE3D279891F587AA86732 /* BodyEncoder.swift */,
-				F69E5B5B6841513AF064F63090E186D1 /* DeliveryOperation.swift */,
-				38701A6F5F731CDA8081CAF22DC04570 /* DeliveryService.swift */,
-				2990DBF2964608C7CB81543C9B874D72 /* DeviceModelHelper.swift */,
-				6972468CF360AEEA71F4FB4AF05DB6CA /* ErrorKey.swift */,
-				9753A3B3E263A180E54E11B389020E52 /* Event.swift */,
-				06643A4A4B8EFE93251B7113E309DCA4 /* EventWrapper.swift */,
-				91810BA64B018E6F93BDBD75CCC87206 /* HTTPMethod.swift */,
-				8EB69EBAF84B1A053EB10B1C77725222 /* HTTPTypealiases.swift */,
-				B1F766C96701F678EDB163466FB4BA69 /* ImageFormat.swift */,
-				0BF358B235F2C5B7917E8703ABF9CE9A /* Logger.swift */,
-				644F90FC46BC7B8D5BFC9F11F4764C81 /* MBConfiguration.swift */,
-				B7294B3F3AD03F8F5CE10F4869AF4C1A /* MBUtilitiesFetcher.swift */,
-				43A7F5C02306772617A6ACD73C698EE9 /* MindboxNotificationService.swift */,
-				BC290B431B2610E9BEF1934ED943971D /* NetworkService.swift */,
-				C6D62B919B9606DD81F2C139A1417901 /* NotificationDecoder.swift */,
-				C902A4ACD913F9F8AFC974DFCD4F9758 /* NotificationsPayloads.swift */,
-				7D2F08E20D4F7F57E031C6DD82D09B9D /* Payload.swift */,
-				433487ADE216921D3F4B298DBD0A8206 /* PushDelivered.swift */,
-				1E7022BAC6CDD524958AD1A940FDEEF7 /* PushDeliveredEventRoute.swift */,
-				B37B6E18C4E7D744DFBB92C8B40E9EFD /* Route.swift */,
-				2045C1CEFD8A4895AC6D5942C6E8C4E7 /* SDKVersionProvider.swift */,
-				20D479A0C746A6F4A38006E0FD4253E6 /* URLRequestBuilder.swift */,
-				E81A3EC3144439DDA1C6AAC6F8CD3AC0 /* Support Files */,
-			);
-			name = MindboxNotifications;
-			path = MindboxNotifications;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -929,59 +323,9 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D822E05542140864C43F5D28DCF849DA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9CAF399B42364055E30C877060C7F0AD /* Mindbox.modulemap */,
-				BD96CCD460340F9B3BEE0F62500B458E /* Mindbox-dummy.m */,
-				D036492C2E5DB2F7FA6DCF7039E0AB5B /* Mindbox-Info.plist */,
-				C6199170F4577B2FECD5158F57219C27 /* Mindbox-prefix.pch */,
-				0ABF864C2FA8399E0EF169256DCE0EA6 /* Mindbox-umbrella.h */,
-				5EDB9048042531643A679C823411D606 /* Mindbox.debug.xcconfig */,
-				64902A87CC1E87D20EA34AB32C3C8F98 /* Mindbox.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Mindbox";
-			sourceTree = "<group>";
-		};
-		E81A3EC3144439DDA1C6AAC6F8CD3AC0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				67964817A91058731AA2E7D0271E255C /* MindboxNotifications.modulemap */,
-				32AC3553BFD82A12A39523C0451743FA /* MindboxNotifications-dummy.m */,
-				8492618E7EDF52394AA52233BE7B36D7 /* MindboxNotifications-Info.plist */,
-				E03107A28695B19674E9BD6E65BB8113 /* MindboxNotifications-prefix.pch */,
-				D917974DB8DE4FCEB6F4B130FA5EBBA5 /* MindboxNotifications-umbrella.h */,
-				9CE66B3A888807940FDEA7CC09817471 /* MindboxNotifications.debug.xcconfig */,
-				DBF2F9B3D5CD896F1ACBAB79A07E499F /* MindboxNotifications.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MindboxNotifications";
-			sourceTree = "<group>";
-		};
-		F18070185778D437FEFE0EB0B0349759 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				66BB0874E6421069A7F055CB853F3247 /* Mindbox */,
-				5B92B0A2FFFE4E50580631A287DC2B8C /* MindboxNotifications */,
-				94D94257E74BC139BF0327007EBA1356 /* Pods-MindboxNotificationContentExtension */,
-				ACC5762AAE2F65297B48EC21FA527EAB /* Pods-MindboxNotificationServiceExtension */,
-				E11465FB7E4B986D128135A9AC38EB72 /* Pods-OlimpicFind */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		046FFDB24C7FF0A6F4DCD98DB13CF854 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C0A31C2EBCA67029BD8DCF2064B8C84F /* Mindbox-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0B36A437DBED16FD00216A2237DE4611 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -990,11 +334,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		592C77D8E6A9D20889AAFD81D992198F /* Headers */ = {
+		2300E4103E3BC8AE55C8DCD609DD47BF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				883D674C771936F518183385A22EF563 /* Pods-OlimpicFind-umbrella.h in Headers */,
+				B53A4416E568CE31F88265A8463F1072 /* Pods-OlimpicFind-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1047,7 +391,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				092158D0CFCC8B96CC61E4656218FCD7 /* PBXTargetDependency */,
+				B8A08D722BDEC144F7964A90E52E3AE2 /* PBXTargetDependency */,
 			);
 			name = "Pods-MindboxNotificationServiceExtension";
 			productName = Pods_MindboxNotificationServiceExtension;
@@ -1056,18 +400,17 @@
 		};
 		DBAB775F196C6DD1E22BAA63EFB949C2 /* Pods-OlimpicFind */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB61117205C1ED9C382A40C75426A503 /* Build configuration list for PBXNativeTarget "Pods-OlimpicFind" */;
+			buildConfigurationList = 372359816AB01425DDE029F43B5B788D /* Build configuration list for PBXNativeTarget "Pods-OlimpicFind" */;
 			buildPhases = (
-				592C77D8E6A9D20889AAFD81D992198F /* Headers */,
-				3293E3EFB6B437CA91C8CFAEE55572C1 /* Sources */,
-				C04BEF0433EF1FE885CE6FD827C102BE /* Frameworks */,
-				27D46D9682F9E72ACA8F398D454421AF /* Resources */,
+				2300E4103E3BC8AE55C8DCD609DD47BF /* Headers */,
+				1A493473501444400259D75610C85C32 /* Sources */,
+				C2D29BA10DED1522F815A6BB7E2CD571 /* Frameworks */,
+				53E9DF38D3CDE416E240B9ECEA9B395B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FCFDDBEEBDAF190652A4C6EB168AD752 /* PBXTargetDependency */,
-				8562E42BF2704C7841E70B9C20B4CFFC /* PBXTargetDependency */,
+				376559655811378663C942DA0AB0F6C8 /* PBXTargetDependency */,
 			);
 			name = "Pods-OlimpicFind";
 			productName = Pods_OlimpicFind;
@@ -1086,29 +429,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				A40952DAFFE8D2E4F66DDCFAF95B0673 /* PBXTargetDependency */,
+				9A1226CAA09CCDD7FFE1F35423E94FA4 /* PBXTargetDependency */,
 			);
 			name = "Pods-MindboxNotificationContentExtension";
 			productName = Pods_MindboxNotificationContentExtension;
 			productReference = 94D94257E74BC139BF0327007EBA1356 /* Pods-MindboxNotificationContentExtension */;
-			productType = "com.apple.product-type.framework";
-		};
-		F09FD53C0D7355712413F61F1C377646 /* Mindbox */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9BF40DC25D90824586A9A6C0EFA205DA /* Build configuration list for PBXNativeTarget "Mindbox" */;
-			buildPhases = (
-				046FFDB24C7FF0A6F4DCD98DB13CF854 /* Headers */,
-				F5195AE6C292AD22C8DBEEF67DFC3F36 /* Sources */,
-				EE9262E804333E37A6145059C6C2BD22 /* Frameworks */,
-				136A8B94644187DABEAD5DD23D1BA050 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Mindbox;
-			productName = Mindbox;
-			productReference = 66BB0874E6421069A7F055CB853F3247 /* Mindbox */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1129,11 +454,10 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F18070185778D437FEFE0EB0B0349759 /* Products */;
+			productRefGroup = 583735C4B64A932C26BF43E8C4934E00 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F09FD53C0D7355712413F61F1C377646 /* Mindbox */,
 				32D65C82842026F006B3F2C29969F048 /* MindboxNotifications */,
 				E8E0628E60A5590627179549C2F25B19 /* Pods-MindboxNotificationContentExtension */,
 				9BD262F6B4C7F627A03CD8DC40EA63C2 /* Pods-MindboxNotificationServiceExtension */,
@@ -1150,22 +474,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		136A8B94644187DABEAD5DD23D1BA050 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FB9D3A98C076817834E3C4A8505CAA45 /* MindBoxAssets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		27D46D9682F9E72ACA8F398D454421AF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3FF4282C95EAA716484023CB2CEE0392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E9DF38D3CDE416E240B9ECEA9B395B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1182,11 +498,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3293E3EFB6B437CA91C8CFAEE55572C1 /* Sources */ = {
+		1A493473501444400259D75610C85C32 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C68B2573B01C982CADFF1F8C47E5EECC /* Pods-OlimpicFind-dummy.m in Sources */,
+				6D97F83A7E5861D07F3DC1260447CBD5 /* Pods-OlimpicFind-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1238,242 +554,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5195AE6C292AD22C8DBEEF67DFC3F36 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6C1C5029C0A0161A07D824041876DD8 /* AmountBenefisTypeResponse.swift in Sources */,
-				1DF045D7727DF57165DE63F4D1E7E9E6 /* AmountBenefitsResponse.swift in Sources */,
-				26CD075F156406D8C2BF873B0DCE57C9 /* AmountResponse.swift in Sources */,
-				2D2D8CF357F7693F3766AE81AFE4B4B5 /* AmountTypeResponse.swift in Sources */,
-				7ECA26AC03329B21DF2907DAFB11DBFE /* AndTargeting.swift in Sources */,
-				3F52D8F21D56C2F76D749113BE7590E9 /* AndTargetingChecker.swift in Sources */,
-				DB0FDA33A1A42A7106657F3E96743A9A /* AppliedPromotionResponse.swift in Sources */,
-				CF33278C333E94C551C188493AFB02FC /* AppliedPromotionTypeResponse.swift in Sources */,
-				62F3A8DFB7ADDB107C557D34A6485731 /* AreaRequest.swift in Sources */,
-				78F86646B0073629FE03DA26074D090D /* AreaResponse.swift in Sources */,
-				FAEF4A069C080D1FB41C0FDEFC9D0D0D /* BackgroundTaskManagerProxy.swift in Sources */,
-				13ED47864A7EE8E81783ACAABCC650BB /* BackgroundTaskManagerType.swift in Sources */,
-				93B27085E82E9D550A5B30E540440354 /* BalanceResponse.swift in Sources */,
-				22D894D56A1B6E135C9FB9DC6BC381C3 /* BalanceTypeReponse.swift in Sources */,
-				2059FE3E91B65F11E22064FFA802731C /* BaseResponse.swift in Sources */,
-				1D2C7742349112D267D7F43CCD7D536D /* BenefitResponse.swift in Sources */,
-				30EBD969CB780E56F4559BB7D6DFFE86 /* BGTaskManager.swift in Sources */,
-				B447F5F5B6F5151FDC3E98A7EE4138C4 /* BodyDecoder.swift in Sources */,
-				4A124994CBFE8324867F898AD6A92FD1 /* BodyEncoder.swift in Sources */,
-				C0B397448458DEF1392C4CF2F49E1694 /* CashdeskRequest.swift in Sources */,
-				9D4329D0995A515CEBE91E9E78E9CB5B /* CatalogProductListRequest.swift in Sources */,
-				012EF7CA1C4ED08E5B46AA909DC534F2 /* CDEvent+CoreDataClass.swift in Sources */,
-				DD3A1C1AF7EAAAF834DF392C80BD03DB /* CDEvent+CoreDataProperties.swift in Sources */,
-				F717728CDBD17A8792DE71CF8F91792A /* Channel.swift in Sources */,
-				5556BFCF9F1DA21426F46FF64FC9FCFF /* ClickNotificationManager.swift in Sources */,
-				377F98F70549E24E41D219C8089DFF9D /* CodableDictionary.swift in Sources */,
-				04AEC96DB7FFA77EE200603096AD9BFB /* Constants.swift in Sources */,
-				B4A6523D20F75C54B08A7080681E662A /* ContentResponse.swift in Sources */,
-				CF16AB785662C39CEF9FA63FDEDF842D /* ContentTypeResponse.swift in Sources */,
-				FBB2746402A74D90AF7D3C5B28408D8F /* CoreController.swift in Sources */,
-				DAA0489280FFBCAE6858DC0EB8CE7313 /* CouponRequest.swift in Sources */,
-				10F97E073A3DB765571CACC3BB188958 /* CouponResponse.swift in Sources */,
-				A7685D7FFF73BE50F09E278CAB1B2468 /* CustomerActionRequest.swift in Sources */,
-				03E21A3ECC8CC70F40BB067A616FCFE3 /* CustomerRequest.swift in Sources */,
-				EB389FDB0EE792E78F1AF70B5C0AEA3C /* CustomerResponse.swift in Sources */,
-				4460F2EE389D326DD000B850FA4C5DC3 /* CustomerSegmentationsResponse.swift in Sources */,
-				38819B692212EF6CEB15A05326A0CCA0 /* CustomerSegmentsAPI.swift in Sources */,
-				881D9289F082633D3E3162034D6922F2 /* CustomEvent.swift in Sources */,
-				D66BD51AD4866C4AB015F65467D1F061 /* CustomFields.swift in Sources */,
-				361657ED8AC70341B283DCF06382AA90 /* DatabaseLoader.swift in Sources */,
-				0BD928024BFDC5B4FB4890A9EE01CD0A /* DeliveryOperation.swift in Sources */,
-				FFD6D9C7D85CA7243137667172FE9F37 /* DependencyContainer.swift in Sources */,
-				A4FAD4BF2D1379371FF1625A0995195B /* DependencyProvider.swift in Sources */,
-				60A0F6EB3305506927533882C8BEE0B3 /* DeviceModelHelper.swift in Sources */,
-				416713983F00C4BC7F9BF3E62E178081 /* DiscountAmountTypeResponse.swift in Sources */,
-				3ED8AB3D0FB4BEF2614223C39B0CF438 /* DiscountCardRequest.swift in Sources */,
-				57D206F5F8C38DBDD9124F4222A9BD49 /* DiscountCardResponse.swift in Sources */,
-				69AD2FC22B5AD074552AF864649477DF /* DiscountPromoCodeRequest.swift in Sources */,
-				274529A84444F778A2418ADFBB9B6E3D /* DiscountRequest.swift in Sources */,
-				10A85ED794F0A4811BAE07368E6CF193 /* DiscountResponse.swift in Sources */,
-				759B244759BEA647008CFEDED6CB615C /* DiscountTypeRequest.swift in Sources */,
-				53E34A6BC0E5C7336886495EBD5D35E0 /* DispatchSemaphore.swift in Sources */,
-				B1C773C2CD3158D1C7AF9A76D097B72B /* ErrorKey.swift in Sources */,
-				26F5C4C84C902929E78FD9DA0870A0EC /* Event.swift in Sources */,
-				8A5102276599309C753DAF9E2214EB35 /* EventRepository.swift in Sources */,
-				575F013DF990BF8DF1264E31E9EFD811 /* EventRoute.swift in Sources */,
-				E27DF34E6427E63BB47A608262EC993F /* EventWrapper.swift in Sources */,
-				3B7BD6E1BA7CF16883D9ABBA5843F1B5 /* GeoTargeting.swift in Sources */,
-				57CB0C66EB42AF1CAD0FE997711A8F69 /* GeoTargetingChecker.swift in Sources */,
-				DA40B64E8649751C29FC6CE248CF6ADD /* GuaranteedDeliveryManager.swift in Sources */,
-				84F9C391F69E3CEC1A9213D8DAAF3B61 /* GuaranteedDeliveryManager+State.swift in Sources */,
-				3B22011B4C854CDC88DD8A4B6DFE10BE /* HTTPMethod.swift in Sources */,
-				E0CC8FB0826C83587768B935CC9861B2 /* HTTPTypealiases.swift in Sources */,
-				19F7A63013E1111CCF6B96C1D5ABF2CB /* HTTPURLResponseStatusCodeValidator.swift in Sources */,
-				971D743FCEBBDC4147E5691F4362C041 /* IDFAFetcher.swift in Sources */,
-				3B0641965AB33D25680E656B8C7940C8 /* IDFVFetcher.swift in Sources */,
-				38DC87DBF2172FFBE27DB151DCA9A775 /* IDS.swift in Sources */,
-				92BB3BB343358CD0A2E5981AC7C4B329 /* InAppConfig.swift in Sources */,
-				799683889EEB57EBEECEED7B8F16D133 /* InAppConfigResponse.swift in Sources */,
-				8589F961B6B86CEDD0AC809C631707A3 /* InAppConfigurationAPI.swift in Sources */,
-				E2E32CB6F4FB36FF1BB7B916EA304B17 /* InAppConfigurationManager.swift in Sources */,
-				FD12B40273462D5741D03CCD7BA0D430 /* InAppConfigurationRepository.swift in Sources */,
-				F2C33297CF854E434B010B31BE71622A /* InAppConfigutationMapper.swift in Sources */,
-				58CBC228B14DBA79597043A3232BD978 /* InAppCoreManager.swift in Sources */,
-				ACE7AA6F257BB50A508A21C661BECE34 /* InAppFormData.swift in Sources */,
-				B219A1101180560D3931D1C1EB6EEA4D /* InAppGeoResponse.swift in Sources */,
-				88353D94B2349333CE9B31382AB36262 /* InAppImageOnlyView.swift in Sources */,
-				CD9D7B7497C7F504044F14D48843F916 /* InAppImagesStorage.swift in Sources */,
-				238E4111B88CA18DD198D9583B0394FD /* InAppMessagesDelegate.swift in Sources */,
-				E85984316D30192B73A7E7CFCD25617F /* InAppMessagesTracker.swift in Sources */,
-				2D12BCD78429169FCCFB05FF074EA0D3 /* InAppMessageViewController.swift in Sources */,
-				F148785F1CE9C679F1D03DBA4025FDB4 /* InAppPresentationManager.swift in Sources */,
-				3AD6CEAF004CF2D2844C0A224D812FC5 /* InAppResponse.swift in Sources */,
-				4B4C40807A078C9AB40AF273026FD885 /* InAppsCheckRequest.swift in Sources */,
-				A33632E71492BBBAFAB2E9DD85885C81 /* InAppSegmentationChecker.swift in Sources */,
-				AC3733609B528E11387983F74B1AFEEF /* InternalTargetingChecker.swift in Sources */,
-				D13410DFE7B0A2805E0192648D6BE2D0 /* IssuedPointOfContactResponse.swift in Sources */,
-				D55D715E941218AF4B7DA9E39C18A2BF /* ItemProductResponse.swift in Sources */,
-				519DC72715326FD3C9321A3DFC8EB167 /* ItemRequest.swift in Sources */,
-				6F93593FC4835BE0A00BDC49740F8600 /* ItemResponse.swift in Sources */,
-				5AFD21A8A6A52F213BEEE45537B025A6 /* LimitBenefitsResponse.swift in Sources */,
-				E4E6A3A315D6BB898C70134E5D998ADF /* LimitResponse.swift in Sources */,
-				630BE80B69AF085EE55521B40C099DFE /* LimitTypeResponse.swift in Sources */,
-				3F5EF9781B5863E3FC0347625E9FA994 /* LineRequest.swift in Sources */,
-				F497B6A160CAEC0EFCED10EE4EA89CB0 /* LogCategory.swift in Sources */,
-				0C38EACF188F9380BD749C048FFF09FD /* Logger.swift in Sources */,
-				979836B8FDDB05136D8B91B7841C5EA7 /* LogLevel.swift in Sources */,
-				00D08D41839A5337C2D32BBE4AEDDE8C /* LogManager.swift in Sources */,
-				C3BEEC2E2AF57B020D108CA6F27DA531 /* LogWriter.swift in Sources */,
-				131B66D3EA78B2D23DB62A26C3CFBE20 /* ManufacturerResponse.swift in Sources */,
-				C8103E4CCD1806B2D72C02156D2BF5E8 /* MBConfiguration.swift in Sources */,
-				3379F704235F54577A21A30C890A97EE /* MBDatabase.xcdatamodeld in Sources */,
-				C637403E9DC244D50AD5EDEC43CBCAB5 /* MBDatabaseError.swift in Sources */,
-				06BAEB2062D92B81F14EBB35E83CE36E /* MBDatabaseRepository.swift in Sources */,
-				BD09BFA4CBFB59291402F60C6A099B9A /* MBDate.swift in Sources */,
-				DC29A573EE959D2EA9785D1A271EC7D7 /* MBEventRepository.swift in Sources */,
-				69E077C78478FFA370D049E605D64AED /* MBNetworkFetcher.swift in Sources */,
-				4F98E49478DDA3D634B52D01253B45A5 /* MBPersistenceStorage.swift in Sources */,
-				3E9F9F293FB5CC44DDB614A80AD2E491 /* MBPersistentContainer.swift in Sources */,
-				07FCB5F4EDEF9B849102FB143B0AA166 /* MBUtilitiesFetcher.swift in Sources */,
-				A4C3344912DAB9AD6E17179130411F2E /* Mindbox.swift in Sources */,
-				B57F8E12872BD72E16C4CB57A5ABEB5C /* Mindbox-dummy.m in Sources */,
-				B7C204E5C20280AED64232C78CA31FDE /* MindboxAppDelegate.swift in Sources */,
-				D0606A93F28CAC13142B2E4D49F155C7 /* MindboxDelegate.swift in Sources */,
-				AD38034567C005F20AD6F5F3225FF621 /* MindboxError.swift in Sources */,
-				91F11E0113EE187560B0D973A007B3FC /* MindboxErrors.swift in Sources */,
-				45FE74EA52C2748487A2C59DE1CB5EAE /* MindboxSceneDelegate.swift in Sources */,
-				97118EA4090BEB9D9D2F6FBCC76B2714 /* MobileApplicationInfoUpdated.swift in Sources */,
-				7AE6996634F02F61F0F113B240BB4D60 /* MobileApplicationInstalled.swift in Sources */,
-				C3B967C75EA57CD3E689F1677336C3FE /* NearestExpirationResponse.swift in Sources */,
-				7BBB84E2661E0116FBC4330B202892D8 /* NetworkFetcher.swift in Sources */,
-				E309E1739A718940B5DF552CD9CF4163 /* NotificationDecoder.swift in Sources */,
-				5062ABC52FD8B5B182749B693369F2D2 /* NotificationsPayloads.swift in Sources */,
-				74CE6D941A473BDE346193E81E2FF250 /* NSManagedObjectContext+.swift in Sources */,
-				9F6899BFF13899232A46330DDD438C34 /* OperationBodyRequest.swift in Sources */,
-				C32598A8C054A84A1DAE307F43014E7A /* OperationBodyRequestType.swift in Sources */,
-				ADBD10E50FE95B8ADB28AFBFD2A905D8 /* OperationResponse.swift in Sources */,
-				CBCF872C0630301DF86AF6AFCF8A9820 /* OperationResponseType.swift in Sources */,
-				AE2FB83E78A34119476E48E91D478924 /* OrderRequest.swift in Sources */,
-				1084E908A49806AB4A3FC1E9F511DCEB /* OrTargeting.swift in Sources */,
-				2DC2793973FF3491C51B1DFD8151B262 /* OrTargetingChecker.swift in Sources */,
-				B76440564FC08507ACB44E2CF7038BCB /* PasteboardUUIDDebugService.swift in Sources */,
-				644F1A91B944D6EFCF7294AF90893C8C /* PeriodTypeResponse.swift in Sources */,
-				0161B435608A6F8F561FC8DF700B4766 /* PersistenceStorage.swift in Sources */,
-				9008D46F7B0EA9A5D9DC099CFA8D6554 /* PersonalOffersResponse.swift in Sources */,
-				47C375C9870BECA2017F72426939A681 /* PlaceholderResponse.swift in Sources */,
-				40181669FE7D4D00CCD28F0133D24345 /* PoolRequest.swift in Sources */,
-				180494E4C905CA6E22868BF0FB940D4E /* PoolResponse.swift in Sources */,
-				3410218A66CA817F514D29C1222FCFF5 /* PossibleDiscountsResponse.swift in Sources */,
-				7A0A04CE4CC2EAC453DA6366EA86D795 /* ProcessingStatusResponse.swift in Sources */,
-				1256E4EAF0420989B04224DE8C76BBE3 /* ProductCategoryRequest.swift in Sources */,
-				D3F1C0663909CE2BFEF554E449BAD464 /* ProductElementReponse.swift in Sources */,
-				3DF417DE04C142B479427EB3E712CBD5 /* ProductGroupRequest.swift in Sources */,
-				BDDB4DC12C6589308D6C9305DE03C258 /* ProductGroupResponse.swift in Sources */,
-				3016A282B6FE287D815192C091022E79 /* ProductListItemsResponse.swift in Sources */,
-				6A7AF3C1D5FF437746632B0141D2C62C /* ProductListRequest.swift in Sources */,
-				04956C227C2325BF5D3B796AF521F64E /* ProductListResponse.swift in Sources */,
-				A01A2CAA1C0C5CB4A95A30EF9D54717E /* ProductRequest.swift in Sources */,
-				63065006BE8E5DD869B64FAF098DABAA /* ProductResponse.swift in Sources */,
-				7AAD5B46C0A03C01A60B5968A00D48E2 /* PromoActionsResponse.swift in Sources */,
-				908C07F75FAADA2EC46F44F269146908 /* PromoCodeRequest.swift in Sources */,
-				06464715201F6C9362A03CE29443BFEC /* PromoCodeResponse.swift in Sources */,
-				7793F138D556E42B9FC3A7F75FFB4BF3 /* PromotionResponse.swift in Sources */,
-				2E0E2D8AEF18E5595FF6A699B65F2EA9 /* PromotionTypeResponse.swift in Sources */,
-				85DF99AC8871396B18D8A2142DCA7ED8 /* ProtocolError.swift in Sources */,
-				164D6B712666E78F8DCDBDBF551219D9 /* RecommendationRequest.swift in Sources */,
-				5613D1CAC5E8728034C42EFF96C96368 /* RecommendationResponse.swift in Sources */,
-				39076DB6F648102C4777E61D00285AAA /* RequestedPromotionRequest.swift in Sources */,
-				3241F53261587C3E5363FD6CFD049FD4 /* RetailOrderStatisticsResponse.swift in Sources */,
-				6610EA33C437F2261B81C5FDE854CD2F /* Route.swift in Sources */,
-				FDEAA5642215FB1D9601C00DD5718C13 /* SDKVersionProvider.swift in Sources */,
-				AAFB08F3A76458B2B344E68EE316D2D9 /* SegmentationRequest.swift in Sources */,
-				DE85209E1D07AF3B2FF3D21DA71E33BC /* SegmentTargeting.swift in Sources */,
-				CCD9A13210B70C6FCB6E935740B7FCA4 /* SegmentTargetingChecker.swift in Sources */,
-				55F001E426F376ACCCDBBFBE57CD9DDD /* SessionManager.swift in Sources */,
-				F0C4872D1B161EB8DD60B02293198A68 /* Sex.swift in Sources */,
-				ACC2913D6F65D262C918FCFE2B460EC9 /* Status.swift in Sources */,
-				0C9027AD1C994C9E5ABC75D2801EFE16 /* StatusResponse.swift in Sources */,
-				40D1E8BBE727FEEC94D09E8B22CDD8B3 /* String+Regex.swift in Sources */,
-				FEE894A4936192EBE2D05B2E955EEC40 /* SubscriptionRequest.swift in Sources */,
-				C18AF39FDCEF9FC370C6772901930E09 /* SubscriptionResponse.swift in Sources */,
-				CA5E5597E51DC9A7C2EB54E48694C829 /* SubViewProductRequest.swift in Sources */,
-				1A558C1E8A0E5F674EE894B253614AE2 /* SwiftyJSON.swift in Sources */,
-				70F41BDBFA6C963737F49CB34A0D3E94 /* TargetingChecker.swift in Sources */,
-				892C5F3630F82CB0651AFB4EABFBFCFE /* TargetingModel.swift in Sources */,
-				577D05B3C9F49F6CE935629E4474BBDC /* TimerManager.swift in Sources */,
-				FF6CC7E2F27CB6C3E86C85063FBFCD5F /* TrackClick.swift in Sources */,
-				70FD5721A53EE4E47017178E7EF9C5BE /* TrackVisit.swift in Sources */,
-				17D4DDA51A5C6D3D66979588A865D013 /* TrackVisitManager.swift in Sources */,
-				546FDAF9F0CE874806DED45C85F3B985 /* TrueTargeting.swift in Sources */,
-				8911998E666CF962363B5F937A84C3C4 /* TrueTargetingChecker.swift in Sources */,
-				8BD875BC4BB396EE55D3D83313551648 /* UDIDValidator.swift in Sources */,
-				5B8795CD074EAB2EB77108A99F341446 /* UIBackgroundTaskManager.swift in Sources */,
-				62C0807B5F4E9D53ADDBE5C2DC8B4D22 /* UNAuthorizationStatusProvider.swift in Sources */,
-				2B0D6FAA9DCF324116B6F45730DA9731 /* UNAuthorizationStatusProviding.swift in Sources */,
-				DB3F89E18BFF818944F67F4AD5334D42 /* UnknownDecodable.swift in Sources */,
-				3D0A84AA382D063E14CBDAC1B8B2661F /* URLRequestBuilder.swift in Sources */,
-				44A5A5455AD07D06B217E9234CEC9D27 /* URLValidator.swift in Sources */,
-				FA4F192B8DB4EA8DF38B9B15ED8CBBDB /* UsageServiceStatusResponse.swift in Sources */,
-				94285C5AE0BB588E8CED7D714124EB03 /* UsedPointOfContactResponse.swift in Sources */,
-				F7F6D75CD83F8951D42B8032856958A1 /* UsedResponse.swift in Sources */,
-				5C73E37DE0E316DB0C340865E86D1C2E /* UtilitiesFetcher.swift in Sources */,
-				D4ECB38DA5E25EE1467645D17AD39AF0 /* UUIDDebugService.swift in Sources */,
-				32584A7C0DEFABAE623D356797B7623F /* ValidationError.swift in Sources */,
-				E11C97B6A0F73511F5EE44DA933C92C1 /* ViewProductCategoryRequest.swift in Sources */,
-				2C5F2665D8C4B31030835FBA3229E924 /* ViewProductRequest.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		092158D0CFCC8B96CC61E4656218FCD7 /* PBXTargetDependency */ = {
+		376559655811378663C942DA0AB0F6C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MindboxNotifications;
 			target = 32D65C82842026F006B3F2C29969F048 /* MindboxNotifications */;
-			targetProxy = 048E523792420B8561DE2D8642E8F7CF /* PBXContainerItemProxy */;
+			targetProxy = 86463EBF7C76EF5CC0AC8EC3BF438058 /* PBXContainerItemProxy */;
 		};
-		8562E42BF2704C7841E70B9C20B4CFFC /* PBXTargetDependency */ = {
+		9A1226CAA09CCDD7FFE1F35423E94FA4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MindboxNotifications;
 			target = 32D65C82842026F006B3F2C29969F048 /* MindboxNotifications */;
-			targetProxy = CFF3ED0449AF435D19E76FA8210267D1 /* PBXContainerItemProxy */;
+			targetProxy = 49391FAF5499D1603F12A92D6D1976D3 /* PBXContainerItemProxy */;
 		};
-		A40952DAFFE8D2E4F66DDCFAF95B0673 /* PBXTargetDependency */ = {
+		B8A08D722BDEC144F7964A90E52E3AE2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MindboxNotifications;
 			target = 32D65C82842026F006B3F2C29969F048 /* MindboxNotifications */;
-			targetProxy = 04E18C3C9B38417B028F63B2457CE4C2 /* PBXContainerItemProxy */;
-		};
-		FCFDDBEEBDAF190652A4C6EB168AD752 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mindbox;
-			target = F09FD53C0D7355712413F61F1C377646 /* Mindbox */;
-			targetProxy = 50E1DFDFF368991BEF3782D92CF44D2D /* PBXContainerItemProxy */;
+			targetProxy = D8CF6A5A82E567372086AAC629B51251 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		35184DBF7C44DF69C57FE86D0F9F30FC /* Debug */ = {
+		12E0F98E895FC0ED2FAE320E184631E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F545053F1160F7529E966E85ECD8425 /* Pods-OlimpicFind.debug.xcconfig */;
+			baseConfigurationReference = 21361493A7FB3182BEE63F2CD0046015 /* Pods-OlimpicFind.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1503,14 +610,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		3C9C6C80DFBA6E4F2790D369F3B01C77 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DBF2F9B3D5CD896F1ACBAB79A07E499F /* MindboxNotifications.release.xcconfig */;
+			baseConfigurationReference = 8334E302A6A2E19198B68AF0978685D5 /* MindboxNotifications.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1581,6 +689,43 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		757ABEA0343E5C2471EABC6182628B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F545053F1160F7529E966E85ECD8425 /* Pods-OlimpicFind.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		863281689E8EDC3CCA0BA6562AD8CA22 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1684,42 +829,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		940FA93C67295FD2517BEE7884B7F34C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64902A87CC1E87D20EA34AB32C3C8F98 /* Mindbox.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mindbox/Mindbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mindbox/Mindbox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Mindbox/Mindbox.modulemap";
-				PRODUCT_MODULE_NAME = Mindbox;
-				PRODUCT_NAME = Mindbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1860,7 +969,7 @@
 		};
 		DEAAAA994DED2B9E57EF93EBAD5F5179 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CE66B3A888807940FDEA7CC09817471 /* MindboxNotifications.debug.xcconfig */;
+			baseConfigurationReference = BA30CB3252D2FB88F53C8DAE7DB4CA29 /* MindboxNotifications.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1893,82 +1002,18 @@
 			};
 			name = Debug;
 		};
-		E467D4F188AC04B8B1375DD0D7187473 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21361493A7FB3182BEE63F2CD0046015 /* Pods-OlimpicFind.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F69009F776BCC4C6264BD5D79A195319 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5EDB9048042531643A679C823411D606 /* Mindbox.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mindbox/Mindbox-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mindbox/Mindbox-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Mindbox/Mindbox.modulemap";
-				PRODUCT_MODULE_NAME = Mindbox;
-				PRODUCT_NAME = Mindbox;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		372359816AB01425DDE029F43B5B788D /* Build configuration list for PBXNativeTarget "Pods-OlimpicFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757ABEA0343E5C2471EABC6182628B28 /* Debug */,
+				12E0F98E895FC0ED2FAE320E184631E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2005,38 +1050,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BF40DC25D90824586A9A6C0EFA205DA /* Build configuration list for PBXNativeTarget "Mindbox" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F69009F776BCC4C6264BD5D79A195319 /* Debug */,
-				940FA93C67295FD2517BEE7884B7F34C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB61117205C1ED9C382A40C75426A503 /* Build configuration list for PBXNativeTarget "Pods-OlimpicFind" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				35184DBF7C44DF69C57FE86D0F9F30FC /* Debug */,
-				E467D4F188AC04B8B1375DD0D7187473 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		1AF56CFEC47CEFB0BC4395CDC0089266 /* MBDatabase.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				B3BACFF10ECA5081127E639B9326E484 /* MBDatabase.xcdatamodel */,
-			);
-			name = MBDatabase.xcdatamodeld;
-			path = Mindbox/Database/MBDatabase.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

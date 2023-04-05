@@ -1,20 +1,16 @@
 PODS:
-  - Mindbox (2.4.0)
   - MindboxNotifications (2.4.0)
 
 DEPENDENCIES:
-  - Mindbox
   - MindboxNotifications
 
 SPEC REPOS:
   trunk:
-    - Mindbox
     - MindboxNotifications
 
 SPEC CHECKSUMS:
-  Mindbox: fcb46dcd8fd815e20da5200a6d6ba89ed73e679a
   MindboxNotifications: f036abfec5c274d5f7d14a94ed6a484644b5a8d4
 
-PODFILE CHECKSUM: b63f0e16ac19d8923fa58321a8df211252323f0a
+PODFILE CHECKSUM: ec5f94f067941e2c3bd9b687ce9b0f16907022d2
 
 COCOAPODS: 1.11.3

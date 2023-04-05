@@ -4,8 +4,8 @@
 //
 //  Created by Developer on 26.11.2022.
 //
-import BannerAdvertising
-import AppsFlyerLib
+import AdvertisingBanner
+import MindboxFramework
 import Resolver
 import UIKit
 import Mindbox
@@ -50,7 +50,8 @@ final class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationC
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
         let deviceTokenString = deviceToken.reduce("", {$0 + String(format: "%02X", $1)})
-        print(deviceTokenString, "deviceTokenString")
+        mindboxService.deviceToken = deviceTokenString
+        print(mindboxService.deviceToken, "deviceTokenString")
         Mindbox.shared.apnsTokenUpdate(deviceToken: deviceToken)
     }
     

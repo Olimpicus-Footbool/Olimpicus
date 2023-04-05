@@ -4,7 +4,8 @@
 //
 //  Created by Developer on 28.11.2022.
 //
-import BannerAdvertising
+import AdvertisingBanner
+import MindboxFramework
 import Resolver
 
 extension Resolver: ResolverRegistering {
@@ -22,15 +23,9 @@ extension Resolver: ResolverRegistering {
         }
         
         Resolver.register {
-            HandlerDidTapPushNotificationService(
-                advertisingFeature: Resolver.resolve(),
-                routerService: Resolver.resolve()
-            )
-        }
-        
-        Resolver.register {
             ViewControllersFactory(
-                viewControllersBuildersFactory: Resolver.resolve())
+                viewControllersBuildersFactory: Resolver.resolve()
+            )
         }
         
         Resolver.register {
@@ -42,19 +37,8 @@ extension Resolver: ResolverRegistering {
         }
         
         Resolver.register {
-            SDKMindboxService()
-        }
-        
-        Resolver.register {
             UserNotificationServiceDelegate(
                 handlerDidTapPushNotificationService: Resolver.resolve()
-            )
-        }
-        
-        Resolver.register {
-            HandlerDidTapPushNotificationService(
-                advertisingFeature: Resolver.resolve(),
-                routerService: Resolver.resolve()
             )
         }
         
@@ -85,5 +69,15 @@ extension Resolver: ResolverRegistering {
             
         }.scope(.application)
         
+        Resolver.register {
+            SDKMindboxService(
+                endpointProduction: "T2xpbXBjb20uaW9zLWdhbWVzaXRlc25n",
+                endpointDevelopment: "T2xpbXBjb20uaW9zLWdhbWVzaXRlc25nLXN1bmRib3g="
+            )
+        }.scope(.application)
+        
+        Resolver.register {
+            HandlerDidTapPushNotificationService()
+        }.scope(.application)
     }
 }
