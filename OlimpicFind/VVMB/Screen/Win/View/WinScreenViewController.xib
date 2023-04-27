@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Sports World-Regular.otf">
+            <string>SportsWorld</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WinScreenViewController" customModule="OlimpicFind" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="qvw-i1-LU2" id="mhN-eZ-Bxa"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="qvw-i1-LU2">
+            <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgraund" translatesAutoresizingMaskIntoConstraints="NO" id="lOx-GN-24J">
+                    <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bn9-rW-Xaa" userLabel="CommonView">
+                    <rect key="frame" x="0.0" y="32" width="896" height="350"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgraundCell" translatesAutoresizingMaskIntoConstraints="NO" id="4WP-ZJ-h0v">
+                            <rect key="frame" x="0.0" y="0.0" width="896" height="350"/>
+                        </imageView>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="HaY-xQ-5SN">
+                            <rect key="frame" x="298" y="0.0" width="300" height="350"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="button" translatesAutoresizingMaskIntoConstraints="NO" id="rg4-en-hFy">
+                                    <rect key="frame" x="0.0" y="0.0" width="300" height="80"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="80" id="zgj-jA-Dag"/>
+                                    </constraints>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="73Z-Fl-x4n" userLabel="ScoreView">
+                                    <rect key="frame" x="0.0" y="145" width="300" height="70"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coinBar" translatesAutoresizingMaskIntoConstraints="NO" id="Ow9-XK-kab">
+                                            <rect key="frame" x="0.0" y="0.0" width="300" height="70"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+ 50 монет" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d77-Qy-yue">
+                                            <rect key="frame" x="105" y="0.0" width="130.5" height="70"/>
+                                            <fontDescription key="fontDescription" name="SportsWorld" family="Sports World" pointSize="20"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstItem="d77-Qy-yue" firstAttribute="top" secondItem="73Z-Fl-x4n" secondAttribute="top" id="4p6-pc-5Pf"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ow9-XK-kab" secondAttribute="trailing" id="HVS-QV-Csu"/>
+                                        <constraint firstAttribute="bottom" secondItem="d77-Qy-yue" secondAttribute="bottom" id="Sxr-Cq-4Rn"/>
+                                        <constraint firstAttribute="width" constant="300" id="Wzj-li-iIc"/>
+                                        <constraint firstItem="Ow9-XK-kab" firstAttribute="top" secondItem="73Z-Fl-x4n" secondAttribute="top" id="b2g-Nt-qjF"/>
+                                        <constraint firstAttribute="height" constant="70" id="fw4-Ph-f1I"/>
+                                        <constraint firstItem="Ow9-XK-kab" firstAttribute="leading" secondItem="73Z-Fl-x4n" secondAttribute="leading" id="gvF-uW-F3D"/>
+                                        <constraint firstItem="d77-Qy-yue" firstAttribute="centerX" secondItem="73Z-Fl-x4n" secondAttribute="centerX" constant="20" id="nOX-H6-VYN"/>
+                                        <constraint firstAttribute="bottom" secondItem="Ow9-XK-kab" secondAttribute="bottom" id="qbO-X5-NEf"/>
+                                    </constraints>
+                                </view>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEJ-b1-der">
+                                    <rect key="frame" x="0.0" y="280" width="300" height="70"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="70" id="Ayd-Yd-a4e"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="SportsWorld" family="Sports World" pointSize="30"/>
+                                    <state key="normal" title="Continue" backgroundImage="button"/>
+                                    <connections>
+                                        <action selector="continueButtonWithButton:" destination="-1" eventType="touchUpInside" id="oxU-2b-y6a"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                        </stackView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVB-YW-ogE">
+                            <rect key="frame" x="298" y="0.0" width="300" height="80"/>
+                            <fontDescription key="fontDescription" name="SportsWorld" family="Sports World" pointSize="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="HaY-xQ-5SN" firstAttribute="top" secondItem="Bn9-rW-Xaa" secondAttribute="top" id="2r6-Xb-cVv"/>
+                        <constraint firstAttribute="bottom" secondItem="4WP-ZJ-h0v" secondAttribute="bottom" id="Hlq-cM-GGo"/>
+                        <constraint firstItem="4WP-ZJ-h0v" firstAttribute="leading" secondItem="Bn9-rW-Xaa" secondAttribute="leading" id="RvL-Gu-WUZ"/>
+                        <constraint firstItem="HVB-YW-ogE" firstAttribute="bottom" secondItem="rg4-en-hFy" secondAttribute="bottom" id="Zq0-5g-bYz"/>
+                        <constraint firstItem="HVB-YW-ogE" firstAttribute="trailing" secondItem="rg4-en-hFy" secondAttribute="trailing" id="cbV-JU-7ym"/>
+                        <constraint firstItem="HVB-YW-ogE" firstAttribute="leading" secondItem="rg4-en-hFy" secondAttribute="leading" id="jmO-Rs-ZdZ"/>
+                        <constraint firstAttribute="trailing" secondItem="4WP-ZJ-h0v" secondAttribute="trailing" id="joK-p3-7dn"/>
+                        <constraint firstAttribute="bottom" secondItem="HaY-xQ-5SN" secondAttribute="bottom" id="lCg-Kc-m2Y"/>
+                        <constraint firstItem="HaY-xQ-5SN" firstAttribute="centerX" secondItem="Bn9-rW-Xaa" secondAttribute="centerX" id="ruv-Ya-aa6"/>
+                        <constraint firstItem="HVB-YW-ogE" firstAttribute="top" secondItem="rg4-en-hFy" secondAttribute="top" id="tTO-LT-UIo"/>
+                        <constraint firstItem="4WP-ZJ-h0v" firstAttribute="top" secondItem="Bn9-rW-Xaa" secondAttribute="top" id="wRY-Nc-xJC"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="a68-E7-jG9"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Bn9-rW-Xaa" secondAttribute="bottom" constant="32" id="5LF-vo-gSI"/>
+                <constraint firstItem="Bn9-rW-Xaa" firstAttribute="top" secondItem="qvw-i1-LU2" secondAttribute="top" constant="32" id="OKQ-c2-2oW"/>
+                <constraint firstItem="lOx-GN-24J" firstAttribute="leading" secondItem="qvw-i1-LU2" secondAttribute="leading" id="VG1-2j-46d"/>
+                <constraint firstAttribute="trailing" secondItem="Bn9-rW-Xaa" secondAttribute="trailing" id="X48-Ko-4I8"/>
+                <constraint firstItem="lOx-GN-24J" firstAttribute="top" secondItem="qvw-i1-LU2" secondAttribute="top" id="aAx-tB-3Hm"/>
+                <constraint firstAttribute="bottom" secondItem="lOx-GN-24J" secondAttribute="bottom" id="gIs-DF-4yh"/>
+                <constraint firstAttribute="trailing" secondItem="lOx-GN-24J" secondAttribute="trailing" id="hOj-zu-Duq"/>
+                <constraint firstItem="Bn9-rW-Xaa" firstAttribute="leading" secondItem="qvw-i1-LU2" secondAttribute="leading" id="tuM-0F-kvK"/>
+            </constraints>
+            <point key="canvasLocation" x="-887.27678571428567" y="31.884057971014496"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backgraund" width="1920" height="1081"/>
+        <image name="backgraundCell" width="1433" height="929"/>
+        <image name="button" width="341" height="110"/>
+        <image name="coinBar" width="618" height="182"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,6 @@
+framework module Pods_OlimpicFind {
+  umbrella header "Pods-OlimpicFind-umbrella.h"
+
+  export *
+  module * { export * }
+}

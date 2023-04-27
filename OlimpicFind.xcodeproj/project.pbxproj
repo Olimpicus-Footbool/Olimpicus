@@ -1,0 +1,1604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CCF45462C3739E7BD4DEC39 /* Pods_MindboxNotificationServiceExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842E8AE2336BC8BCE43D182F /* Pods_MindboxNotificationServiceExtension.framework */; };
+		4E2777B4A6335A2BB15F0B14 /* Pods_MindboxNotificationContentExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02328E7DD01D0B6ABBD5D988 /* Pods_MindboxNotificationContentExtension.framework */; };
+		8226D96A2945C3CD0056C860 /* Cards.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8226D9692945C3CD0056C860 /* Cards.xcassets */; };
+		823FAA0329360F6800C9FC1A /* MenuScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823FA9FF29360F6800C9FC1A /* MenuScreenViewController.swift */; };
+		823FAA0629360F6800C9FC1A /* MenuScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823FAA0229360F6800C9FC1A /* MenuScreenViewController.xib */; };
+		823FAA0B2936101700C9FC1A /* GameScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 823FAA072936101700C9FC1A /* GameScreenViewController.xib */; };
+		823FAA0C2936101700C9FC1A /* GameScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823FAA082936101700C9FC1A /* GameScreenBuilder.swift */; };
+		823FAA0D2936101700C9FC1A /* GameScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823FAA092936101700C9FC1A /* GameScreenViewModel.swift */; };
+		823FAA0E2936101700C9FC1A /* GameScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 823FAA0A2936101700C9FC1A /* GameScreenViewController.swift */; };
+		823FAA102936123600C9FC1A /* Menu.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823FAA0F2936123600C9FC1A /* Menu.xcassets */; };
+		824FF36A298C01280021A7B1 /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824FF369298C01280021A7B1 /* Orientation.swift */; };
+		825146022939BEB700D79AB4 /* GameFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825146012939BEB700D79AB4 /* GameFeature.swift */; };
+		825146072939CAC000D79AB4 /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825146062939CAC000D79AB4 /* AudioPlayerService.swift */; };
+		82544288298A2D68003579FC /* Extension + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82544287298A2D68003579FC /* Extension + String.swift */; };
+		8256D5C129DD3F2B00E0C3E3 /* AdvertisingBanner in Frameworks */ = {isa = PBXBuildFile; productRef = 8256D5C029DD3F2B00E0C3E3 /* AdvertisingBanner */; };
+		82702066293607660015DEF6 /* LoadingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82702065293607660015DEF6 /* LoadingScreenViewController.xib */; };
+		827020692936086D0015DEF6 /* TextResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827020682936086D0015DEF6 /* TextResources.swift */; };
+		8270206B293608880015DEF6 /* Extension + RouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8270206A293608880015DEF6 /* Extension + RouterService.swift */; };
+		8270207529360ED10015DEF6 /* MenuScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8270207129360ED10015DEF6 /* MenuScreenBuilder.swift */; };
+		8270207629360ED10015DEF6 /* MenuScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8270207229360ED10015DEF6 /* MenuScreenViewModel.swift */; };
+		8273BD7F293C79330078B8D4 /* Win.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8273BD7E293C79330078B8D4 /* Win.xcassets */; };
+		8273BD86293CCDBB0078B8D4 /* successCard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8273BD81293CCDBB0078B8D4 /* successCard.mp3 */; };
+		8273BD87293CCDBB0078B8D4 /* openCard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8273BD82293CCDBB0078B8D4 /* openCard.mp3 */; };
+		8273BD88293CCDBB0078B8D4 /* gameFon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8273BD83293CCDBB0078B8D4 /* gameFon.mp3 */; };
+		8273BD89293CCDBB0078B8D4 /* loseCard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8273BD84293CCDBB0078B8D4 /* loseCard.mp3 */; };
+		8273BD8A293CCDBB0078B8D4 /* winGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8273BD85293CCDBB0078B8D4 /* winGame.mp3 */; };
+		828659FF2937376B0095A245 /* WinScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 828659FE2937376B0095A245 /* WinScreenViewController.xib */; };
+		82865A0129373D240095A245 /* Description.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82865A0029373D240095A245 /* Description.xcassets */; };
+		828B3EE22934806600D4D49E /* RouterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EE12934806600D4D49E /* RouterService.swift */; };
+		828B3EED293480DA00D4D49E /* ViewControllersBuildersFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EEC293480DA00D4D49E /* ViewControllersBuildersFactory.swift */; };
+		828B3EEF293480EC00D4D49E /* CollectionCellsBuildersFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EEE293480EC00D4D49E /* CollectionCellsBuildersFactory.swift */; };
+		828B3EF1293480F600D4D49E /* CollectionViewsBuildersFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EF0293480F600D4D49E /* CollectionViewsBuildersFactory.swift */; };
+		828B3EF32934814400D4D49E /* ViewControllersFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EF22934814400D4D49E /* ViewControllersFactory.swift */; };
+		828B3EFB2934819000D4D49E /* LoadingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EF72934819000D4D49E /* LoadingScreenViewController.swift */; };
+		828B3EFC2934819000D4D49E /* LoadingScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EF82934819000D4D49E /* LoadingScreenBuilder.swift */; };
+		828B3EFD2934819000D4D49E /* LoadingScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828B3EF92934819000D4D49E /* LoadingScreenViewModel.swift */; };
+		82A0998C29AC660700E3B753 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A0998B29AC660700E3B753 /* NotificationService.swift */; };
+		82A0999029AC660700E3B753 /* MindboxNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 82A0998929AC660700E3B753 /* MindboxNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82A0999D29AC6DE300E3B753 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828B1BA2299206E100ABF6D8 /* UserNotifications.framework */; };
+		82A0999E29AC6DE300E3B753 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828B1BA4299206E100ABF6D8 /* UserNotificationsUI.framework */; };
+		82A099A129AC6DE300E3B753 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A099A029AC6DE300E3B753 /* NotificationViewController.swift */; };
+		82A099A829AC6DE400E3B753 /* MindboxNotificationContentExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 82A0999C29AC6DE300E3B753 /* MindboxNotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		82A2CB3F298FB99E00A7C58E /* Extension + UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A2CB3E298FB99E00A7C58E /* Extension + UIWindow.swift */; };
+		82A34F362934BF1B008533FF /* Game.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82A34F352934BF1B008533FF /* Game.xcassets */; };
+		82C68DE0293735F10007609B /* DescriptionScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82C68DDC293735F10007609B /* DescriptionScreenViewController.xib */; };
+		82C68DE1293735F10007609B /* DescriptionScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C68DDD293735F10007609B /* DescriptionScreenViewModel.swift */; };
+		82C68DE2293735F10007609B /* DescriptionScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C68DDE293735F10007609B /* DescriptionScreenViewController.swift */; };
+		82C68DE3293735F10007609B /* DescriptionScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C68DDF293735F10007609B /* DescriptionScreenBuilder.swift */; };
+		82C68DED293736930007609B /* WinScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C68DE9293736930007609B /* WinScreenViewModel.swift */; };
+		82C68DEE293736930007609B /* WinScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C68DEA293736930007609B /* WinScreenViewController.swift */; };
+		82C68DEF293736930007609B /* WinScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C68DEB293736930007609B /* WinScreenBuilder.swift */; };
+		82DAC41829DC72C1000DAFE6 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = 82DAC41729DC72C1000DAFE6 /* Resolver */; };
+		82DAC41B29DC72FF000DAFE6 /* MindboxFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 82DAC41A29DC72FF000DAFE6 /* MindboxFramework */; };
+		82DAC41E29DC7336000DAFE6 /* VVMLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 82DAC41D29DC7336000DAFE6 /* VVMLibrary */; };
+		82DAC42429DC746D000DAFE6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 82DAC42329DC746D000DAFE6 /* SnapKit */; };
+		82DAC42729DC759D000DAFE6 /* AdvertisingRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DAC42629DC759D000DAFE6 /* AdvertisingRequestData.swift */; };
+		82E63FF4293B1BB100A8DB80 /* BaseFeatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E63FF3293B1BB100A8DB80 /* BaseFeatureService.swift */; };
+		82E7632E293483E900A65F63 /* RegistrationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7632D293483E900A65F63 /* RegistrationServices.swift */; };
+		82E763312934849D00A65F63 /* Extension + UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E763302934849D00A65F63 /* Extension + UIView.swift */; };
+		82E76333293484D100A65F63 /* Extension + CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E76332293484D100A65F63 /* Extension + CGFloat.swift */; };
+		82E76335293484E600A65F63 /* Extension + UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E76334293484E600A65F63 /* Extension + UIViewController.swift */; };
+		82E763372934850600A65F63 /* Extension + UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E763362934850600A65F63 /* Extension + UICollectionViewCell.swift */; };
+		82E7633B2934B32600A65F63 /* DesignKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E7633A2934B32600A65F63 /* DesignKit.swift */; };
+		82E763442934BC2C00A65F63 /* CustomName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E763432934BC2C00A65F63 /* CustomName.swift */; };
+		82ED246F29D58A1200E2577D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82ED246E29D58A1200E2577D /* WebKit.framework */; };
+		82FB79CC2932294E0040112C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FB79CB2932294E0040112C /* AppDelegate.swift */; };
+		82FB79D52932294F0040112C /* AppIcon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FB79D42932294F0040112C /* AppIcon.xcassets */; };
+		82FB79D82932294F0040112C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FB79D62932294F0040112C /* LaunchScreen.storyboard */; };
+		82FBBBF2297FDEA400469CF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82FBBBF1297FDEA400469CF7 /* GoogleService-Info.plist */; };
+		82FD1B71293605E400D1449D /* GameCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD1B6A293605E400D1449D /* GameCollectionViewModel.swift */; };
+		82FD1B72293605E400D1449D /* GameCollectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82FD1B6B293605E400D1449D /* GameCollectionView.xib */; };
+		82FD1B73293605E400D1449D /* GameCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD1B6C293605E400D1449D /* GameCollectionView.swift */; };
+		82FD1B74293605E400D1449D /* GameCollectionDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD1B6D293605E400D1449D /* GameCollectionDataSources.swift */; };
+		82FD1B75293605E400D1449D /* GameCollectionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD1B6E293605E400D1449D /* GameCollectionDelegate.swift */; };
+		82FD1B76293605E400D1449D /* GameCollectionViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD1B6F293605E400D1449D /* GameCollectionViewBuilder.swift */; };
+		82FD1B77293605E400D1449D /* GameCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD1B70293605E400D1449D /* GameCollectionLayout.swift */; };
+		82FD1B7E293606C400D1449D /* GameCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82FD1B7A293606C400D1449D /* GameCollectionCell.xib */; };
+		82FD1B7F293606C400D1449D /* GameCollectionCellBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD1B7B293606C400D1449D /* GameCollectionCellBuilder.swift */; };
+		82FD1B80293606C400D1449D /* GameCollectionCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD1B7C293606C400D1449D /* GameCollectionCellViewModel.swift */; };
+		82FD1B81293606C400D1449D /* GameCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FD1B7D293606C400D1449D /* GameCollectionCell.swift */; };
+		A610A16D80D23F0460D2801C /* Pods_OlimpicFind.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B85BC22C05ACC64C22E830B5 /* Pods_OlimpicFind.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82A0998E29AC660700E3B753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FB79C02932294E0040112C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82A0998829AC660700E3B753;
+			remoteInfo = MindboxNotificationServiceExtension;
+		};
+		82A099A629AC6DE300E3B753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82FB79C02932294E0040112C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82A0999B29AC6DE300E3B753;
+			remoteInfo = MindboxNotificationContentExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		828B1B9A299205EC00ABF6D8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				82A0999029AC660700E3B753 /* MindboxNotificationServiceExtension.appex in Embed Foundation Extensions */,
+				82A099A829AC6DE400E3B753 /* MindboxNotificationContentExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02328E7DD01D0B6ABBD5D988 /* Pods_MindboxNotificationContentExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindboxNotificationContentExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15DE4F24ED033A2C9B32EF56 /* Pods-OlimpicFind-MindboxNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlimpicFind-MindboxNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-OlimpicFind-MindboxNotificationServiceExtension/Pods-OlimpicFind-MindboxNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		235D2608F0080973CEC92AD1 /* Pods-OlimpicFind-MindboxNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlimpicFind-MindboxNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-OlimpicFind-MindboxNotificationServiceExtension/Pods-OlimpicFind-MindboxNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		4CFB979FEA668979611A44F3 /* Pods-MindboxNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindboxNotificationServiceExtension.release.xcconfig"; path = "Target Support Files/Pods-MindboxNotificationServiceExtension/Pods-MindboxNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		5221DBDCBD8F4FBB7444BD26 /* Pods-OlimpicFind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlimpicFind.debug.xcconfig"; path = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind.debug.xcconfig"; sourceTree = "<group>"; };
+		8226D9692945C3CD0056C860 /* Cards.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Cards.xcassets; sourceTree = "<group>"; };
+		8226D96C2945CABA0056C860 /* 212 Sports.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "212 Sports.otf"; sourceTree = "<group>"; };
+		8226D96D2945CB8E0056C860 /* Sports World-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sports World-Regular.ttf"; sourceTree = "<group>"; };
+		8226D96E2945CB8E0056C860 /* Sports World-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sports World-Regular.otf"; sourceTree = "<group>"; };
+		823FA9FF29360F6800C9FC1A /* MenuScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreenViewController.swift; sourceTree = "<group>"; };
+		823FAA0229360F6800C9FC1A /* MenuScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuScreenViewController.xib; sourceTree = "<group>"; };
+		823FAA072936101700C9FC1A /* GameScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameScreenViewController.xib; sourceTree = "<group>"; };
+		823FAA082936101700C9FC1A /* GameScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenBuilder.swift; sourceTree = "<group>"; };
+		823FAA092936101700C9FC1A /* GameScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenViewModel.swift; sourceTree = "<group>"; };
+		823FAA0A2936101700C9FC1A /* GameScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreenViewController.swift; sourceTree = "<group>"; };
+		823FAA0F2936123600C9FC1A /* Menu.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Menu.xcassets; sourceTree = "<group>"; };
+		824FF369298C01280021A7B1 /* Orientation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orientation.swift; sourceTree = "<group>"; };
+		825146012939BEB700D79AB4 /* GameFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFeature.swift; sourceTree = "<group>"; };
+		825146062939CAC000D79AB4 /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		82544287298A2D68003579FC /* Extension + String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + String.swift"; sourceTree = "<group>"; };
+		825B2D66297910DC0019153F /* OlimpicFind.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OlimpicFind.entitlements; sourceTree = "<group>"; };
+		82702065293607660015DEF6 /* LoadingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingScreenViewController.xib; sourceTree = "<group>"; };
+		827020682936086D0015DEF6 /* TextResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextResources.swift; sourceTree = "<group>"; };
+		8270206A293608880015DEF6 /* Extension + RouterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + RouterService.swift"; sourceTree = "<group>"; };
+		8270207129360ED10015DEF6 /* MenuScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreenBuilder.swift; sourceTree = "<group>"; };
+		8270207229360ED10015DEF6 /* MenuScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScreenViewModel.swift; sourceTree = "<group>"; };
+		8273BD7E293C79330078B8D4 /* Win.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Win.xcassets; sourceTree = "<group>"; };
+		8273BD81293CCDBB0078B8D4 /* successCard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = successCard.mp3; sourceTree = "<group>"; };
+		8273BD82293CCDBB0078B8D4 /* openCard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = openCard.mp3; sourceTree = "<group>"; };
+		8273BD83293CCDBB0078B8D4 /* gameFon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameFon.mp3; sourceTree = "<group>"; };
+		8273BD84293CCDBB0078B8D4 /* loseCard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loseCard.mp3; sourceTree = "<group>"; };
+		8273BD85293CCDBB0078B8D4 /* winGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winGame.mp3; sourceTree = "<group>"; };
+		828659FE2937376B0095A245 /* WinScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinScreenViewController.xib; sourceTree = "<group>"; };
+		82865A0029373D240095A245 /* Description.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Description.xcassets; sourceTree = "<group>"; };
+		828B1BA2299206E100ABF6D8 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		828B1BA4299206E100ABF6D8 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		828B3EE12934806600D4D49E /* RouterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterService.swift; sourceTree = "<group>"; };
+		828B3EEC293480DA00D4D49E /* ViewControllersBuildersFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllersBuildersFactory.swift; sourceTree = "<group>"; };
+		828B3EEE293480EC00D4D49E /* CollectionCellsBuildersFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellsBuildersFactory.swift; sourceTree = "<group>"; };
+		828B3EF0293480F600D4D49E /* CollectionViewsBuildersFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewsBuildersFactory.swift; sourceTree = "<group>"; };
+		828B3EF22934814400D4D49E /* ViewControllersFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllersFactory.swift; sourceTree = "<group>"; };
+		828B3EF72934819000D4D49E /* LoadingScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewController.swift; sourceTree = "<group>"; };
+		828B3EF82934819000D4D49E /* LoadingScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenBuilder.swift; sourceTree = "<group>"; };
+		828B3EF92934819000D4D49E /* LoadingScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreenViewModel.swift; sourceTree = "<group>"; };
+		82A0998929AC660700E3B753 /* MindboxNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MindboxNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A0998B29AC660700E3B753 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		82A0998D29AC660700E3B753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A0999429AC6A8500E3B753 /* Mindbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Mindbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A0999C29AC6DE300E3B753 /* MindboxNotificationContentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MindboxNotificationContentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A099A029AC6DE300E3B753 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		82A099A529AC6DE300E3B753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82A099AC29AC6E2500E3B753 /* MindboxNotificationContentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MindboxNotificationContentExtension.entitlements; sourceTree = "<group>"; };
+		82A099AD29AC6E3100E3B753 /* MindboxNotificationServiceExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MindboxNotificationServiceExtension.entitlements; sourceTree = "<group>"; };
+		82A2CB3E298FB99E00A7C58E /* Extension + UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIWindow.swift"; sourceTree = "<group>"; };
+		82A34F352934BF1B008533FF /* Game.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Game.xcassets; sourceTree = "<group>"; };
+		82C68DDC293735F10007609B /* DescriptionScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DescriptionScreenViewController.xib; sourceTree = "<group>"; };
+		82C68DDD293735F10007609B /* DescriptionScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionScreenViewModel.swift; sourceTree = "<group>"; };
+		82C68DDE293735F10007609B /* DescriptionScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionScreenViewController.swift; sourceTree = "<group>"; };
+		82C68DDF293735F10007609B /* DescriptionScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionScreenBuilder.swift; sourceTree = "<group>"; };
+		82C68DE9293736930007609B /* WinScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScreenViewModel.swift; sourceTree = "<group>"; };
+		82C68DEA293736930007609B /* WinScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScreenViewController.swift; sourceTree = "<group>"; };
+		82C68DEB293736930007609B /* WinScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinScreenBuilder.swift; sourceTree = "<group>"; };
+		82DAC42629DC759D000DAFE6 /* AdvertisingRequestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisingRequestData.swift; sourceTree = "<group>"; };
+		82E63FF3293B1BB100A8DB80 /* BaseFeatureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseFeatureService.swift; sourceTree = "<group>"; };
+		82E7632D293483E900A65F63 /* RegistrationServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationServices.swift; sourceTree = "<group>"; };
+		82E763302934849D00A65F63 /* Extension + UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIView.swift"; sourceTree = "<group>"; };
+		82E76332293484D100A65F63 /* Extension + CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + CGFloat.swift"; sourceTree = "<group>"; };
+		82E76334293484E600A65F63 /* Extension + UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UIViewController.swift"; sourceTree = "<group>"; };
+		82E763362934850600A65F63 /* Extension + UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension + UICollectionViewCell.swift"; sourceTree = "<group>"; };
+		82E7633A2934B32600A65F63 /* DesignKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignKit.swift; sourceTree = "<group>"; };
+		82E763432934BC2C00A65F63 /* CustomName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomName.swift; sourceTree = "<group>"; };
+		82ED246E29D58A1200E2577D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		82FB79C82932294E0040112C /* OlimpicFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlimpicFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FB79CB2932294E0040112C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82FB79D42932294F0040112C /* AppIcon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppIcon.xcassets; sourceTree = "<group>"; };
+		82FB79D72932294F0040112C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82FB79D92932294F0040112C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82FBBBF1297FDEA400469CF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82FD1B6A293605E400D1449D /* GameCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewModel.swift; sourceTree = "<group>"; };
+		82FD1B6B293605E400D1449D /* GameCollectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameCollectionView.xib; sourceTree = "<group>"; };
+		82FD1B6C293605E400D1449D /* GameCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionView.swift; sourceTree = "<group>"; };
+		82FD1B6D293605E400D1449D /* GameCollectionDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionDataSources.swift; sourceTree = "<group>"; };
+		82FD1B6E293605E400D1449D /* GameCollectionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionDelegate.swift; sourceTree = "<group>"; };
+		82FD1B6F293605E400D1449D /* GameCollectionViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewBuilder.swift; sourceTree = "<group>"; };
+		82FD1B70293605E400D1449D /* GameCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionLayout.swift; sourceTree = "<group>"; };
+		82FD1B7A293606C400D1449D /* GameCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameCollectionCell.xib; sourceTree = "<group>"; };
+		82FD1B7B293606C400D1449D /* GameCollectionCellBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionCellBuilder.swift; sourceTree = "<group>"; };
+		82FD1B7C293606C400D1449D /* GameCollectionCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionCellViewModel.swift; sourceTree = "<group>"; };
+		82FD1B7D293606C400D1449D /* GameCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionCell.swift; sourceTree = "<group>"; };
+		842E8AE2336BC8BCE43D182F /* Pods_MindboxNotificationServiceExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindboxNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A013AD6DD4B2A9749D1751BA /* Pods-MindboxNotificationContentExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindboxNotificationContentExtension.debug.xcconfig"; path = "Target Support Files/Pods-MindboxNotificationContentExtension/Pods-MindboxNotificationContentExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B85BC22C05ACC64C22E830B5 /* Pods_OlimpicFind.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OlimpicFind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30A957F3BE5458A66E691FB /* Pods-MindboxNotificationContentExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindboxNotificationContentExtension.release.xcconfig"; path = "Target Support Files/Pods-MindboxNotificationContentExtension/Pods-MindboxNotificationContentExtension.release.xcconfig"; sourceTree = "<group>"; };
+		CAEABE64DE7C6005009F6DB9 /* Pods-MindboxNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindboxNotificationServiceExtension.debug.xcconfig"; path = "Target Support Files/Pods-MindboxNotificationServiceExtension/Pods-MindboxNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		EDC08E8BC7ED1F4A057BF503 /* Pods-OlimpicFind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OlimpicFind.release.xcconfig"; path = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82A0998629AC660700E3B753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CCF45462C3739E7BD4DEC39 /* Pods_MindboxNotificationServiceExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0999929AC6DE300E3B753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A0999E29AC6DE300E3B753 /* UserNotificationsUI.framework in Frameworks */,
+				82A0999D29AC6DE300E3B753 /* UserNotifications.framework in Frameworks */,
+				4E2777B4A6335A2BB15F0B14 /* Pods_MindboxNotificationContentExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB79C52932294E0040112C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ED246F29D58A1200E2577D /* WebKit.framework in Frameworks */,
+				82DAC42429DC746D000DAFE6 /* SnapKit in Frameworks */,
+				82DAC41829DC72C1000DAFE6 /* Resolver in Frameworks */,
+				82DAC41B29DC72FF000DAFE6 /* MindboxFramework in Frameworks */,
+				82DAC41E29DC7336000DAFE6 /* VVMLibrary in Frameworks */,
+				A610A16D80D23F0460D2801C /* Pods_OlimpicFind.framework in Frameworks */,
+				8256D5C129DD3F2B00E0C3E3 /* AdvertisingBanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1DA65E7149A953633E57BBC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5221DBDCBD8F4FBB7444BD26 /* Pods-OlimpicFind.debug.xcconfig */,
+				EDC08E8BC7ED1F4A057BF503 /* Pods-OlimpicFind.release.xcconfig */,
+				235D2608F0080973CEC92AD1 /* Pods-OlimpicFind-MindboxNotificationServiceExtension.debug.xcconfig */,
+				15DE4F24ED033A2C9B32EF56 /* Pods-OlimpicFind-MindboxNotificationServiceExtension.release.xcconfig */,
+				CAEABE64DE7C6005009F6DB9 /* Pods-MindboxNotificationServiceExtension.debug.xcconfig */,
+				4CFB979FEA668979611A44F3 /* Pods-MindboxNotificationServiceExtension.release.xcconfig */,
+				A013AD6DD4B2A9749D1751BA /* Pods-MindboxNotificationContentExtension.debug.xcconfig */,
+				C30A957F3BE5458A66E691FB /* Pods-MindboxNotificationContentExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8226D96B2945CAA50056C860 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8226D96E2945CB8E0056C860 /* Sports World-Regular.otf */,
+				8226D96D2945CB8E0056C860 /* Sports World-Regular.ttf */,
+				8226D96C2945CABA0056C860 /* 212 Sports.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8230973C2935F50100359A79 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				82C68DE4293736570007609B /* Win */,
+				82C68DD0293734380007609B /* Description */,
+				8270206C29360EA10015DEF6 /* Menu */,
+				82FD1B582935F5C700D1449D /* Game */,
+				82FB79E429322A0F0040112C /* Loading */,
+				82FB79E3293229F90040112C /* LaunchScreen */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		824FF368298C01110021A7B1 /* Orientation */ = {
+			isa = PBXGroup;
+			children = (
+				824FF369298C01280021A7B1 /* Orientation.swift */,
+			);
+			path = Orientation;
+			sourceTree = "<group>";
+		};
+		825146002939BE9E00D79AB4 /* FeatureServices */ = {
+			isa = PBXGroup;
+			children = (
+				825146012939BEB700D79AB4 /* GameFeature.swift */,
+			);
+			path = FeatureServices;
+			sourceTree = "<group>";
+		};
+		825B2D6029790E110019153F /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		827020672936085A0015DEF6 /* TextResources */ = {
+			isa = PBXGroup;
+			children = (
+				827020682936086D0015DEF6 /* TextResources.swift */,
+				8270206A293608880015DEF6 /* Extension + RouterService.swift */,
+			);
+			path = TextResources;
+			sourceTree = "<group>";
+		};
+		8270206C29360EA10015DEF6 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8270206F29360EBD0015DEF6 /* View */,
+				8270206E29360EAE0015DEF6 /* ViewModel */,
+				8270206D29360EA80015DEF6 /* Builder */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		8270206D29360EA80015DEF6 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				8270207129360ED10015DEF6 /* MenuScreenBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		8270206E29360EAE0015DEF6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8270207229360ED10015DEF6 /* MenuScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8270206F29360EBD0015DEF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				823FAA0229360F6800C9FC1A /* MenuScreenViewController.xib */,
+				823FA9FF29360F6800C9FC1A /* MenuScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8273BD80293CCDAA0078B8D4 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				8273BD83293CCDBB0078B8D4 /* gameFon.mp3 */,
+				8273BD84293CCDBB0078B8D4 /* loseCard.mp3 */,
+				8273BD82293CCDBB0078B8D4 /* openCard.mp3 */,
+				8273BD81293CCDBB0078B8D4 /* successCard.mp3 */,
+				8273BD85293CCDBB0078B8D4 /* winGame.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		828B1BA1299206E100ABF6D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82ED246E29D58A1200E2577D /* WebKit.framework */,
+				82A0999429AC6A8500E3B753 /* Mindbox.framework */,
+				828B1BA2299206E100ABF6D8 /* UserNotifications.framework */,
+				828B1BA4299206E100ABF6D8 /* UserNotificationsUI.framework */,
+				B85BC22C05ACC64C22E830B5 /* Pods_OlimpicFind.framework */,
+				842E8AE2336BC8BCE43D182F /* Pods_MindboxNotificationServiceExtension.framework */,
+				02328E7DD01D0B6ABBD5D988 /* Pods_MindboxNotificationContentExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		828B3EDF2934804500D4D49E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				82A0A76E297ACA4700AFB48B /* OtherService */,
+				825146002939BE9E00D79AB4 /* FeatureServices */,
+				82E7632C293483D800A65F63 /* RegistrationServices */,
+				828B3EE02934805B00D4D49E /* RouterService */,
+				825146062939CAC000D79AB4 /* AudioPlayerService.swift */,
+				82E63FF3293B1BB100A8DB80 /* BaseFeatureService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		828B3EE02934805B00D4D49E /* RouterService */ = {
+			isa = PBXGroup;
+			children = (
+				828B3EE12934806600D4D49E /* RouterService.swift */,
+			);
+			path = RouterService;
+			sourceTree = "<group>";
+		};
+		828B3EE9293480A200D4D49E /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				828B3EEB293480CA00D4D49E /* ViewControllers */,
+				828B3EEA293480C000D4D49E /* Builders */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		828B3EEA293480C000D4D49E /* Builders */ = {
+			isa = PBXGroup;
+			children = (
+				828B3EEC293480DA00D4D49E /* ViewControllersBuildersFactory.swift */,
+				828B3EEE293480EC00D4D49E /* CollectionCellsBuildersFactory.swift */,
+				828B3EF0293480F600D4D49E /* CollectionViewsBuildersFactory.swift */,
+			);
+			path = Builders;
+			sourceTree = "<group>";
+		};
+		828B3EEB293480CA00D4D49E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				828B3EF22934814400D4D49E /* ViewControllersFactory.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		828B3EF42934816E00D4D49E /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				828B3EF82934819000D4D49E /* LoadingScreenBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		828B3EF52934817500D4D49E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				828B3EF92934819000D4D49E /* LoadingScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		828B3EF62934817C00D4D49E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82702065293607660015DEF6 /* LoadingScreenViewController.xib */,
+				828B3EF72934819000D4D49E /* LoadingScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82A0998A29AC660700E3B753 /* MindboxNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				82A099AD29AC6E3100E3B753 /* MindboxNotificationServiceExtension.entitlements */,
+				82A0998B29AC660700E3B753 /* NotificationService.swift */,
+				82A0998D29AC660700E3B753 /* Info.plist */,
+			);
+			path = MindboxNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		82A0999F29AC6DE300E3B753 /* MindboxNotificationContentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				82A099AC29AC6E2500E3B753 /* MindboxNotificationContentExtension.entitlements */,
+				82A099A029AC6DE300E3B753 /* NotificationViewController.swift */,
+				82A099A529AC6DE300E3B753 /* Info.plist */,
+			);
+			path = MindboxNotificationContentExtension;
+			sourceTree = "<group>";
+		};
+		82A0A76E297ACA4700AFB48B /* OtherService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OtherService;
+			sourceTree = "<group>";
+		};
+		82A34F342934BF0A008533FF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				82FB79D42932294F0040112C /* AppIcon.xcassets */,
+				82A34F352934BF1B008533FF /* Game.xcassets */,
+				823FAA0F2936123600C9FC1A /* Menu.xcassets */,
+				82865A0029373D240095A245 /* Description.xcassets */,
+				8273BD7E293C79330078B8D4 /* Win.xcassets */,
+				8226D9692945C3CD0056C860 /* Cards.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		82C68DD0293734380007609B /* Description */ = {
+			isa = PBXGroup;
+			children = (
+				82C68DD3293734510007609B /* View */,
+				82C68DD2293734480007609B /* ViewModel */,
+				82C68DD12937343D0007609B /* Builder */,
+			);
+			path = Description;
+			sourceTree = "<group>";
+		};
+		82C68DD12937343D0007609B /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				82C68DDF293735F10007609B /* DescriptionScreenBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		82C68DD2293734480007609B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82C68DDD293735F10007609B /* DescriptionScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82C68DD3293734510007609B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82C68DDC293735F10007609B /* DescriptionScreenViewController.xib */,
+				82C68DDE293735F10007609B /* DescriptionScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82C68DE4293736570007609B /* Win */ = {
+			isa = PBXGroup;
+			children = (
+				82C68DE7293736730007609B /* View */,
+				82C68DE6293736660007609B /* ViewModel */,
+				82C68DE52937365D0007609B /* Builder */,
+			);
+			path = Win;
+			sourceTree = "<group>";
+		};
+		82C68DE52937365D0007609B /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				82C68DEB293736930007609B /* WinScreenBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		82C68DE6293736660007609B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82C68DE9293736930007609B /* WinScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82C68DE7293736730007609B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				828659FE2937376B0095A245 /* WinScreenViewController.xib */,
+				82C68DEA293736930007609B /* WinScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82DAC42529DC758B000DAFE6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82DAC42629DC759D000DAFE6 /* AdvertisingRequestData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82E7632C293483D800A65F63 /* RegistrationServices */ = {
+			isa = PBXGroup;
+			children = (
+				82E7632D293483E900A65F63 /* RegistrationServices.swift */,
+			);
+			path = RegistrationServices;
+			sourceTree = "<group>";
+		};
+		82E7632F2934848C00A65F63 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				82E763302934849D00A65F63 /* Extension + UIView.swift */,
+				82544287298A2D68003579FC /* Extension + String.swift */,
+				82E76332293484D100A65F63 /* Extension + CGFloat.swift */,
+				82E76334293484E600A65F63 /* Extension + UIViewController.swift */,
+				82E763362934850600A65F63 /* Extension + UICollectionViewCell.swift */,
+				82A2CB3E298FB99E00A7C58E /* Extension + UIWindow.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		82E763382934B31700A65F63 /* Setup */ = {
+			isa = PBXGroup;
+			children = (
+				82DAC42529DC758B000DAFE6 /* Model */,
+				824FF368298C01110021A7B1 /* Orientation */,
+				825B2D6029790E110019153F /* SDK */,
+				82E763422934BC1F00A65F63 /* CustomName */,
+				82E763392934B31E00A65F63 /* DesignKit */,
+			);
+			path = Setup;
+			sourceTree = "<group>";
+		};
+		82E763392934B31E00A65F63 /* DesignKit */ = {
+			isa = PBXGroup;
+			children = (
+				82E7633A2934B32600A65F63 /* DesignKit.swift */,
+			);
+			path = DesignKit;
+			sourceTree = "<group>";
+		};
+		82E763422934BC1F00A65F63 /* CustomName */ = {
+			isa = PBXGroup;
+			children = (
+				82E763432934BC2C00A65F63 /* CustomName.swift */,
+			);
+			path = CustomName;
+			sourceTree = "<group>";
+		};
+		82FB79BF2932294E0040112C = {
+			isa = PBXGroup;
+			children = (
+				82FB79CA2932294E0040112C /* OlimpicFind */,
+				82A0998A29AC660700E3B753 /* MindboxNotificationServiceExtension */,
+				82A0999F29AC6DE300E3B753 /* MindboxNotificationContentExtension */,
+				828B1BA1299206E100ABF6D8 /* Frameworks */,
+				82FB79C92932294E0040112C /* Products */,
+				1DA65E7149A953633E57BBC0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		82FB79C92932294E0040112C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FB79C82932294E0040112C /* OlimpicFind.app */,
+				82A0998929AC660700E3B753 /* MindboxNotificationServiceExtension.appex */,
+				82A0999C29AC6DE300E3B753 /* MindboxNotificationContentExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FB79CA2932294E0040112C /* OlimpicFind */ = {
+			isa = PBXGroup;
+			children = (
+				825B2D66297910DC0019153F /* OlimpicFind.entitlements */,
+				82E763382934B31700A65F63 /* Setup */,
+				828B3EE9293480A200D4D49E /* Factories */,
+				828B3EDF2934804500D4D49E /* Services */,
+				82FB79E2293229EA0040112C /* VVMB */,
+				82FB79DF293229800040112C /* AppDelegates */,
+				82FB79E02932298D0040112C /* Resources */,
+			);
+			path = OlimpicFind;
+			sourceTree = "<group>";
+		};
+		82FB79DF293229800040112C /* AppDelegates */ = {
+			isa = PBXGroup;
+			children = (
+				82FB79CB2932294E0040112C /* AppDelegate.swift */,
+			);
+			path = AppDelegates;
+			sourceTree = "<group>";
+		};
+		82FB79E02932298D0040112C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82FBBBF1297FDEA400469CF7 /* GoogleService-Info.plist */,
+				8226D96B2945CAA50056C860 /* Fonts */,
+				8273BD80293CCDAA0078B8D4 /* Music */,
+				827020672936085A0015DEF6 /* TextResources */,
+				82A34F342934BF0A008533FF /* Images */,
+				82E7632F2934848C00A65F63 /* Extensions */,
+				82FB79E12932299F0040112C /* InfoPlists */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		82FB79E12932299F0040112C /* InfoPlists */ = {
+			isa = PBXGroup;
+			children = (
+				82FB79D92932294F0040112C /* Info.plist */,
+			);
+			path = InfoPlists;
+			sourceTree = "<group>";
+		};
+		82FB79E2293229EA0040112C /* VVMB */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B79293606AB00D1449D /* CollectionCell */,
+				82FD1B572935F5B300D1449D /* CollectionViews */,
+				8230973C2935F50100359A79 /* Screen */,
+			);
+			path = VVMB;
+			sourceTree = "<group>";
+		};
+		82FB79E3293229F90040112C /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				82FB79D62932294F0040112C /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		82FB79E429322A0F0040112C /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				828B3EF62934817C00D4D49E /* View */,
+				828B3EF52934817500D4D49E /* ViewModel */,
+				828B3EF42934816E00D4D49E /* Builder */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		82FD1B572935F5B300D1449D /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B66293605A600D1449D /* Game */,
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		82FD1B582935F5C700D1449D /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B5B2935F5C700D1449D /* View */,
+				82FD1B592935F5C700D1449D /* ViewModel */,
+				82FD1B5E2935F5C700D1449D /* Builder */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		82FD1B592935F5C700D1449D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				823FAA092936101700C9FC1A /* GameScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82FD1B5B2935F5C700D1449D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				823FAA072936101700C9FC1A /* GameScreenViewController.xib */,
+				823FAA0A2936101700C9FC1A /* GameScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82FD1B5E2935F5C700D1449D /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				823FAA082936101700C9FC1A /* GameScreenBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		82FD1B66293605A600D1449D /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B78293605EE00D1449D /* Delegates */,
+				82FD1B69293605BF00D1449D /* View */,
+				82FD1B68293605B800D1449D /* ViewModel */,
+				82FD1B67293605AD00D1449D /* Builder */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		82FD1B67293605AD00D1449D /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B6F293605E400D1449D /* GameCollectionViewBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		82FD1B68293605B800D1449D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B6A293605E400D1449D /* GameCollectionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82FD1B69293605BF00D1449D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B6B293605E400D1449D /* GameCollectionView.xib */,
+				82FD1B6C293605E400D1449D /* GameCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		82FD1B78293605EE00D1449D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B6D293605E400D1449D /* GameCollectionDataSources.swift */,
+				82FD1B6E293605E400D1449D /* GameCollectionDelegate.swift */,
+				82FD1B70293605E400D1449D /* GameCollectionLayout.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		82FD1B79293606AB00D1449D /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B84293606DE00D1449D /* View */,
+				82FD1B83293606D800D1449D /* ViewModel */,
+				82FD1B82293606D100D1449D /* Builder */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		82FD1B82293606D100D1449D /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B7B293606C400D1449D /* GameCollectionCellBuilder.swift */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		82FD1B83293606D800D1449D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B7C293606C400D1449D /* GameCollectionCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		82FD1B84293606DE00D1449D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				82FD1B7A293606C400D1449D /* GameCollectionCell.xib */,
+				82FD1B7D293606C400D1449D /* GameCollectionCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82A0998829AC660700E3B753 /* MindboxNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A0999129AC660700E3B753 /* Build configuration list for PBXNativeTarget "MindboxNotificationServiceExtension" */;
+			buildPhases = (
+				8D0B04464A9240F6AE8D951B /* [CP] Check Pods Manifest.lock */,
+				82A0998529AC660700E3B753 /* Sources */,
+				82A0998629AC660700E3B753 /* Frameworks */,
+				82A0998729AC660700E3B753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindboxNotificationServiceExtension;
+			productName = MindboxNotificationServiceExtension;
+			productReference = 82A0998929AC660700E3B753 /* MindboxNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		82A0999B29AC6DE300E3B753 /* MindboxNotificationContentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A099AB29AC6DE400E3B753 /* Build configuration list for PBXNativeTarget "MindboxNotificationContentExtension" */;
+			buildPhases = (
+				E7D3BCFC6F8C642EC56E1C3C /* [CP] Check Pods Manifest.lock */,
+				82A0999829AC6DE300E3B753 /* Sources */,
+				82A0999929AC6DE300E3B753 /* Frameworks */,
+				82A0999A29AC6DE300E3B753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindboxNotificationContentExtension;
+			productName = MindboxNotificationContentExtension;
+			productReference = 82A0999C29AC6DE300E3B753 /* MindboxNotificationContentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		82FB79C72932294E0040112C /* OlimpicFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FB79DC2932294F0040112C /* Build configuration list for PBXNativeTarget "OlimpicFind" */;
+			buildPhases = (
+				168AB9826BCAA0FD420407B0 /* [CP] Check Pods Manifest.lock */,
+				82FB79C42932294E0040112C /* Sources */,
+				82FB79C52932294E0040112C /* Frameworks */,
+				82FB79C62932294E0040112C /* Resources */,
+				828B1B9A299205EC00ABF6D8 /* Embed Foundation Extensions */,
+				38B4518D2FC9F39EA7322579 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82A0998F29AC660700E3B753 /* PBXTargetDependency */,
+				82A099A729AC6DE300E3B753 /* PBXTargetDependency */,
+			);
+			name = OlimpicFind;
+			packageProductDependencies = (
+				82DAC41729DC72C1000DAFE6 /* Resolver */,
+				82DAC41A29DC72FF000DAFE6 /* MindboxFramework */,
+				82DAC41D29DC7336000DAFE6 /* VVMLibrary */,
+				82DAC42329DC746D000DAFE6 /* SnapKit */,
+				8256D5C029DD3F2B00E0C3E3 /* AdvertisingBanner */,
+			);
+			productName = OlimpicFind;
+			productReference = 82FB79C82932294E0040112C /* OlimpicFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82FB79C02932294E0040112C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					82A0998829AC660700E3B753 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					82A0999B29AC6DE300E3B753 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					82FB79C72932294E0040112C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 82FB79C32932294E0040112C /* Build configuration list for PBXProject "OlimpicFind" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82FB79BF2932294E0040112C;
+			packageReferences = (
+				82DAC41629DC72C1000DAFE6 /* XCRemoteSwiftPackageReference "Resolver" */,
+				82DAC41929DC72FF000DAFE6 /* XCRemoteSwiftPackageReference "MindboxFramework" */,
+				82DAC41C29DC7336000DAFE6 /* XCRemoteSwiftPackageReference "VVMLibrary" */,
+				82DAC42229DC746D000DAFE6 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				8256D5BF29DD3F2B00E0C3E3 /* XCRemoteSwiftPackageReference "AdvertisingBanner" */,
+			);
+			productRefGroup = 82FB79C92932294E0040112C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FB79C72932294E0040112C /* OlimpicFind */,
+				82A0998829AC660700E3B753 /* MindboxNotificationServiceExtension */,
+				82A0999B29AC6DE300E3B753 /* MindboxNotificationContentExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82A0998729AC660700E3B753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0999A29AC6DE300E3B753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB79C62932294E0040112C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				823FAA102936123600C9FC1A /* Menu.xcassets in Resources */,
+				82FD1B72293605E400D1449D /* GameCollectionView.xib in Resources */,
+				8226D96A2945C3CD0056C860 /* Cards.xcassets in Resources */,
+				8273BD89293CCDBB0078B8D4 /* loseCard.mp3 in Resources */,
+				82FB79D82932294F0040112C /* LaunchScreen.storyboard in Resources */,
+				823FAA0B2936101700C9FC1A /* GameScreenViewController.xib in Resources */,
+				828659FF2937376B0095A245 /* WinScreenViewController.xib in Resources */,
+				8273BD87293CCDBB0078B8D4 /* openCard.mp3 in Resources */,
+				8273BD86293CCDBB0078B8D4 /* successCard.mp3 in Resources */,
+				82FB79D52932294F0040112C /* AppIcon.xcassets in Resources */,
+				82702066293607660015DEF6 /* LoadingScreenViewController.xib in Resources */,
+				8273BD88293CCDBB0078B8D4 /* gameFon.mp3 in Resources */,
+				8273BD7F293C79330078B8D4 /* Win.xcassets in Resources */,
+				82C68DE0293735F10007609B /* DescriptionScreenViewController.xib in Resources */,
+				823FAA0629360F6800C9FC1A /* MenuScreenViewController.xib in Resources */,
+				82865A0129373D240095A245 /* Description.xcassets in Resources */,
+				82FD1B7E293606C400D1449D /* GameCollectionCell.xib in Resources */,
+				82A34F362934BF1B008533FF /* Game.xcassets in Resources */,
+				8273BD8A293CCDBB0078B8D4 /* winGame.mp3 in Resources */,
+				82FBBBF2297FDEA400469CF7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		168AB9826BCAA0FD420407B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OlimpicFind-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B4518D2FC9F39EA7322579 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0B04464A9240F6AE8D951B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindboxNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D3BCFC6F8C642EC56E1C3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindboxNotificationContentExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82A0998529AC660700E3B753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A0998C29AC660700E3B753 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82A0999829AC6DE300E3B753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A099A129AC6DE300E3B753 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82FB79C42932294E0040112C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FD1B73293605E400D1449D /* GameCollectionView.swift in Sources */,
+				82FB79CC2932294E0040112C /* AppDelegate.swift in Sources */,
+				82FD1B80293606C400D1449D /* GameCollectionCellViewModel.swift in Sources */,
+				8270206B293608880015DEF6 /* Extension + RouterService.swift in Sources */,
+				82E763372934850600A65F63 /* Extension + UICollectionViewCell.swift in Sources */,
+				82C68DE1293735F10007609B /* DescriptionScreenViewModel.swift in Sources */,
+				825146022939BEB700D79AB4 /* GameFeature.swift in Sources */,
+				82C68DED293736930007609B /* WinScreenViewModel.swift in Sources */,
+				828B3EEF293480EC00D4D49E /* CollectionCellsBuildersFactory.swift in Sources */,
+				82C68DEE293736930007609B /* WinScreenViewController.swift in Sources */,
+				825146072939CAC000D79AB4 /* AudioPlayerService.swift in Sources */,
+				823FAA0329360F6800C9FC1A /* MenuScreenViewController.swift in Sources */,
+				82544288298A2D68003579FC /* Extension + String.swift in Sources */,
+				828B3EFD2934819000D4D49E /* LoadingScreenViewModel.swift in Sources */,
+				828B3EFB2934819000D4D49E /* LoadingScreenViewController.swift in Sources */,
+				82FD1B76293605E400D1449D /* GameCollectionViewBuilder.swift in Sources */,
+				82C68DEF293736930007609B /* WinScreenBuilder.swift in Sources */,
+				82FD1B75293605E400D1449D /* GameCollectionDelegate.swift in Sources */,
+				82FD1B81293606C400D1449D /* GameCollectionCell.swift in Sources */,
+				823FAA0C2936101700C9FC1A /* GameScreenBuilder.swift in Sources */,
+				82E7632E293483E900A65F63 /* RegistrationServices.swift in Sources */,
+				82FD1B74293605E400D1449D /* GameCollectionDataSources.swift in Sources */,
+				82DAC42729DC759D000DAFE6 /* AdvertisingRequestData.swift in Sources */,
+				82FD1B71293605E400D1449D /* GameCollectionViewModel.swift in Sources */,
+				828B3EF1293480F600D4D49E /* CollectionViewsBuildersFactory.swift in Sources */,
+				828B3EE22934806600D4D49E /* RouterService.swift in Sources */,
+				82E76335293484E600A65F63 /* Extension + UIViewController.swift in Sources */,
+				823FAA0E2936101700C9FC1A /* GameScreenViewController.swift in Sources */,
+				82FD1B7F293606C400D1449D /* GameCollectionCellBuilder.swift in Sources */,
+				82C68DE2293735F10007609B /* DescriptionScreenViewController.swift in Sources */,
+				82E76333293484D100A65F63 /* Extension + CGFloat.swift in Sources */,
+				82E763312934849D00A65F63 /* Extension + UIView.swift in Sources */,
+				827020692936086D0015DEF6 /* TextResources.swift in Sources */,
+				82FD1B77293605E400D1449D /* GameCollectionLayout.swift in Sources */,
+				82E7633B2934B32600A65F63 /* DesignKit.swift in Sources */,
+				82A2CB3F298FB99E00A7C58E /* Extension + UIWindow.swift in Sources */,
+				82E763442934BC2C00A65F63 /* CustomName.swift in Sources */,
+				824FF36A298C01280021A7B1 /* Orientation.swift in Sources */,
+				82C68DE3293735F10007609B /* DescriptionScreenBuilder.swift in Sources */,
+				828B3EFC2934819000D4D49E /* LoadingScreenBuilder.swift in Sources */,
+				823FAA0D2936101700C9FC1A /* GameScreenViewModel.swift in Sources */,
+				828B3EED293480DA00D4D49E /* ViewControllersBuildersFactory.swift in Sources */,
+				8270207629360ED10015DEF6 /* MenuScreenViewModel.swift in Sources */,
+				828B3EF32934814400D4D49E /* ViewControllersFactory.swift in Sources */,
+				82E63FF4293B1BB100A8DB80 /* BaseFeatureService.swift in Sources */,
+				8270207529360ED10015DEF6 /* MenuScreenBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82A0998F29AC660700E3B753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82A0998829AC660700E3B753 /* MindboxNotificationServiceExtension */;
+			targetProxy = 82A0998E29AC660700E3B753 /* PBXContainerItemProxy */;
+		};
+		82A099A729AC6DE300E3B753 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82A0999B29AC6DE300E3B753 /* MindboxNotificationContentExtension */;
+			targetProxy = 82A099A629AC6DE300E3B753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82FB79D62932294F0040112C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82FB79D72932294F0040112C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82A0999229AC660700E3B753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAEABE64DE7C6005009F6DB9 /* Pods-MindboxNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MindboxNotificationServiceExtension/MindboxNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = UWF82FHG2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindboxNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MindboxNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olimpicus.MindboxNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82A0999329AC660700E3B753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CFB979FEA668979611A44F3 /* Pods-MindboxNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MindboxNotificationServiceExtension/MindboxNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = UWF82FHG2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindboxNotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MindboxNotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olimpicus.MindboxNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		82A099A929AC6DE400E3B753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A013AD6DD4B2A9749D1751BA /* Pods-MindboxNotificationContentExtension.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MindboxNotificationContentExtension/MindboxNotificationContentExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = UWF82FHG2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindboxNotificationContentExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MindboxNotificationContentExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olimpicus.MindboxNotificationContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82A099AA29AC6DE400E3B753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30A957F3BE5458A66E691FB /* Pods-MindboxNotificationContentExtension.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = MindboxNotificationContentExtension/MindboxNotificationContentExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = UWF82FHG2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindboxNotificationContentExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = MindboxNotificationContentExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olimpicus.MindboxNotificationContentExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		82FB79DA2932294F0040112C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82FB79DB2932294F0040112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82FB79DD2932294F0040112C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5221DBDCBD8F4FBB7444BD26 /* Pods-OlimpicFind.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OlimpicFind/OlimpicFind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = UWF82FHG2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OlimpicFind/Resources/InfoPlists/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olimpic Footbool";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Allow to use your IDFA";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olimpicus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		82FB79DE2932294F0040112C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDC08E8BC7ED1F4A057BF503 /* Pods-OlimpicFind.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OlimpicFind/OlimpicFind.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = UWF82FHG2J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OlimpicFind/Resources/InfoPlists/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Olimpic Footbool";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Allow to use your IDFA";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olimpicus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82A0999129AC660700E3B753 /* Build configuration list for PBXNativeTarget "MindboxNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A0999229AC660700E3B753 /* Debug */,
+				82A0999329AC660700E3B753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A099AB29AC6DE400E3B753 /* Build configuration list for PBXNativeTarget "MindboxNotificationContentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A099A929AC6DE400E3B753 /* Debug */,
+				82A099AA29AC6DE400E3B753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FB79C32932294E0040112C /* Build configuration list for PBXProject "OlimpicFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FB79DA2932294F0040112C /* Debug */,
+				82FB79DB2932294F0040112C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FB79DC2932294F0040112C /* Build configuration list for PBXNativeTarget "OlimpicFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FB79DD2932294F0040112C /* Debug */,
+				82FB79DE2932294F0040112C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8256D5BF29DD3F2B00E0C3E3 /* XCRemoteSwiftPackageReference "AdvertisingBanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Olimpicus-Footbool/AdvertisingBanner";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		82DAC41629DC72C1000DAFE6 /* XCRemoteSwiftPackageReference "Resolver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Resolver.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		82DAC41929DC72FF000DAFE6 /* XCRemoteSwiftPackageReference "MindboxFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MindboxFramework/MindboxFramework";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		82DAC41C29DC7336000DAFE6 /* XCRemoteSwiftPackageReference "VVMLibrary" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/it-senior-developer/VVMLibrary";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		82DAC42229DC746D000DAFE6 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8256D5C029DD3F2B00E0C3E3 /* AdvertisingBanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8256D5BF29DD3F2B00E0C3E3 /* XCRemoteSwiftPackageReference "AdvertisingBanner" */;
+			productName = AdvertisingBanner;
+		};
+		82DAC41729DC72C1000DAFE6 /* Resolver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82DAC41629DC72C1000DAFE6 /* XCRemoteSwiftPackageReference "Resolver" */;
+			productName = Resolver;
+		};
+		82DAC41A29DC72FF000DAFE6 /* MindboxFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82DAC41929DC72FF000DAFE6 /* XCRemoteSwiftPackageReference "MindboxFramework" */;
+			productName = MindboxFramework;
+		};
+		82DAC41D29DC7336000DAFE6 /* VVMLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82DAC41C29DC7336000DAFE6 /* XCRemoteSwiftPackageReference "VVMLibrary" */;
+			productName = VVMLibrary;
+		};
+		82DAC42329DC746D000DAFE6 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 82DAC42229DC746D000DAFE6 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 82FB79C02932294E0040112C /* Project object */;
+}

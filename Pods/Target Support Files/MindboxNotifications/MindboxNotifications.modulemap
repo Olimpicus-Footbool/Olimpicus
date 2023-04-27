@@ -1,0 +1,6 @@
+framework module MindboxNotifications {
+  umbrella header "MindboxNotifications-umbrella.h"
+
+  export *
+  module * { export * }
+}

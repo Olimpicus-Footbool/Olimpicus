@@ -1,0 +1,1056 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008B7625D532B5855F22BCBD7C133938 /* SDKVersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED24152B681DD2F9982ECF47B7FA302 /* SDKVersionProvider.swift */; };
+		01306AFC6C694468E428CC43B5BE03C2 /* MindboxNotifications-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1AF6A01AAEDB1CE7F4054DB7F2C23E /* MindboxNotifications-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0803224F4BC9992403CB0E6CF65691B3 /* Pods-MindboxNotificationServiceExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7327BBC9703554E35737EB8A3D6326BF /* Pods-MindboxNotificationServiceExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		097BB109BF23297EC0F84A48E8B14CA6 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EAC7E5D556B6B4ED21B5EC33EBD2353 /* HTTPMethod.swift */; };
+		1158C54B3AE017F1AC695F6B0230ACDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1EDD5F220D2DAF5089A1FEFBF6702D21 /* BodyDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37B5BC3D33B63715B8BB95CBB5758993 /* BodyDecoder.swift */; };
+		2B58533DFBFF823890043DBE6C241CF5 /* NotificationDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE192C008470005C1A17DD98B49AF504 /* NotificationDecoder.swift */; };
+		2EB552C7FCA287BA53869E577EA29889 /* EventWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ECB1A4F826E311EBA46307ABA8AC14 /* EventWrapper.swift */; };
+		416AC0352C14FF60ECD93644F7BF247D /* URLRequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD649F6D1C3E81A9640F0A31F6D71E7 /* URLRequestBuilder.swift */; };
+		486C86B5BF97D75792E08F2B96DE7DD9 /* MindboxNotifications-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C730C906B2AF0AF7A0D274F6AF29FB0 /* MindboxNotifications-dummy.m */; };
+		5CB5FD5329DBB2434942585138AB6CDA /* DeviceModelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6649208604B8CD14D27F5E8044911E2B /* DeviceModelHelper.swift */; };
+		5FE961AE3BDA5EFDDE7DF008EFDB9194 /* ErrorKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D314A8870588AD6209B33B588201D0 /* ErrorKey.swift */; };
+		610CAC895D8DE0601BD06C9290363B98 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5134BD906E268CA5AAFA6E3BDFBBEA6 /* ImageFormat.swift */; };
+		6D97F83A7E5861D07F3DC1260447CBD5 /* Pods-OlimpicFind-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA971F9CDFF2B865A835A92896CC8CA /* Pods-OlimpicFind-dummy.m */; };
+		74F020B3EBA265D9C7FA1845D677860C /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3347721010ACB9992F33FBD1234CFF /* Route.swift */; };
+		7680C17E130556FEAC1040D203AC8552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		77BF6EDC93D2100C7CFDABD045C693BD /* Pods-MindboxNotificationContentExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B63FC723BF4DB59551D2B523CE8B3F9E /* Pods-MindboxNotificationContentExtension-dummy.m */; };
+		7E8A001EB94DDFC1F25A1179B9E02A3A /* DeliveryOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980DA24D22327C64BCE2BC4274EF0015 /* DeliveryOperation.swift */; };
+		7EFECC0065CC3864644C7A07726E52F0 /* MBConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22E637699CC2BB81F8ECA36484F9420 /* MBConfiguration.swift */; };
+		82FE7D98B5D451F83182707E218AA056 /* HTTPTypealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = A015C2BAFDC45698D66DD4ADD5C912BE /* HTTPTypealiases.swift */; };
+		853E448E5537D5ABF66A6704411E1427 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AEABAE3F7E1E46527B263FE9759232 /* NetworkService.swift */; };
+		88B683D245C7A42BC28E6DB094BAA207 /* PushDelivered.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DFFAD70BE3117CA691283446E4E346 /* PushDelivered.swift */; };
+		8D5275A47EE63345AF88C14B41E68827 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF11D559D2782325645BB7C63C5CFD4C /* Logger.swift */; };
+		9C91D67C6FBDA10EE2B1247623C1D0B9 /* MindboxNotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C726595D8266F0F0C2B6FCF1C543F4 /* MindboxNotificationService.swift */; };
+		A365FA219C8CFA3C7946F4DC73415071 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B076CDB246ED647BC9496A36FE411BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B53A4416E568CE31F88265A8463F1072 /* Pods-OlimpicFind-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CD7B8C413811893DBA633D5D589B00 /* Pods-OlimpicFind-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAFB52F56A83F734E323A273F7507F3D /* NotificationsPayloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC27D984EE1AB8DEC0A994BC893CD89 /* NotificationsPayloads.swift */; };
+		BE65564110DF842C08A50E585DC483A6 /* PushDeliveredEventRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CAC6989F21CAA62F4658C9335DB033 /* PushDeliveredEventRoute.swift */; };
+		C7AC5B1DB2088EB6BD10B8575F2031E8 /* Pods-MindboxNotificationServiceExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B195BC6D9CC69B1393B0D101BD8D75 /* Pods-MindboxNotificationServiceExtension-dummy.m */; };
+		CDA6178545A9F3538A06270F3A9114AD /* Pods-MindboxNotificationContentExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D8FBE1CFA87F0A2A7FA840DD2D9661 /* Pods-MindboxNotificationContentExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE368379B165127E412883BC721E54BD /* DeliveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706D90CF029A43B1EB330F9E527F8631 /* DeliveryService.swift */; };
+		DCC641B900E96ABD22AC86D2F24414D2 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EAA28081CD017AEB2EF3546352F2771 /* Event.swift */; };
+		E40854A1397D383A75D9D9BD52206BF2 /* Payload.swift in Sources */ = {isa = PBXBuildFile; fileRef = E312B310A39EC0AAAFF8990E987E80AE /* Payload.swift */; };
+		F12194FAC7F25FCA50C2C8FD48C0EBC3 /* MBUtilitiesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D626D559C484B30387EEF1146C862AE /* MBUtilitiesFetcher.swift */; };
+		FCC84B76F983FEE96475C6DCDF5C3922 /* BodyEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4869899D3895BB697225EF2C575181 /* BodyEncoder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49391FAF5499D1603F12A92D6D1976D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D65C82842026F006B3F2C29969F048;
+			remoteInfo = MindboxNotifications;
+		};
+		86463EBF7C76EF5CC0AC8EC3BF438058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D65C82842026F006B3F2C29969F048;
+			remoteInfo = MindboxNotifications;
+		};
+		D8CF6A5A82E567372086AAC629B51251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32D65C82842026F006B3F2C29969F048;
+			remoteInfo = MindboxNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06558B77762AF0944033CC01C1FB482C /* Pods-OlimpicFind-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OlimpicFind-acknowledgements.plist"; sourceTree = "<group>"; };
+		11A22D3D5E1D5E95FE33DF395EE6915C /* Pods-MindboxNotificationContentExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindboxNotificationContentExtension-Info.plist"; sourceTree = "<group>"; };
+		1531D7D66528A5B501F2028731C0E46E /* Pods-OlimpicFind.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OlimpicFind.modulemap"; sourceTree = "<group>"; };
+		18C0725B47199503110F4E2A61A76EB7 /* Pods-MindboxNotificationServiceExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MindboxNotificationServiceExtension.modulemap"; sourceTree = "<group>"; };
+		1963B94FA9E756BD6330567CDA9E54DA /* Pods-OlimpicFind-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OlimpicFind-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1EAC7E5D556B6B4ED21B5EC33EBD2353 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = MindboxNotifications/Network/Types/HTTPMethod.swift; sourceTree = "<group>"; };
+		1F545053F1160F7529E966E85ECD8425 /* Pods-OlimpicFind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OlimpicFind.debug.xcconfig"; sourceTree = "<group>"; };
+		21361493A7FB3182BEE63F2CD0046015 /* Pods-OlimpicFind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OlimpicFind.release.xcconfig"; sourceTree = "<group>"; };
+		29AEABAE3F7E1E46527B263FE9759232 /* NetworkService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkService.swift; path = MindboxNotifications/Network/NetworkService.swift; sourceTree = "<group>"; };
+		33CD7B8C413811893DBA633D5D589B00 /* Pods-OlimpicFind-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OlimpicFind-umbrella.h"; sourceTree = "<group>"; };
+		37B5BC3D33B63715B8BB95CBB5758993 /* BodyDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyDecoder.swift; path = "MindboxNotifications/Network/Model/Body+/BodyDecoder.swift"; sourceTree = "<group>"; };
+		3BC0987DC2A72C92CCD9628670081BA2 /* Pods-OlimpicFind-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OlimpicFind-frameworks.sh"; sourceTree = "<group>"; };
+		3EC34C60DAB8A6BCF9EF10C4D3DF4339 /* Pods-MindboxNotificationContentExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MindboxNotificationContentExtension.modulemap"; sourceTree = "<group>"; };
+		3ED24152B681DD2F9982ECF47B7FA302 /* SDKVersionProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SDKVersionProvider.swift; path = SDKVersionProvider/SDKVersionProvider.swift; sourceTree = "<group>"; };
+		4D4869899D3895BB697225EF2C575181 /* BodyEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BodyEncoder.swift; path = "MindboxNotifications/Network/Model/Body+/BodyEncoder.swift"; sourceTree = "<group>"; };
+		58B195BC6D9CC69B1393B0D101BD8D75 /* Pods-MindboxNotificationServiceExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MindboxNotificationServiceExtension-dummy.m"; sourceTree = "<group>"; };
+		5B92B0A2FFFE4E50580631A287DC2B8C /* MindboxNotifications */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MindboxNotifications; path = MindboxNotifications.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC52B73480B4B8E430AAD3C42F977CA /* MindboxNotifications-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MindboxNotifications-Info.plist"; sourceTree = "<group>"; };
+		5C730C906B2AF0AF7A0D274F6AF29FB0 /* MindboxNotifications-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MindboxNotifications-dummy.m"; sourceTree = "<group>"; };
+		5EAA28081CD017AEB2EF3546352F2771 /* Event.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Event.swift; path = MindboxNotifications/Network/Model/Event.swift; sourceTree = "<group>"; };
+		6649208604B8CD14D27F5E8044911E2B /* DeviceModelHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeviceModelHelper.swift; path = MindboxNotifications/Network/DeviceModelHelper.swift; sourceTree = "<group>"; };
+		706D90CF029A43B1EB330F9E527F8631 /* DeliveryService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryService.swift; path = MindboxNotifications/Network/DeliveryService.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7327BBC9703554E35737EB8A3D6326BF /* Pods-MindboxNotificationServiceExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MindboxNotificationServiceExtension-umbrella.h"; sourceTree = "<group>"; };
+		7D626D559C484B30387EEF1146C862AE /* MBUtilitiesFetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBUtilitiesFetcher.swift; path = MindboxNotifications/Network/MBUtilitiesFetcher.swift; sourceTree = "<group>"; };
+		7DA07ED1F709190747B0D4135149B3C1 /* Pods-MindboxNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindboxNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		8334E302A6A2E19198B68AF0978685D5 /* MindboxNotifications.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MindboxNotifications.release.xcconfig; sourceTree = "<group>"; };
+		8B6558057411C94A29ED44A957B8058C /* Pods-MindboxNotificationServiceExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MindboxNotificationServiceExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		914F955000B8F02AF5925681E2D38EFD /* MindboxNotifications-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindboxNotifications-prefix.pch"; sourceTree = "<group>"; };
+		94CAC6989F21CAA62F4658C9335DB033 /* PushDeliveredEventRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushDeliveredEventRoute.swift; path = MindboxNotifications/Network/PushDeliveredEventRoute.swift; sourceTree = "<group>"; };
+		94D94257E74BC139BF0327007EBA1356 /* Pods-MindboxNotificationContentExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MindboxNotificationContentExtension"; path = Pods_MindboxNotificationContentExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		980DA24D22327C64BCE2BC4274EF0015 /* DeliveryOperation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeliveryOperation.swift; path = MindboxNotifications/Network/Model/DeliveryOperation.swift; sourceTree = "<group>"; };
+		9AC27D984EE1AB8DEC0A994BC893CD89 /* NotificationsPayloads.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationsPayloads.swift; path = MindboxNotifications/Network/Model/NotificationsPayloads.swift; sourceTree = "<group>"; };
+		9C1AF6A01AAEDB1CE7F4054DB7F2C23E /* MindboxNotifications-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MindboxNotifications-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE8D98DA63E1A75C0BB29DE432BD60E /* Pods-MindboxNotificationContentExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindboxNotificationContentExtension.release.xcconfig"; sourceTree = "<group>"; };
+		A015C2BAFDC45698D66DD4ADD5C912BE /* HTTPTypealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPTypealiases.swift; path = MindboxNotifications/Network/Types/HTTPTypealiases.swift; sourceTree = "<group>"; };
+		A6F69285174E761D70C29130DDA8352D /* Pods-MindboxNotificationContentExtension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MindboxNotificationContentExtension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A81677AECF56F1D2906B1F0D44A83985 /* Pods-OlimpicFind-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OlimpicFind-Info.plist"; sourceTree = "<group>"; };
+		A9D314A8870588AD6209B33B588201D0 /* ErrorKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorKey.swift; path = MindboxNotifications/Network/Types/ErrorKey.swift; sourceTree = "<group>"; };
+		ACC5762AAE2F65297B48EC21FA527EAB /* Pods-MindboxNotificationServiceExtension */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MindboxNotificationServiceExtension"; path = Pods_MindboxNotificationServiceExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0AF7FEE19A8C58109011A9168C0777B /* Pods-MindboxNotificationContentExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindboxNotificationContentExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		B5F1C26DBD9A2BDB3E681721495444D6 /* Pods-MindboxNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MindboxNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+		B63FC723BF4DB59551D2B523CE8B3F9E /* Pods-MindboxNotificationContentExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MindboxNotificationContentExtension-dummy.m"; sourceTree = "<group>"; };
+		BA30CB3252D2FB88F53C8DAE7DB4CA29 /* MindboxNotifications.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MindboxNotifications.debug.xcconfig; sourceTree = "<group>"; };
+		BBA971F9CDFF2B865A835A92896CC8CA /* Pods-OlimpicFind-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OlimpicFind-dummy.m"; sourceTree = "<group>"; };
+		D5134BD906E268CA5AAFA6E3BDFBBEA6 /* ImageFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageFormat.swift; path = MindboxNotifications/Network/Model/ImageFormat.swift; sourceTree = "<group>"; };
+		DF11D559D2782325645BB7C63C5CFD4C /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = MindboxNotifications/Network/Logger.swift; sourceTree = "<group>"; };
+		E11465FB7E4B986D128135A9AC38EB72 /* Pods-OlimpicFind */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-OlimpicFind"; path = Pods_OlimpicFind.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E312B310A39EC0AAAFF8990E987E80AE /* Payload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Payload.swift; path = MindboxNotifications/Network/Model/Payload.swift; sourceTree = "<group>"; };
+		E3D8FBE1CFA87F0A2A7FA840DD2D9661 /* Pods-MindboxNotificationContentExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MindboxNotificationContentExtension-umbrella.h"; sourceTree = "<group>"; };
+		E7F5F700D5705F111D3FAD8DF9AA7EF2 /* Pods-MindboxNotificationServiceExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindboxNotificationServiceExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9ECB1A4F826E311EBA46307ABA8AC14 /* EventWrapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventWrapper.swift; path = MindboxNotifications/Network/Model/EventWrapper.swift; sourceTree = "<group>"; };
+		EAD649F6D1C3E81A9640F0A31F6D71E7 /* URLRequestBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLRequestBuilder.swift; path = MindboxNotifications/Network/Model/URLRequestBuilder.swift; sourceTree = "<group>"; };
+		EE192C008470005C1A17DD98B49AF504 /* NotificationDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationDecoder.swift; path = MindboxNotifications/Network/Model/NotificationDecoder.swift; sourceTree = "<group>"; };
+		F1DFFAD70BE3117CA691283446E4E346 /* PushDelivered.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PushDelivered.swift; path = MindboxNotifications/Network/Model/PushDelivered.swift; sourceTree = "<group>"; };
+		F22E637699CC2BB81F8ECA36484F9420 /* MBConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MBConfiguration.swift; path = MindboxNotifications/Network/MBConfiguration.swift; sourceTree = "<group>"; };
+		F881B00855FFCC675F858A75E6CA2CF2 /* Pods-MindboxNotificationServiceExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindboxNotificationServiceExtension-Info.plist"; sourceTree = "<group>"; };
+		F8C726595D8266F0F0C2B6FCF1C543F4 /* MindboxNotificationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MindboxNotificationService.swift; path = MindboxNotifications/MindboxNotificationService.swift; sourceTree = "<group>"; };
+		F918099F274C0993523C7EA31C7B9F49 /* MindboxNotifications.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MindboxNotifications.modulemap; sourceTree = "<group>"; };
+		FEF52ABEB9E7C1AD1752EC47BB303B6C /* Pods-MindboxNotificationContentExtension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MindboxNotificationContentExtension-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF3347721010ACB9992F33FBD1234CFF /* Route.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Route.swift; path = MindboxNotifications/Network/Route.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AA77F5632259E30F1AA9E098A8E6053 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1158C54B3AE017F1AC695F6B0230ACDE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E8D34E1A3DC03BDFF1C3F551088815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7680C17E130556FEAC1040D203AC8552 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2D29BA10DED1522F815A6BB7E2CD571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A365FA219C8CFA3C7946F4DC73415071 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EABC009C2D798D8FDC80773EF385464C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B076CDB246ED647BC9496A36FE411BF3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45F429EFC8F250A8BA6963F8B9B89836 /* Pods-MindboxNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				18C0725B47199503110F4E2A61A76EB7 /* Pods-MindboxNotificationServiceExtension.modulemap */,
+				8B6558057411C94A29ED44A957B8058C /* Pods-MindboxNotificationServiceExtension-acknowledgements.markdown */,
+				E7F5F700D5705F111D3FAD8DF9AA7EF2 /* Pods-MindboxNotificationServiceExtension-acknowledgements.plist */,
+				58B195BC6D9CC69B1393B0D101BD8D75 /* Pods-MindboxNotificationServiceExtension-dummy.m */,
+				F881B00855FFCC675F858A75E6CA2CF2 /* Pods-MindboxNotificationServiceExtension-Info.plist */,
+				7327BBC9703554E35737EB8A3D6326BF /* Pods-MindboxNotificationServiceExtension-umbrella.h */,
+				7DA07ED1F709190747B0D4135149B3C1 /* Pods-MindboxNotificationServiceExtension.debug.xcconfig */,
+				B5F1C26DBD9A2BDB3E681721495444D6 /* Pods-MindboxNotificationServiceExtension.release.xcconfig */,
+			);
+			name = "Pods-MindboxNotificationServiceExtension";
+			path = "Target Support Files/Pods-MindboxNotificationServiceExtension";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		583735C4B64A932C26BF43E8C4934E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B92B0A2FFFE4E50580631A287DC2B8C /* MindboxNotifications */,
+				94D94257E74BC139BF0327007EBA1356 /* Pods-MindboxNotificationContentExtension */,
+				ACC5762AAE2F65297B48EC21FA527EAB /* Pods-MindboxNotificationServiceExtension */,
+				E11465FB7E4B986D128135A9AC38EB72 /* Pods-OlimpicFind */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		654D2C26E0E2B0B66753A9DA93DEA38A /* Pods-MindboxNotificationContentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				3EC34C60DAB8A6BCF9EF10C4D3DF4339 /* Pods-MindboxNotificationContentExtension.modulemap */,
+				A6F69285174E761D70C29130DDA8352D /* Pods-MindboxNotificationContentExtension-acknowledgements.markdown */,
+				FEF52ABEB9E7C1AD1752EC47BB303B6C /* Pods-MindboxNotificationContentExtension-acknowledgements.plist */,
+				B63FC723BF4DB59551D2B523CE8B3F9E /* Pods-MindboxNotificationContentExtension-dummy.m */,
+				11A22D3D5E1D5E95FE33DF395EE6915C /* Pods-MindboxNotificationContentExtension-Info.plist */,
+				E3D8FBE1CFA87F0A2A7FA840DD2D9661 /* Pods-MindboxNotificationContentExtension-umbrella.h */,
+				B0AF7FEE19A8C58109011A9168C0777B /* Pods-MindboxNotificationContentExtension.debug.xcconfig */,
+				9DE8D98DA63E1A75C0BB29DE432BD60E /* Pods-MindboxNotificationContentExtension.release.xcconfig */,
+			);
+			name = "Pods-MindboxNotificationContentExtension";
+			path = "Target Support Files/Pods-MindboxNotificationContentExtension";
+			sourceTree = "<group>";
+		};
+		8787BDD492D054E06C88EAF336B05756 /* MindboxNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				37B5BC3D33B63715B8BB95CBB5758993 /* BodyDecoder.swift */,
+				4D4869899D3895BB697225EF2C575181 /* BodyEncoder.swift */,
+				980DA24D22327C64BCE2BC4274EF0015 /* DeliveryOperation.swift */,
+				706D90CF029A43B1EB330F9E527F8631 /* DeliveryService.swift */,
+				6649208604B8CD14D27F5E8044911E2B /* DeviceModelHelper.swift */,
+				A9D314A8870588AD6209B33B588201D0 /* ErrorKey.swift */,
+				5EAA28081CD017AEB2EF3546352F2771 /* Event.swift */,
+				E9ECB1A4F826E311EBA46307ABA8AC14 /* EventWrapper.swift */,
+				1EAC7E5D556B6B4ED21B5EC33EBD2353 /* HTTPMethod.swift */,
+				A015C2BAFDC45698D66DD4ADD5C912BE /* HTTPTypealiases.swift */,
+				D5134BD906E268CA5AAFA6E3BDFBBEA6 /* ImageFormat.swift */,
+				DF11D559D2782325645BB7C63C5CFD4C /* Logger.swift */,
+				F22E637699CC2BB81F8ECA36484F9420 /* MBConfiguration.swift */,
+				7D626D559C484B30387EEF1146C862AE /* MBUtilitiesFetcher.swift */,
+				F8C726595D8266F0F0C2B6FCF1C543F4 /* MindboxNotificationService.swift */,
+				29AEABAE3F7E1E46527B263FE9759232 /* NetworkService.swift */,
+				EE192C008470005C1A17DD98B49AF504 /* NotificationDecoder.swift */,
+				9AC27D984EE1AB8DEC0A994BC893CD89 /* NotificationsPayloads.swift */,
+				E312B310A39EC0AAAFF8990E987E80AE /* Payload.swift */,
+				F1DFFAD70BE3117CA691283446E4E346 /* PushDelivered.swift */,
+				94CAC6989F21CAA62F4658C9335DB033 /* PushDeliveredEventRoute.swift */,
+				FF3347721010ACB9992F33FBD1234CFF /* Route.swift */,
+				3ED24152B681DD2F9982ECF47B7FA302 /* SDKVersionProvider.swift */,
+				EAD649F6D1C3E81A9640F0A31F6D71E7 /* URLRequestBuilder.swift */,
+				8F35E2FB062AE7B2FCE817459B7CE028 /* Support Files */,
+			);
+			name = MindboxNotifications;
+			path = MindboxNotifications;
+			sourceTree = "<group>";
+		};
+		8F35E2FB062AE7B2FCE817459B7CE028 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F918099F274C0993523C7EA31C7B9F49 /* MindboxNotifications.modulemap */,
+				5C730C906B2AF0AF7A0D274F6AF29FB0 /* MindboxNotifications-dummy.m */,
+				5BC52B73480B4B8E430AAD3C42F977CA /* MindboxNotifications-Info.plist */,
+				914F955000B8F02AF5925681E2D38EFD /* MindboxNotifications-prefix.pch */,
+				9C1AF6A01AAEDB1CE7F4054DB7F2C23E /* MindboxNotifications-umbrella.h */,
+				BA30CB3252D2FB88F53C8DAE7DB4CA29 /* MindboxNotifications.debug.xcconfig */,
+				8334E302A6A2E19198B68AF0978685D5 /* MindboxNotifications.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MindboxNotifications";
+			sourceTree = "<group>";
+		};
+		9F5520EC23C7291CAEFCA9CF62D97D72 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				654D2C26E0E2B0B66753A9DA93DEA38A /* Pods-MindboxNotificationContentExtension */,
+				45F429EFC8F250A8BA6963F8B9B89836 /* Pods-MindboxNotificationServiceExtension */,
+				CAB644F2D4E5C2567290721AB19034C5 /* Pods-OlimpicFind */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC0BD9239C568B52BA6831660FE2A1F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8787BDD492D054E06C88EAF336B05756 /* MindboxNotifications */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAB644F2D4E5C2567290721AB19034C5 /* Pods-OlimpicFind */ = {
+			isa = PBXGroup;
+			children = (
+				1531D7D66528A5B501F2028731C0E46E /* Pods-OlimpicFind.modulemap */,
+				1963B94FA9E756BD6330567CDA9E54DA /* Pods-OlimpicFind-acknowledgements.markdown */,
+				06558B77762AF0944033CC01C1FB482C /* Pods-OlimpicFind-acknowledgements.plist */,
+				BBA971F9CDFF2B865A835A92896CC8CA /* Pods-OlimpicFind-dummy.m */,
+				3BC0987DC2A72C92CCD9628670081BA2 /* Pods-OlimpicFind-frameworks.sh */,
+				A81677AECF56F1D2906B1F0D44A83985 /* Pods-OlimpicFind-Info.plist */,
+				33CD7B8C413811893DBA633D5D589B00 /* Pods-OlimpicFind-umbrella.h */,
+				1F545053F1160F7529E966E85ECD8425 /* Pods-OlimpicFind.debug.xcconfig */,
+				21361493A7FB3182BEE63F2CD0046015 /* Pods-OlimpicFind.release.xcconfig */,
+			);
+			name = "Pods-OlimpicFind";
+			path = "Target Support Files/Pods-OlimpicFind";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AC0BD9239C568B52BA6831660FE2A1F2 /* Pods */,
+				583735C4B64A932C26BF43E8C4934E00 /* Products */,
+				9F5520EC23C7291CAEFCA9CF62D97D72 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B36A437DBED16FD00216A2237DE4611 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDA6178545A9F3538A06270F3A9114AD /* Pods-MindboxNotificationContentExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2300E4103E3BC8AE55C8DCD609DD47BF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53A4416E568CE31F88265A8463F1072 /* Pods-OlimpicFind-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90E4873779D301DADBA2E0EB6FF54AA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0803224F4BC9992403CB0E6CF65691B3 /* Pods-MindboxNotificationServiceExtension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13FDC5173B021E088491F9D3DEF1850 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01306AFC6C694468E428CC43B5BE03C2 /* MindboxNotifications-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		32D65C82842026F006B3F2C29969F048 /* MindboxNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93F0D3A4591FE4B4A381F2AB21E0FEF4 /* Build configuration list for PBXNativeTarget "MindboxNotifications" */;
+			buildPhases = (
+				A13FDC5173B021E088491F9D3DEF1850 /* Headers */,
+				597E2AAA15DD15A276E3750A38150CE7 /* Sources */,
+				EABC009C2D798D8FDC80773EF385464C /* Frameworks */,
+				3FF4282C95EAA716484023CB2CEE0392 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindboxNotifications;
+			productName = MindboxNotifications;
+			productReference = 5B92B0A2FFFE4E50580631A287DC2B8C /* MindboxNotifications */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BD262F6B4C7F627A03CD8DC40EA63C2 /* Pods-MindboxNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7602CD51538F30E665131DE40304719F /* Build configuration list for PBXNativeTarget "Pods-MindboxNotificationServiceExtension" */;
+			buildPhases = (
+				90E4873779D301DADBA2E0EB6FF54AA9 /* Headers */,
+				A061509465F851C07367878BD88E0859 /* Sources */,
+				C1E8D34E1A3DC03BDFF1C3F551088815 /* Frameworks */,
+				A3400A58D0DAECAA1C762198F59AF066 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A08D722BDEC144F7964A90E52E3AE2 /* PBXTargetDependency */,
+			);
+			name = "Pods-MindboxNotificationServiceExtension";
+			productName = Pods_MindboxNotificationServiceExtension;
+			productReference = ACC5762AAE2F65297B48EC21FA527EAB /* Pods-MindboxNotificationServiceExtension */;
+			productType = "com.apple.product-type.framework";
+		};
+		DBAB775F196C6DD1E22BAA63EFB949C2 /* Pods-OlimpicFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372359816AB01425DDE029F43B5B788D /* Build configuration list for PBXNativeTarget "Pods-OlimpicFind" */;
+			buildPhases = (
+				2300E4103E3BC8AE55C8DCD609DD47BF /* Headers */,
+				1A493473501444400259D75610C85C32 /* Sources */,
+				C2D29BA10DED1522F815A6BB7E2CD571 /* Frameworks */,
+				53E9DF38D3CDE416E240B9ECEA9B395B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				376559655811378663C942DA0AB0F6C8 /* PBXTargetDependency */,
+			);
+			name = "Pods-OlimpicFind";
+			productName = Pods_OlimpicFind;
+			productReference = E11465FB7E4B986D128135A9AC38EB72 /* Pods-OlimpicFind */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8E0628E60A5590627179549C2F25B19 /* Pods-MindboxNotificationContentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57689D9E9AAE525FD4777F6E842C6B1D /* Build configuration list for PBXNativeTarget "Pods-MindboxNotificationContentExtension" */;
+			buildPhases = (
+				0B36A437DBED16FD00216A2237DE4611 /* Headers */,
+				6AEDAC7D078FBC9F609CC1CB4DB6C9D8 /* Sources */,
+				9AA77F5632259E30F1AA9E098A8E6053 /* Frameworks */,
+				0DE1EAF6514CD3EC93F5CD854EB9AE23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A1226CAA09CCDD7FFE1F35423E94FA4 /* PBXTargetDependency */,
+			);
+			name = "Pods-MindboxNotificationContentExtension";
+			productName = Pods_MindboxNotificationContentExtension;
+			productReference = 94D94257E74BC139BF0327007EBA1356 /* Pods-MindboxNotificationContentExtension */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 583735C4B64A932C26BF43E8C4934E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32D65C82842026F006B3F2C29969F048 /* MindboxNotifications */,
+				E8E0628E60A5590627179549C2F25B19 /* Pods-MindboxNotificationContentExtension */,
+				9BD262F6B4C7F627A03CD8DC40EA63C2 /* Pods-MindboxNotificationServiceExtension */,
+				DBAB775F196C6DD1E22BAA63EFB949C2 /* Pods-OlimpicFind */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DE1EAF6514CD3EC93F5CD854EB9AE23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF4282C95EAA716484023CB2CEE0392 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E9DF38D3CDE416E240B9ECEA9B395B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3400A58D0DAECAA1C762198F59AF066 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A493473501444400259D75610C85C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D97F83A7E5861D07F3DC1260447CBD5 /* Pods-OlimpicFind-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		597E2AAA15DD15A276E3750A38150CE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDD5F220D2DAF5089A1FEFBF6702D21 /* BodyDecoder.swift in Sources */,
+				FCC84B76F983FEE96475C6DCDF5C3922 /* BodyEncoder.swift in Sources */,
+				7E8A001EB94DDFC1F25A1179B9E02A3A /* DeliveryOperation.swift in Sources */,
+				CE368379B165127E412883BC721E54BD /* DeliveryService.swift in Sources */,
+				5CB5FD5329DBB2434942585138AB6CDA /* DeviceModelHelper.swift in Sources */,
+				5FE961AE3BDA5EFDDE7DF008EFDB9194 /* ErrorKey.swift in Sources */,
+				DCC641B900E96ABD22AC86D2F24414D2 /* Event.swift in Sources */,
+				2EB552C7FCA287BA53869E577EA29889 /* EventWrapper.swift in Sources */,
+				097BB109BF23297EC0F84A48E8B14CA6 /* HTTPMethod.swift in Sources */,
+				82FE7D98B5D451F83182707E218AA056 /* HTTPTypealiases.swift in Sources */,
+				610CAC895D8DE0601BD06C9290363B98 /* ImageFormat.swift in Sources */,
+				8D5275A47EE63345AF88C14B41E68827 /* Logger.swift in Sources */,
+				7EFECC0065CC3864644C7A07726E52F0 /* MBConfiguration.swift in Sources */,
+				F12194FAC7F25FCA50C2C8FD48C0EBC3 /* MBUtilitiesFetcher.swift in Sources */,
+				486C86B5BF97D75792E08F2B96DE7DD9 /* MindboxNotifications-dummy.m in Sources */,
+				9C91D67C6FBDA10EE2B1247623C1D0B9 /* MindboxNotificationService.swift in Sources */,
+				853E448E5537D5ABF66A6704411E1427 /* NetworkService.swift in Sources */,
+				2B58533DFBFF823890043DBE6C241CF5 /* NotificationDecoder.swift in Sources */,
+				BAFB52F56A83F734E323A273F7507F3D /* NotificationsPayloads.swift in Sources */,
+				E40854A1397D383A75D9D9BD52206BF2 /* Payload.swift in Sources */,
+				88B683D245C7A42BC28E6DB094BAA207 /* PushDelivered.swift in Sources */,
+				BE65564110DF842C08A50E585DC483A6 /* PushDeliveredEventRoute.swift in Sources */,
+				74F020B3EBA265D9C7FA1845D677860C /* Route.swift in Sources */,
+				008B7625D532B5855F22BCBD7C133938 /* SDKVersionProvider.swift in Sources */,
+				416AC0352C14FF60ECD93644F7BF247D /* URLRequestBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AEDAC7D078FBC9F609CC1CB4DB6C9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77BF6EDC93D2100C7CFDABD045C693BD /* Pods-MindboxNotificationContentExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A061509465F851C07367878BD88E0859 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7AC5B1DB2088EB6BD10B8575F2031E8 /* Pods-MindboxNotificationServiceExtension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		376559655811378663C942DA0AB0F6C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MindboxNotifications;
+			target = 32D65C82842026F006B3F2C29969F048 /* MindboxNotifications */;
+			targetProxy = 86463EBF7C76EF5CC0AC8EC3BF438058 /* PBXContainerItemProxy */;
+		};
+		9A1226CAA09CCDD7FFE1F35423E94FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MindboxNotifications;
+			target = 32D65C82842026F006B3F2C29969F048 /* MindboxNotifications */;
+			targetProxy = 49391FAF5499D1603F12A92D6D1976D3 /* PBXContainerItemProxy */;
+		};
+		B8A08D722BDEC144F7964A90E52E3AE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MindboxNotifications;
+			target = 32D65C82842026F006B3F2C29969F048 /* MindboxNotifications */;
+			targetProxy = D8CF6A5A82E567372086AAC629B51251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12E0F98E895FC0ED2FAE320E184631E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21361493A7FB3182BEE63F2CD0046015 /* Pods-OlimpicFind.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C9C6C80DFBA6E4F2790D369F3B01C77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8334E302A6A2E19198B68AF0978685D5 /* MindboxNotifications.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MindboxNotifications/MindboxNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MindboxNotifications/MindboxNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MindboxNotifications/MindboxNotifications.modulemap";
+				PRODUCT_MODULE_NAME = MindboxNotifications;
+				PRODUCT_NAME = MindboxNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		757527D76B57AE94BCE4F34D350E5581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5F1C26DBD9A2BDB3E681721495444D6 /* Pods-MindboxNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindboxNotificationServiceExtension/Pods-MindboxNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindboxNotificationServiceExtension/Pods-MindboxNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		757ABEA0343E5C2471EABC6182628B28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F545053F1160F7529E966E85ECD8425 /* Pods-OlimpicFind.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OlimpicFind/Pods-OlimpicFind.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		863281689E8EDC3CCA0BA6562AD8CA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DA07ED1F709190747B0D4135149B3C1 /* Pods-MindboxNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindboxNotificationServiceExtension/Pods-MindboxNotificationServiceExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindboxNotificationServiceExtension/Pods-MindboxNotificationServiceExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AA00B30F94ABB3814259715D2E24760C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0AF7FEE19A8C58109011A9168C0777B /* Pods-MindboxNotificationContentExtension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindboxNotificationContentExtension/Pods-MindboxNotificationContentExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindboxNotificationContentExtension/Pods-MindboxNotificationContentExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE286CE3E96911780483C8E1CAAA67C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DE8D98DA63E1A75C0BB29DE432BD60E /* Pods-MindboxNotificationContentExtension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MindboxNotificationContentExtension/Pods-MindboxNotificationContentExtension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MindboxNotificationContentExtension/Pods-MindboxNotificationContentExtension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEAAAA994DED2B9E57EF93EBAD5F5179 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA30CB3252D2FB88F53C8DAE7DB4CA29 /* MindboxNotifications.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MindboxNotifications/MindboxNotifications-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MindboxNotifications/MindboxNotifications-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/MindboxNotifications/MindboxNotifications.modulemap";
+				PRODUCT_MODULE_NAME = MindboxNotifications;
+				PRODUCT_NAME = MindboxNotifications;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372359816AB01425DDE029F43B5B788D /* Build configuration list for PBXNativeTarget "Pods-OlimpicFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				757ABEA0343E5C2471EABC6182628B28 /* Debug */,
+				12E0F98E895FC0ED2FAE320E184631E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57689D9E9AAE525FD4777F6E842C6B1D /* Build configuration list for PBXNativeTarget "Pods-MindboxNotificationContentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA00B30F94ABB3814259715D2E24760C /* Debug */,
+				DE286CE3E96911780483C8E1CAAA67C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7602CD51538F30E665131DE40304719F /* Build configuration list for PBXNativeTarget "Pods-MindboxNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863281689E8EDC3CCA0BA6562AD8CA22 /* Debug */,
+				757527D76B57AE94BCE4F34D350E5581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93F0D3A4591FE4B4A381F2AB21E0FEF4 /* Build configuration list for PBXNativeTarget "MindboxNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAAAA994DED2B9E57EF93EBAD5F5179 /* Debug */,
+				3C9C6C80DFBA6E4F2790D369F3B01C77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
