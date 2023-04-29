@@ -7,16 +7,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B541373C-06F9-4639-8E6A-1C403587F811"
+            uuid = "DBF34940-E0DB-4A48-BB5F-5D94F24C3BE6"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "startAppsFlyer()"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "subscribeParseData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
