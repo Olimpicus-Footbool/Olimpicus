@@ -3,4 +3,22 @@
    uuid = "4743D420-654B-440E-B095-0B5642989EFA"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B541373C-06F9-4639-8E6A-1C403587F811"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "startAppsFlyer()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

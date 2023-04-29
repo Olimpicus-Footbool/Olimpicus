@@ -14,8 +14,8 @@ struct AdvertisingRequestData: RequestData {
     
     
     var collectionID: String = "advertising"
-    var documentID: String? = "configuration"
-    var data      : AdvertisingCodable? = nil
+    var documentID  : String? = "configuration"
+    var data        : AdvertisingCodable? = nil
 }
 struct AdvertisingCodable: Encodable {
     

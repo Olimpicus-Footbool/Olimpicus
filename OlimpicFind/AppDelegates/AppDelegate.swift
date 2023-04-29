@@ -41,12 +41,12 @@ final class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationC
             application: application,
             completionHandler:  { _ in }
         )
-        advertisingFeature.startAppsFlyer()
+       
         return true
     }
     
     func applicationDidBecomeActive(_ application: UIApplication) {
-        
+        advertisingFeature.startAppsFlyer()
     }
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
