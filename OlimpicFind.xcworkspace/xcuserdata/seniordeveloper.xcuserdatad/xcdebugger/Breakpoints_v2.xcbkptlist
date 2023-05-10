@@ -3,22 +3,4 @@
    uuid = "4743D420-654B-440E-B095-0B5642989EFA"
    type = "0"
    version = "2.0">
-   <Breakpoints>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DBF34940-E0DB-4A48-BB5F-5D94F24C3BE6"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "85"
-            endingLineNumber = "85"
-            landmarkName = "subscribeParseData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-   </Breakpoints>
 </Bucket>

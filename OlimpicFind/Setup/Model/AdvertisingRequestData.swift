@@ -17,6 +17,6 @@ struct AdvertisingRequestData: RequestData {
     var documentID  : String? = "configuration"
     var data        : AdvertisingCodable? = nil
 }
-struct AdvertisingCodable: Encodable {
+struct AdvertisingCodable: Codable {
     
 }
