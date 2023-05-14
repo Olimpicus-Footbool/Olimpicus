@@ -15,7 +15,7 @@
       "location" : "https://github.com/Olimpicus-Footbool/AdvertisingBanner",
       "state" : {
         "branch" : "master",
-        "revision" : "8a81772754b123ed48be20663ebb0e852ecf4497"
+        "revision" : "c0b1db8637f8004aaff12a07ca1cf2afce84762a"
       }
     },
     {
@@ -33,7 +33,7 @@
       "location" : "https://github.com/AppsFlyer-org/AppFlyerFramework",
       "state" : {
         "branch" : "master",
-        "revision" : "7b0003e3aa14d0033d9659eae3c6de8361f6d699"
+        "revision" : "4b3549d1e22159a6c5f14c9a13551b0771e82ad8"
       }
     },
     {
@@ -69,7 +69,7 @@
       "location" : "https://github.com/Firebase-com/FirestoreFirebase",
       "state" : {
         "branch" : "master",
-        "revision" : "7032b19df60c0c729ac6b1da4b83b94d8e82fcad"
+        "revision" : "bbf41f6576c72009da2c57c1dca8135b3f4cf4d9"
       }
     },
     {

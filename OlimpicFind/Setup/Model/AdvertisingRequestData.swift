@@ -10,13 +10,7 @@ import AdvertisingBanner
 
 struct AdvertisingRequestData: RequestData {
     
-    typealias ReturnDecodable = RequestDataModel
-    
-    
     var collectionID: String = "advertising"
     var documentID  : String? = "configuration"
-    var data        : AdvertisingCodable? = nil
-}
-struct AdvertisingCodable: Codable {
-    
+    var data        : RequestDataModel? = nil
 }

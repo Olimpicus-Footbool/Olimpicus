@@ -3,4 +3,483 @@
    uuid = "4743D420-654B-440E-B095-0B5642989EFA"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A97623F-3C8B-4739-823B-0C9F589F897E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "89"
+            endingLineNumber = "89"
+            landmarkName = "setupIDFA(isIDFA:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51B76D70-56FD-4418-9C21-8EEAD6FA240A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "94"
+            endingLineNumber = "94"
+            landmarkName = "setupIDFA(isIDFA:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "51B76D70-56FD-4418-9C21-8EEAD6FA240A - f623632fac655d2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppFlyerFramework.AppsFlyerManager.setupIDFA(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "51B76D70-56FD-4418-9C21-8EEAD6FA240A - f623632fac655d2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppFlyerFramework.AppsFlyerManager.setupIDFA(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A6CE8BB-0B04-4450-8060-D54D79E498A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "requestTrackingAuthorization(isIDFA:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2A6CE8BB-0B04-4450-8060-D54D79E498A3 - ff26f18e808b85fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "444">
+               </Location>
+               <Location
+                  uuid = "2A6CE8BB-0B04-4450-8060-D54D79E498A3 - ff26f18e808b85fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BACF802-44B8-499A-830D-CB2CFCEE935A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "requestTrackingAuthorization(isIDFA:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9BACF802-44B8-499A-830D-CB2CFCEE935A - ff26f18e808b8599"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "628">
+               </Location>
+               <Location
+                  uuid = "9BACF802-44B8-499A-830D-CB2CFCEE935A - ff26f18e808b8578"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "9BACF802-44B8-499A-830D-CB2CFCEE935A - ff26f18e808b8599"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "624">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1FD6818-1ECC-42C1-84B3-6EADC9705A2B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "requestTrackingAuthorization(isIDFA:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B1FD6818-1ECC-42C1-84B3-6EADC9705A2B - ff26f18e808b8506"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "812">
+               </Location>
+               <Location
+                  uuid = "B1FD6818-1ECC-42C1-84B3-6EADC9705A2B - ff26f18e808b86e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "648">
+               </Location>
+               <Location
+                  uuid = "B1FD6818-1ECC-42C1-84B3-6EADC9705A2B - ff26f18e808b8506"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "804">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75B422BC-A6A3-4DB3-BEB7-2E6B4DD4DB3B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "requestTrackingAuthorization(isIDFA:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "75B422BC-A6A3-4DB3-BEB7-2E6B4DD4DB3B - ff26f18e808b86a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "992">
+               </Location>
+               <Location
+                  uuid = "75B422BC-A6A3-4DB3-BEB7-2E6B4DD4DB3B - ff26f18e808b8682"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "832">
+               </Location>
+               <Location
+                  uuid = "75B422BC-A6A3-4DB3-BEB7-2E6B4DD4DB3B - ff26f18e808b86a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.ATTrackingManagerAuthorizationStatus) -&gt; () in AppFlyerFramework.AppsFlyerManager.requestTrackingAuthorization(isIDFA: Swift.Bool) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "984">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C37372FA-F32B-42FC-BDD8-554808BBD175"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "subscribeParseData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69441E2E-2F8E-43A1-B477-67A3B7AC9580"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AppFlyerFramework/Sources/AppFlyerFramework/AppsFlyerManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "setupIDFA(isIDFA:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8D6CFDF-1FA3-465E-8705-E3C226CB0F96"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "presentAdvertising(requestData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D450A045-EA44-47B1-B05C-CB6292D4B23B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "presentAdvertising(requestData:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D450A045-EA44-47B1-B05C-CB6292D4B23B - 9c93e108e2d0fe96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (AdvertisingBanner.AdvertisingURL) -&gt; () in AdvertisingBanner.AdvertisingFeature.presentAdvertising&lt;&#x3c4;_0_0 where &#x3c4;_0_0: FirestoreFirebase.RequestData&gt;(requestData: &#x3c4;_0_0, completion: (AdvertisingBanner.PresentScreen) -&gt; ()) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "688">
+               </Location>
+               <Location
+                  uuid = "D450A045-EA44-47B1-B05C-CB6292D4B23B - 2958a3a60fc0a756"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Swift.String&gt;&gt;) -&gt; () in closure #1 (AdvertisingBanner.AdvertisingURL) -&gt; () in AdvertisingBanner.AdvertisingFeature.presentAdvertising&lt;&#x3c4;_0_0 where &#x3c4;_0_0: FirestoreFirebase.RequestData&gt;(requestData: &#x3c4;_0_0, completion: (AdvertisingBanner.PresentScreen) -&gt; ()) -&gt; ()"
+                  moduleName = "OlimpicFind"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/seniordeveloper/Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECA7F18A-A430-46BD-9AE3-187246BA7281"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "presentAdvertising(requestData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AC964858-5F59-418F-9E13-B974B4D68136"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "presentAdvertising(requestData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "61D6CEBA-909E-433D-A762-EB3F0E564D5A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "presentAdvertising(requestData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1D534074-DA67-4FF9-AD74-5E21E1A8C8DF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "getURLAdvertising(requestData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63FB8696-8F1C-4833-AED8-8F7BA63FCFEE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/OlimpicFind-ahbptpbkaviqaafdlgpkfvvrxoor/SourcePackages/checkouts/AdvertisingBanner/Sources/AdvertisingBanner/AdvertisingFeature.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "getURLAdvertising(requestData:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
