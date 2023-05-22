@@ -10,6 +10,7 @@ import Resolver
 import UIKit
 import Mindbox
 import FirebaseAuth
+import AppsFlyerLib
 
 @main
 final class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
@@ -42,6 +43,12 @@ final class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationC
             completionHandler:  { _ in }
         )
        
+        return true
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+        // Reports app open from deep link for iOS 10 or later
+        AppsFlyerLib.shared().handleOpen(url, options: options)
         return true
     }
     

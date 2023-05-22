@@ -15,7 +15,7 @@
       "location" : "https://github.com/Olimpicus-Footbool/AdvertisingBanner",
       "state" : {
         "branch" : "master",
-        "revision" : "c0b1db8637f8004aaff12a07ca1cf2afce84762a"
+        "revision" : "cf4d7573c75656e3a5b7f90449dc675320c40a10"
       }
     },
     {
@@ -33,7 +33,7 @@
       "location" : "https://github.com/AppsFlyer-org/AppFlyerFramework",
       "state" : {
         "branch" : "master",
-        "revision" : "4b3549d1e22159a6c5f14c9a13551b0771e82ad8"
+        "revision" : "f1326492ea48af220830df2fc4d820dc8adb575f"
       }
     },
     {
@@ -122,8 +122,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/mindbox-cloud/ios-sdk",
       "state" : {
-        "revision" : "54e7e6d14f3502d8e27d1bb2be54c311ed361fcc",
-        "version" : "2.6.0"
+        "revision" : "d6e944396043ca8ed490af144dc255394ba4196c",
+        "version" : "2.6.1"
       }
     },
     {
